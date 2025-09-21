@@ -4,13 +4,15 @@ public abstract class EntityState
 {
     protected Player player;
     protected StateMachine stateMachine;
-    protected string statename;
+    protected string animBoolName;
+    protected Animator anim;
 
-    public EntityState(Player player, StateMachine stateMachine, string statename)
+    public EntityState(Player player, StateMachine stateMachine, string amimBoolName)
     {
         this.player = player;
         this.stateMachine = stateMachine;
-        this.statename = statename;
+        this.animBoolName = amimBoolName;
+        anim = player.anim;
     }
 
     protected EntityState(StateMachine stateMachine, string statename)
@@ -20,19 +22,19 @@ public abstract class EntityState
 
     public virtual void Enter()
     {
-        Debug.Log("I enter" + statename);
+        anim.SetBool(animBoolName, true);
 
     }
 
 
     public virtual void Update()
     {
-        Debug.Log("I run update" + statename);
+        Debug.Log("I run update" + animBoolName);
     }
 
     public virtual void Exit()
     {
-        Debug.Log("I exit" + statename);
+        anim.SetBool(animBoolName, false);
 
     }              
 }
