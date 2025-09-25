@@ -154,6 +154,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 8
+  jumpForce: 12
+  groundCheckDistance: 1.4
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
+  groundDetected: 0
 --- !u!4 &35870842
 Transform:
   m_ObjectHideFlags: 0
@@ -163,7 +169,7 @@ Transform:
   m_GameObject: {fileID: 35870840}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.51, y: -5.02, z: 0}
+  m_LocalPosition: {x: 1.09, y: -1.86, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -185,7 +191,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3.5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -229,8 +235,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.2943747, y: 3.0260422}
-  m_Size: {x: 0.7504239, y: 2.1229186}
+  m_Offset: {x: -0.29, y: -0.28}
+  m_Size: {x: 0.75, y: 2.12}
   m_Direction: 0
 --- !u!1 &519420028
 GameObject:
@@ -340,7 +346,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1701588312
 Transform:
@@ -351,7 +357,7 @@ Transform:
   m_GameObject: {fileID: 1701588311}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.2, y: 3.3, z: 0}
+  m_LocalPosition: {x: 0.2, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -441,7 +447,7 @@ GameObject:
   - component: {fileID: 2050124063}
   - component: {fileID: 2050124062}
   - component: {fileID: 2050124061}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
