@@ -13,7 +13,7 @@ public class Player_GroundedState : EntityState
         {
             base.Update();
 
-            if(rb.velocity.y < 0)
+            if(rb.velocity.y < 0 && player.groundDetected == false)
 
                 stateMachine.ChangeState(player.fallState);
 
