@@ -17,7 +17,7 @@ public class Player_FallState : Player_AiredState
             stateMachine.ChangeState(player.idleState);
 
         if (player.wallDectected)
-            stateMachine.ChangeState(player.wallSliedState);
+            stateMachine.ChangeState(player.wallSlidedState);
         
     }
 
