@@ -72,7 +72,7 @@ using UnityEngine.InputSystem.Utilities;
 /// }
 /// </code>
 /// </example>
-public partial class PlayerInputSet: IInputActionCollection2, IDisposable
+public partial class @PlayerinputSet: IInputActionCollection2, IDisposable
 {
     /// <summary>
     /// Provides access to the underlying asset instance.
@@ -82,7 +82,7 @@ public partial class PlayerInputSet: IInputActionCollection2, IDisposable
     /// <summary>
     /// Constructs a new instance.
     /// </summary>
-    public PlayerInputSet()
+    public @PlayerinputSet()
     {
         asset = InputActionAsset.FromJson(@"{
     ""version"": 1,
@@ -109,6 +109,15 @@ public partial class PlayerInputSet: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Dash"",
+                    ""type"": ""Button"",
+                    ""id"": ""14b1cbe4-4acb-4ba3-a973-80aaccf34da1"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -129,7 +138,7 @@ public partial class PlayerInputSet: IInputActionCollection2, IDisposable
                     ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": "";Keyboard & Mouse"",
+                    ""groups"": """",
                     ""action"": ""Movement"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
@@ -169,8 +178,8 @@ public partial class PlayerInputSet: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""26a6b122-9c5d-454a-ab7c-b92ab743eb41"",
-                    ""path"": """",
+                    ""id"": ""a03538f8-f220-42e9-87db-42c60a3010df"",
+                    ""path"": ""<Keyboard>/space"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -180,12 +189,12 @@ public partial class PlayerInputSet: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""a03538f8-f220-42e9-87db-42c60a3010df"",
-                    ""path"": ""<Keyboard>/space"",
+                    ""id"": ""3b1667bd-5485-4a00-8c3d-63424287936a"",
+                    ""path"": ""<Keyboard>/shift"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Jump"",
+                    ""action"": ""Dash"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -215,9 +224,10 @@ public partial class PlayerInputSet: IInputActionCollection2, IDisposable
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Movement = m_Player.FindAction("Movement", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
+        m_Player_Dash = m_Player.FindAction("Dash", throwIfNotFound: true);
     }
 
-    ~PlayerInputSet()
+    ~@PlayerinputSet()
     {
         UnityEngine.Debug.Assert(!m_Player.enabled, "This will cause a leak and performance issues, PlayerinputSet.Player.Disable() has not been called.");
     }
@@ -297,17 +307,18 @@ public partial class PlayerInputSet: IInputActionCollection2, IDisposable
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
     private readonly InputAction m_Player_Movement;
     private readonly InputAction m_Player_Jump;
+    private readonly InputAction m_Player_Dash;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
     public struct PlayerActions
     {
-        private PlayerInputSet m_Wrapper;
+        private @PlayerinputSet m_Wrapper;
 
         /// <summary>
         /// Construct a new instance of the input action map wrapper class.
         /// </summary>
-        public PlayerActions(PlayerInputSet wrapper) { m_Wrapper = wrapper; }
+        public PlayerActions(@PlayerinputSet wrapper) { m_Wrapper = wrapper; }
         /// <summary>
         /// Provides access to the underlying input action "Player/Movement".
         /// </summary>
@@ -316,6 +327,10 @@ public partial class PlayerInputSet: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Player/Jump".
         /// </summary>
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Dash".
+        /// </summary>
+        public InputAction @Dash => m_Wrapper.m_Player_Dash;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -348,6 +363,9 @@ public partial class PlayerInputSet: IInputActionCollection2, IDisposable
             @Jump.started += instance.OnJump;
             @Jump.performed += instance.OnJump;
             @Jump.canceled += instance.OnJump;
+            @Dash.started += instance.OnDash;
+            @Dash.performed += instance.OnDash;
+            @Dash.canceled += instance.OnDash;
         }
 
         /// <summary>
@@ -365,6 +383,9 @@ public partial class PlayerInputSet: IInputActionCollection2, IDisposable
             @Jump.started -= instance.OnJump;
             @Jump.performed -= instance.OnJump;
             @Jump.canceled -= instance.OnJump;
+            @Dash.started -= instance.OnDash;
+            @Dash.performed -= instance.OnDash;
+            @Dash.canceled -= instance.OnDash;
         }
 
         /// <summary>
@@ -432,5 +453,12 @@ public partial class PlayerInputSet: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnJump(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Dash" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnDash(InputAction.CallbackContext context);
     }
 }

@@ -5,7 +5,7 @@ public class Player : MonoBehaviour
     public Animator anim { get; private set; }
     public Rigidbody2D rb { get; private set; }
 
-    public PlayerInputSet input { get; private set; }
+    public PlayerinputSet input { get; private set; }
     private StateMachine stateMachine;
     public Player_IdleState idleState { get; private set; }
     public Player_MoveState moveState { get; private set; }
@@ -15,6 +15,8 @@ public class Player : MonoBehaviour
 
     public Player_WallSlideState wallSlidedState { get; private set; }
     public Player_WallJumpState wallJumpState { get; private set; }
+
+    public Player_DashState dashState { get; private set; } 
 
 
     [Header("Movement details")]
@@ -26,6 +28,9 @@ public class Player : MonoBehaviour
     public float inAirMoveMultiplier = .7f;
     [Range(0, 1)]
     public float wallSlideSlowMultiplier = .7f;
+    [Space]
+    public float dashDuration = .25f;
+    public float dashSpeed = 20;
     public Vector2 moveInput { get; private set; }
 
     private bool isFacingRight = true;
@@ -44,7 +49,7 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         stateMachine = new StateMachine();
-        input = new PlayerInputSet();
+        input = new PlayerinputSet();
 
         idleState = new Player_IdleState(this, stateMachine, "idle");
         moveState = new Player_MoveState(this, stateMachine, "move");
@@ -52,7 +57,8 @@ public class Player : MonoBehaviour
         fallState = new Player_FallState(this, stateMachine, "jumpFall");
         wallSlidedState = new Player_WallSlideState(this, stateMachine, "wallSlide");
         wallJumpState = new Player_WallJumpState(this, stateMachine, "jumpFall");
-       
+        dashState = new Player_DashState(this, stateMachine, "dash");
+
 
     }
 

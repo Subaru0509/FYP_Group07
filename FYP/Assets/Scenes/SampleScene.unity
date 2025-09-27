@@ -158,6 +158,8 @@ MonoBehaviour:
   wallJumpForce: {x: 6, y: 12}
   inAirMoveMultiplier: 0.8
   wallSlideSlowMultiplier: 0.4
+  dashDuration: 0.25
+  dashSpeed: 20
   groundCheckDistance: 1.4
   wallCheckDistance: 0.2
   whatIsGround:
@@ -172,7 +174,7 @@ Transform:
   m_GameObject: {fileID: 35870840}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.35, y: -1.86, z: 0}
+  m_LocalPosition: {x: 3.35, y: -1.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -268,7 +270,7 @@ Transform:
   m_GameObject: {fileID: 70256298}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.97, y: 0, z: 0}
+  m_LocalPosition: {x: -6.36, y: -2.96, z: 0}
   m_LocalScale: {x: 2.6026, y: 4.87, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

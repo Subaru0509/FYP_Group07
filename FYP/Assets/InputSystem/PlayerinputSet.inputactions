@@ -23,6 +23,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Dash",
+                    "type": "Button",
+                    "id": "14b1cbe4-4acb-4ba3-a973-80aaccf34da1",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -43,7 +52,7 @@
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Keyboard & Mouse",
+                    "groups": "",
                     "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -83,8 +92,8 @@
                 },
                 {
                     "name": "",
-                    "id": "26a6b122-9c5d-454a-ab7c-b92ab743eb41",
-                    "path": "",
+                    "id": "a03538f8-f220-42e9-87db-42c60a3010df",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -94,12 +103,12 @@
                 },
                 {
                     "name": "",
-                    "id": "a03538f8-f220-42e9-87db-42c60a3010df",
-                    "path": "<Keyboard>/space",
+                    "id": "3b1667bd-5485-4a00-8c3d-63424287936a",
+                    "path": "<Keyboard>/shift",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Jump",
+                    "action": "Dash",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
