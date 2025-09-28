@@ -11,6 +11,7 @@ public class Player_JumpState : Player_AiredState
     public override void Enter()
     {
         player.SetVelocity(rb.velocity.x, player.jumpForce);
+        
     }
 
     public override void Update()
