@@ -8,8 +8,10 @@ public class Player_JumpState : Player_AiredState
 
     public override void Enter()
     {
+        base.Enter();
+       
         player.SetVelocity(rb.velocity.x, player.jumpForce);
-        
+        anim.SetFloat("yVelocity", player.jumpForce);
     }
 
     public override void Update()
