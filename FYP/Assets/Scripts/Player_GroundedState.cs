@@ -16,7 +16,7 @@ public class Player_GroundedState : EntityState
             if(rb.velocity.y < 0 && player.groundDetected == false)
                 stateMachine.ChangeState(player.fallState);
 
-            if (input.Player.Jump.WasPerformedThisFrame() || rb.velocity.y >0)
+            if (input.Player.Jump.WasPerformedThisFrame())
                 stateMachine.ChangeState(player.jumpState);
 
             if (input.Player.Attack.WasPerformedThisFrame())
