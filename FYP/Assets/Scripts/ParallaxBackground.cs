@@ -33,7 +33,7 @@ public class ParallaxBackground : MonoBehaviour
         }
     }
 
-    private void CalculateBackgroundWidth()
+    private void InitializeLayers()
     {
         foreach(ParallaxLayer layer in backgroundLayers)
             layer.CalulateImageWidth();
