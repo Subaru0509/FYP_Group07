@@ -215,7 +215,7 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 1
+  m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
@@ -315,10 +315,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 51.90944, y: 4.8619404}
-      - {x: -7.4623413, y: 4.9465714}
-      - {x: -7.839466, y: -17.738495}
-      - {x: 52.632683, y: -18.1264}
+    - - {x: 30.80402, y: 1.5869646}
+      - {x: -7.2803993, y: 1.3077087}
+      - {x: -7.657522, y: -16.282951}
+      - {x: 30.617561, y: -16.125027}
   m_UseDelaunayMesh: 0
 --- !u!4 &67628869
 Transform:
@@ -1584,7 +1584,7 @@ MonoBehaviour:
   m_ShowCameraFrustum: 1
   m_IgnoreTimeScale: 0
   m_WorldUpOverride: {fileID: 0}
-  m_UpdateMethod: 2
+  m_UpdateMethod: 0
   m_BlendUpdateMethod: 1
   m_DefaultBlend:
     m_Style: 1
@@ -1628,8 +1628,8 @@ Transform:
   m_GameObject: {fileID: 542840898}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.15, y: -0.9, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_LocalPosition: {x: -0.72, y: 0.24, z: 0}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1890054171}
@@ -1766,8 +1766,8 @@ Transform:
   m_GameObject: {fileID: 594852900}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -23.6, y: 1.5, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalPosition: {x: -7.63, y: 1.04, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1419342215}
@@ -2035,8 +2035,8 @@ Transform:
   m_GameObject: {fileID: 1419342214}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.9, y: -5.1, z: -0.050148614}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalPosition: {x: 32.9, y: -5.4, z: -0.050148614}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 594852902}
@@ -2057,9 +2057,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundLayers:
   - background: {fileID: 594852902}
-    parallaxMultiplier: 0.9
+    parallaxMultiplier: 1
+    imageWidthOffset: 10
   - background: {fileID: 542840899}
-    parallaxMultiplier: 0.7
+    parallaxMultiplier: 0.85
+    imageWidthOffset: 10
 --- !u!1 &1660579008
 GameObject:
   m_ObjectHideFlags: 0
