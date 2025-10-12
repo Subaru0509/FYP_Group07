@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -404,13 +405,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1197806919
+    guid: 1511580893
     name: OpenChest
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: OpenChest_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -419,7 +420,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: fea71daa608d11f4087c070b44ec816f
-    - name: OpenChest_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -428,7 +429,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: 66251c1630ba5614daf00568c2308afb
-    - name: OpenChest_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -437,7 +438,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: 0b65ae93e8052ae469fcedd97b8c80b0
-    - name: OpenChest_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -446,7 +447,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: d9e6847a1211da143b7b37e821117732
-    - name: OpenChest_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -455,7 +456,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: 048655c0d640cf440822fad3de1c9fc3
-    - name: OpenChest_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -464,7 +465,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: f7111112e73cffc4abd76a2a58ae32db
-    - name: OpenChest_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -473,7 +474,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: bcb3f3748091ab84ab4757f903dad4a2
-    - name: OpenChest_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -482,7 +483,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: 611531faa2988424ab7059adbb79ceea
-    - name: OpenChest_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -491,7 +492,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: a92f5c27116d9e642bdebc9ee0b647aa
-    - name: OpenChest_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -500,7 +501,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: 271e317450d5a304f8307a144920b278
-    - name: OpenChest_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -509,7 +510,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: 2e0e48f4ed220cd4b8734e0e54800f86
-    - name: OpenChest_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -518,7 +519,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: 6684b15025769ca419f22360d0db6c7e
-    - name: OpenChest_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -527,7 +528,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: e03ffd677b1b60a43ba5d2b8ba9dfdff
-    - name: OpenChest_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -555,3 +556,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 256, y: 144}
+  previousTextureSize: {x: 1024, y: 1024}

@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -624,13 +625,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 327184545
+    guid: -1167580059
     name: EdgeGrab
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: EdgeGrab_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -639,7 +640,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 389d05df93b908946a613f66eeb6666c
-    - name: EdgeGrab_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -648,7 +649,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: aa650aadb81e10f469c4582fc34066f9
-    - name: EdgeGrab_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -657,7 +658,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 1f91b1e34bdbc024fa699d06683d3a1d
-    - name: EdgeGrab_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -666,7 +667,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 3ea6549de86b8704ca92ef61942aa63c
-    - name: EdgeGrab_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -675,7 +676,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: f67597f10bc86084c8fd4aea1308816a
-    - name: EdgeGrab_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -684,7 +685,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 4129a9a2724f6d343bfcc5b74a8153f8
-    - name: EdgeGrab_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -693,7 +694,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 605c2e6ac40dc8e4385b928a666201f1
-    - name: EdgeGrab_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -702,7 +703,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 6ab067f09069f8a44bd25832ee5a0b72
-    - name: EdgeGrab_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -711,7 +712,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: e0d2726786e6c3044bf6c46ed15d7e15
-    - name: EdgeGrab_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -720,7 +721,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: f2eaddad5d69ac64e8936435443f2312
-    - name: EdgeGrab_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -729,7 +730,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 197c21117c6c91948b8134d9561085ec
-    - name: EdgeGrab_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -738,7 +739,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: c96e35d59db602041a0e94b1321a0057
-    - name: EdgeGrab_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -747,7 +748,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: bc31282d6fe68d64e8a6be887e05d204
-    - name: EdgeGrab_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -756,7 +757,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 99ef36ed6f2453a4eb8174c1cf0234d5
-    - name: EdgeGrab_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -765,7 +766,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: db4438b32dc83484e8a2c03711f1a780
-    - name: EdgeGrab_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -774,7 +775,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: e5c7ee97a49890745b86641842caa874
-    - name: EdgeGrab_Frame_16
+    - name: Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -783,7 +784,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: bd1b089295abee14da81dd87370335d4
-    - name: EdgeGrab_Frame_17
+    - name: Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -792,7 +793,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 17b1c5373118b6a468ddb4200c61b80e
-    - name: EdgeGrab_Frame_18
+    - name: Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
@@ -801,7 +802,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 5f4b6965c58bcea45b69a25f309330a3
-    - name: EdgeGrab_Frame_19
+    - name: Frame_19
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
@@ -810,7 +811,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 578ee5960ca4dbf4aa874b988eede595
-    - name: EdgeGrab_Frame_20
+    - name: Frame_20
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
@@ -819,7 +820,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 9a630a6c93eb7f340a9ea6bb04f06370
-    - name: EdgeGrab_Frame_21
+    - name: Frame_21
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
@@ -828,7 +829,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 910d8e70236757341a256e0c67b67a43
-    - name: EdgeGrab_Frame_22
+    - name: Frame_22
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
@@ -837,7 +838,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 27f021460d08cc6489e6df4f2f123269
-    - name: EdgeGrab_Frame_23
+    - name: Frame_23
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
@@ -846,7 +847,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 3b1aaf9270c62464987c436e6c763ab0
-    - name: EdgeGrab_Frame_24
+    - name: Frame_24
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
@@ -874,3 +875,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 128, y: 144}
+  previousTextureSize: {x: 1024, y: 1024}

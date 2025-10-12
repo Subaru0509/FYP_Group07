@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -464,13 +465,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1797307959
+    guid: -696914899
     name: Chest
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Chest_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -479,7 +480,7 @@ ScriptedImporter:
         width: 27
         height: 15
       spriteId: c32375d53ea083d47a81a618aefd8c8d
-    - name: Chest_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -488,7 +489,7 @@ ScriptedImporter:
         width: 27
         height: 15
       spriteId: 0e4e98eddc9bc3e46a2ad3fd94093baf
-    - name: Chest_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -497,7 +498,7 @@ ScriptedImporter:
         width: 27
         height: 15
       spriteId: 0c96c0958435c6a4da5dfa939aff97a7
-    - name: Chest_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -506,7 +507,7 @@ ScriptedImporter:
         width: 27
         height: 15
       spriteId: 71f9796ffb20a354aaced0e692e8ec26
-    - name: Chest_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -515,7 +516,7 @@ ScriptedImporter:
         width: 27
         height: 15
       spriteId: 7faf577cb3847f74994c2c2d1ff624b1
-    - name: Chest_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -524,7 +525,7 @@ ScriptedImporter:
         width: 27
         height: 15
       spriteId: 2a6a40536e4937940b29d591574c7e51
-    - name: Chest_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -533,7 +534,7 @@ ScriptedImporter:
         width: 29
         height: 18
       spriteId: 5ef3e96cc18f0f148a81765c04511f6e
-    - name: Chest_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -542,7 +543,7 @@ ScriptedImporter:
         width: 35
         height: 26
       spriteId: f285c390d31bfcd45994efc1cf0b9ac1
-    - name: Chest_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -551,7 +552,7 @@ ScriptedImporter:
         width: 43
         height: 27
       spriteId: c826311bc5313b847b6dff6ee9aac863
-    - name: Chest_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -560,7 +561,7 @@ ScriptedImporter:
         width: 45
         height: 27
       spriteId: a9b7a7c40ff479e4cb6c0114a068c267
-    - name: Chest_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -569,7 +570,7 @@ ScriptedImporter:
         width: 41
         height: 25
       spriteId: 719123f0591059c4d84a29b643bce0c6
-    - name: Chest_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -578,7 +579,7 @@ ScriptedImporter:
         width: 42
         height: 23
       spriteId: bf942b80d7597194c9b2609796eeb1f5
-    - name: Chest_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -587,7 +588,7 @@ ScriptedImporter:
         width: 39
         height: 23
       spriteId: 92dad51bcf2dc114cabdb07dc49986a7
-    - name: Chest_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -596,7 +597,7 @@ ScriptedImporter:
         width: 31
         height: 23
       spriteId: e51b4f143682f134690f76c8e6d19466
-    - name: Chest_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -605,7 +606,7 @@ ScriptedImporter:
         width: 31
         height: 23
       spriteId: fa89509cc8cd193479393ec910eaf737
-    - name: Chest_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -614,7 +615,7 @@ ScriptedImporter:
         width: 31
         height: 23
       spriteId: bfbf6c76926356446b7203b85e340897
-    - name: Chest_Frame_16
+    - name: Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -642,3 +643,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 32}
+  previousTextureSize: {x: 128, y: 256}

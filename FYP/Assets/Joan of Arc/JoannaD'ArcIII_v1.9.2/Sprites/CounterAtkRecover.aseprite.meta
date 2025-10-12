@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -204,13 +205,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 301664904
+    guid: 1666817704
     name: CounterAtkRecover
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: CounterAtkRecover_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -219,7 +220,7 @@ ScriptedImporter:
         width: 43
         height: 30
       spriteId: f10ac744df34d1848a2d51a5cbd0e063
-    - name: CounterAtkRecover_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -228,7 +229,7 @@ ScriptedImporter:
         width: 33
         height: 39
       spriteId: 0a1864a22b3c4224da24fd39f11efac9
-    - name: CounterAtkRecover_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -237,7 +238,7 @@ ScriptedImporter:
         width: 31
         height: 41
       spriteId: 8eb24ef0f4e7e5146a8bac13a047b785
-    - name: CounterAtkRecover_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -265,3 +266,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 80, y: 80}
+  previousTextureSize: {x: 128, y: 128}
