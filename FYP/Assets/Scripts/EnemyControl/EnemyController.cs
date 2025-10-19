@@ -57,7 +57,7 @@ public class EnemyController : MonoBehaviour
             case Status.idle:
                 if (playerTransform)
                 {
-                    if (Mathf.Abs(myTransform.position.x - playerTransform.position.x)<4)
+                    if (Mathf.Abs(myTransform.position.x - playerTransform.position.x)<4f)
                     {
                         status = Status.run;
                     }
@@ -87,6 +87,13 @@ public class EnemyController : MonoBehaviour
                     case Face.Right:
                         myTransform.position -= new Vector3(speed * deltaTime, 0, 0);
                         break;
+                }
+                if (playerTransform)
+                {
+                    if (Mathf.Abs(myTransform.position.x - playerTransform.position.x) >=4f)
+                    {
+                        status = Status.idle;
+                    }
                 }
                 break;
         }
