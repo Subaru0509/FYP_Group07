@@ -16,13 +16,15 @@ public class EnemyController : MonoBehaviour
     private Transform myTransform;
 
     public Transform playerTransform;
+    private SpriteRenderer spr;
     // Start is called before the first frame update
     void Start()
     {
         max_hp = 20;
         hp = max_hp;
         status = Status.run;
-        if (this.transform.GetComponent<SpriteRenderer>().flipX)
+        spr = this.transform.GetComponent<SpriteRenderer>();
+        if (spr.flipX)
         {
             face = Face.Left;
         }
@@ -33,7 +35,11 @@ public class EnemyController : MonoBehaviour
             
         }
         myTransform = this.transform;
-        playerTransform = GameObject.Find("Player").transform;
+        if (GameObject.Find("Player") != null)
+        {
+            playerTransform = GameObject.Find("Player").transform;
+        }
+        
     }
 
     // Update is called once per frame
@@ -51,14 +57,21 @@ public class EnemyController : MonoBehaviour
             case Status.idle:
                 break;
             case Status.run:
-                if (myTransform.position.x >= playerTransform.position.x)
+                if (playerTransform)
                 {
-                    face = Face.Right;
+                    if (myTransform.position.x >= playerTransform.position.x)
+                {
+                        spr.flipX = true;
+                        face = Face.Right;
                 }
                 else
                 {
-                    face = Face.Left;
+                        spr.flipX = false;
+                        face = Face.Left;
                 }
+
+                }
+                
                 switch (face)
                 {
                     case Face.Left:
