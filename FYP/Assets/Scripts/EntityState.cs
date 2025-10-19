@@ -1,31 +1,20 @@
 using UnityEngine;
 
-public abstract class EntityState
+public abstract class EntityState 
 {
-    protected Player player;
     protected StateMachine stateMachine;
     protected string animBoolName;
+    
     protected Animator anim;
     protected Rigidbody2D rb;
-    protected PlayerinputSet input;
 
     protected float stateTimer;
     protected bool triggerCalled;
 
-    public EntityState(Player player, StateMachine stateMachine, string amimBoolName)
+    public EntityState(StateMachine stateMachine, string animBoolName)
     {
-        this.player = player;
         this.stateMachine = stateMachine;
-        this.animBoolName = amimBoolName;
-        
-        anim = player.anim;
-        rb = player.rb;
-        input = player.input;
-    }
-
-    protected EntityState(StateMachine stateMachine, string statename)
-    {
-        
+        this.animBoolName = animBoolName;
     }
 
     public virtual void Enter()
@@ -37,12 +26,8 @@ public abstract class EntityState
 
 
     public virtual void Update()
-    {   
+    {
         stateTimer -= Time.deltaTime;
-        anim.SetFloat("yVelocity", rb.velocity.y);
-
-        if(input.Player.Dash.WasPressedThisFrame())
-            stateMachine.ChangeState(player.dashState);
     }
 
     public virtual void Exit()
@@ -54,17 +39,5 @@ public abstract class EntityState
     public void CallAnimationTrigger()
     {
         triggerCalled = true;
-    }
-    
-    private bool CanDash()
-    {   
-        if(player.wallDectected)
-            return false;
-
-        if (stateMachine.currentState == player.dashState)
-            return true;
-
-
-        return true;
     }
 }

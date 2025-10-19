@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player_JumpAttackState : EntityState
+public class Player_JumpAttackState : PlayerState
 {   
 
     private bool touchedGround;
