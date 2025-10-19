@@ -22,7 +22,7 @@ public class EnemyController : MonoBehaviour
     {
         max_hp = 20;
         hp = max_hp;
-        status = Status.run;
+        status = Status.idle;
         spr = this.transform.GetComponent<SpriteRenderer>();
         if (spr.flipX)
         {
@@ -55,6 +55,13 @@ public class EnemyController : MonoBehaviour
         switch (status)
         {
             case Status.idle:
+                if (playerTransform)
+                {
+                    if (Mathf.Abs(myTransform.position.x - playerTransform.position.x)<4)
+                    {
+                        status = Status.run;
+                    }
+                }
                 break;
             case Status.run:
                 if (playerTransform)
