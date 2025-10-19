@@ -625,11 +625,6 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    uuid:
-      value0: 3127387237
-      value1: 0
-      value2: 0
-      value3: 0
     guid: -1167580059
     name: EdgeGrab
     layerFlags: 0

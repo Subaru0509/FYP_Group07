@@ -685,11 +685,6 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    uuid:
-      value0: 3427128306
-      value1: 0
-      value2: 0
-      value3: 0
     guid: -867838990
     name: JoannaD'ArcIIITurn2
     layerFlags: 0

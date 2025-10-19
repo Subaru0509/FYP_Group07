@@ -13,7 +13,9 @@ public class EnemyController : MonoBehaviour
     public Face face;
 
     public float speed;
-    public Transform myTransform;
+    private Transform myTransform;
+
+    public Transform playerTransform;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +33,7 @@ public class EnemyController : MonoBehaviour
             
         }
         myTransform = this.transform;
-
+        playerTransform = GameObject.Find("Player").transform;
     }
 
     // Update is called once per frame
@@ -49,6 +51,14 @@ public class EnemyController : MonoBehaviour
             case Status.idle:
                 break;
             case Status.run:
+                if (myTransform.position.x >= playerTransform.position.x)
+                {
+                    face = Face.Right;
+                }
+                else
+                {
+                    face = Face.Left;
+                }
                 switch (face)
                 {
                     case Face.Left:

@@ -9030,7 +9030,7 @@ MonoBehaviour:
   status: 1
   face: 1
   speed: 1
-  myTransform: {fileID: 0}
+  playerTransform: {fileID: 0}
 --- !u!61 &374115808
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9912,6 +9912,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -7008412969330441016, guid: 5bc16091f47e4e8498fff672edb4c440, type: 3}
+    - target: {fileID: 8158483245616896120, guid: 710e82477b1e47ddb4ca7f834fd3103c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158483245616896120, guid: 710e82477b1e47ddb4ca7f834fd3103c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.58
+      objectReference: {fileID: 0}
     - target: {fileID: 8158483245616896121, guid: 710e82477b1e47ddb4ca7f834fd3103c, type: 3}
       propertyPath: m_SpriteHash
       value: 439940371
@@ -10672,7 +10680,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 5
-      m_TileSpriteIndex: 5
+      m_TileSpriteIndex: 10
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -10715,8 +10723,8 @@ Tilemap:
     m_Data: {fileID: -247600215, guid: b3b77c959fa21104ca0a068dde375fcf, type: 3}
   - m_RefCount: 5
     m_Data: {fileID: 670204781, guid: b3b77c959fa21104ca0a068dde375fcf, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 470139960, guid: b3b77c959fa21104ca0a068dde375fcf, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 8
     m_Data: {fileID: -1718390483, guid: b3b77c959fa21104ca0a068dde375fcf, type: 3}
   - m_RefCount: 0
@@ -10725,8 +10733,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 470139960, guid: b3b77c959fa21104ca0a068dde375fcf, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -991720881, guid: b3b77c959fa21104ca0a068dde375fcf, type: 3}
   m_TileMatrixArray:
