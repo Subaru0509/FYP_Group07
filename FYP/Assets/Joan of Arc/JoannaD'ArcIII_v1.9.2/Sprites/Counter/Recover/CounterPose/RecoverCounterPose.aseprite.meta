@@ -8,7 +8,6 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
-  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -133,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 40
       height: 30
-    spriteID: ab37b1a9d439ebe4f801a069ba3e6a33
+    spriteID: ab012f2148b823e4884248d5c3fefbe9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,7 +152,7 @@ ScriptedImporter:
       y: 4
       width: 31
       height: 39
-    spriteID: 9427e2bddc2ae2945b7af61aa4724dcb
+    spriteID: 072da9426f7221e4c918b2292db63cc3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -173,7 +172,7 @@ ScriptedImporter:
       y: 54
       width: 27
       height: 41
-    spriteID: c007b9176442aa5438f67d51816d5d74
+    spriteID: b3b1198430a9dda478eb13210a2c53fc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -193,7 +192,7 @@ ScriptedImporter:
       y: 4
       width: 29
       height: 42
-    spriteID: 2ed56db189d11f34293df40a500d3222
+    spriteID: d86523a721e57294cbe4f39a5aa8bedc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -205,13 +204,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 25761223
+    guid: 1637270939
     name: RecoverCounterPose
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: RecoverCounterPose_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -219,8 +218,8 @@ ScriptedImporter:
         y: 1
         width: 40
         height: 30
-      spriteId: ab37b1a9d439ebe4f801a069ba3e6a33
-    - name: Frame_1
+      spriteId: ab012f2148b823e4884248d5c3fefbe9
+    - name: RecoverCounterPose_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -228,8 +227,8 @@ ScriptedImporter:
         y: 1
         width: 31
         height: 39
-      spriteId: 9427e2bddc2ae2945b7af61aa4724dcb
-    - name: Frame_2
+      spriteId: 072da9426f7221e4c918b2292db63cc3
+    - name: RecoverCounterPose_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -237,8 +236,8 @@ ScriptedImporter:
         y: 1
         width: 27
         height: 41
-      spriteId: c007b9176442aa5438f67d51816d5d74
-    - name: Frame_3
+      spriteId: b3b1198430a9dda478eb13210a2c53fc
+    - name: RecoverCounterPose_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -246,7 +245,7 @@ ScriptedImporter:
         y: 1
         width: 29
         height: 42
-      spriteId: 2ed56db189d11f34293df40a500d3222
+      spriteId: d86523a721e57294cbe4f39a5aa8bedc
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -266,4 +265,3 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 80, y: 80}
-  previousTextureSize: {x: 128, y: 128}

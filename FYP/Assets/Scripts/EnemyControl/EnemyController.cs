@@ -7,7 +7,7 @@ public class EnemyController : MonoBehaviour
 
     int hp = 0;
     public int max_hp = 0;
-    public enum Status{ idle,run,Attack,}
+    public enum Status{ idle,run,ready,attack,}
     public Status status;
     public enum Face { Right,Left };
     public Face face;
@@ -57,12 +57,17 @@ public class EnemyController : MonoBehaviour
             case Status.idle:
                 if (playerTransform)
                 {
-                    if (Mathf.Abs(myTransform.position.x - playerTransform.position.x)<4f)
+                    if (Mathf.Abs(myTransform.position.x - playerTransform.position.x) > 3f && Mathf.Abs(myTransform.position.x - playerTransform.position.x) < 6f)
                     {
                         status = Status.run;
                     }
+
+
                 }
+               
                 break;
+            
+
             case Status.run:
                 if (playerTransform)
                 {
@@ -79,6 +84,8 @@ public class EnemyController : MonoBehaviour
 
                 }
                 
+            
+
                 switch (face)
                 {
                     case Face.Left:
@@ -90,11 +97,12 @@ public class EnemyController : MonoBehaviour
                 }
                 if (playerTransform)
                 {
-                    if (Mathf.Abs(myTransform.position.x - playerTransform.position.x) >=4f)
+                    if (Mathf.Abs(myTransform.position.x - playerTransform.position.x) >=6f)
                     {
                         status = Status.idle;
                     }
-                }
+                } 
+               
                 break;
         }
     }

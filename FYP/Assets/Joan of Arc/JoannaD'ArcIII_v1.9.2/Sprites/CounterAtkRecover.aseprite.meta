@@ -8,7 +8,6 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
-  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -133,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 43
       height: 30
-    spriteID: f10ac744df34d1848a2d51a5cbd0e063
+    spriteID: f4d967c5e8932594daa4545801b10eca
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,7 +152,7 @@ ScriptedImporter:
       y: 42
       width: 33
       height: 39
-    spriteID: 0a1864a22b3c4224da24fd39f11efac9
+    spriteID: 9a59a46f7237473478d17a007be586dc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -173,7 +172,7 @@ ScriptedImporter:
       y: 42
       width: 31
       height: 41
-    spriteID: 8eb24ef0f4e7e5146a8bac13a047b785
+    spriteID: 05db70b7996da084abd60ef881548af9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -193,7 +192,7 @@ ScriptedImporter:
       y: 42
       width: 29
       height: 42
-    spriteID: 7b20cd22fc7aa0249a23a28e1a4346b2
+    spriteID: 396d6b1a803ef88449c08982c07d2595
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -205,13 +204,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1666817704
+    guid: 301664904
     name: CounterAtkRecover
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: CounterAtkRecover_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -219,8 +218,8 @@ ScriptedImporter:
         y: 1
         width: 43
         height: 30
-      spriteId: f10ac744df34d1848a2d51a5cbd0e063
-    - name: Frame_1
+      spriteId: f4d967c5e8932594daa4545801b10eca
+    - name: CounterAtkRecover_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -228,8 +227,8 @@ ScriptedImporter:
         y: 1
         width: 33
         height: 39
-      spriteId: 0a1864a22b3c4224da24fd39f11efac9
-    - name: Frame_2
+      spriteId: 9a59a46f7237473478d17a007be586dc
+    - name: CounterAtkRecover_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -237,8 +236,8 @@ ScriptedImporter:
         y: 1
         width: 31
         height: 41
-      spriteId: 8eb24ef0f4e7e5146a8bac13a047b785
-    - name: Frame_3
+      spriteId: 05db70b7996da084abd60ef881548af9
+    - name: CounterAtkRecover_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -246,7 +245,7 @@ ScriptedImporter:
         y: 1
         width: 29
         height: 42
-      spriteId: 7b20cd22fc7aa0249a23a28e1a4346b2
+      spriteId: 396d6b1a803ef88449c08982c07d2595
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -266,4 +265,3 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 80, y: 80}
-  previousTextureSize: {x: 128, y: 128}
