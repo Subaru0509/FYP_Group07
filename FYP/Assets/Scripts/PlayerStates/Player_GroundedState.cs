@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Player_GroundedState : EntityState
+public class Player_GroundedState : PlayerState
 {
     public Player_GroundedState(Player player, StateMachine stateMachine, string amimBoolName) : base(player, stateMachine, amimBoolName)
     {
@@ -21,6 +21,9 @@ public class Player_GroundedState : EntityState
 
             if (input.Player.Attack.WasPerformedThisFrame())
                 stateMachine.ChangeState(player.basicAttackState);
+
+            if(input.Player.Block.WasPerformedThisFrame())
+                stateMachine.ChangeState(player.blockState);
 
         }
     }

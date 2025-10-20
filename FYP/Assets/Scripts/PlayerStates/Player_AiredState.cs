@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Player_AiredState : EntityState
+public class Player_AiredState : PlayerState
 {
     public Player_AiredState(Player player, StateMachine stateMachine, string amimBoolName) : base(player, stateMachine, amimBoolName)
     {
