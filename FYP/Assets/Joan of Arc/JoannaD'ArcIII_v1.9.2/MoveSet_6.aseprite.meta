@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -444,13 +445,18 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -303356584
+    uuid:
+      value0: 2606508216
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: -1688459080
     name: MoveSet_6
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: MoveSet_6_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -459,7 +465,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 329501d421219f5459f611d93721eeeb
-    - name: MoveSet_6_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -468,7 +474,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: a7410d51ad1ec944ba928f2801f0ada3
-    - name: MoveSet_6_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -477,7 +483,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: a759014f02c4bc4449b84abb5f1da9f1
-    - name: MoveSet_6_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -486,7 +492,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 3c0d2220afc8ef447b5ccf9f8ec7d735
-    - name: MoveSet_6_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -495,7 +501,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 61bec2da020c1df47bb31dbc79a2fcbb
-    - name: MoveSet_6_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -504,7 +510,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: b2620a00e8211644ba864f97ebdbcd49
-    - name: MoveSet_6_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -513,7 +519,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 9682d6fadfc59bb488dc9f980605a1a8
-    - name: MoveSet_6_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -522,7 +528,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 4f9b4fa75fe7bfa4ea236a6183fb29ca
-    - name: MoveSet_6_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -531,7 +537,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 5c7b57a3dc6d96a439d2ab142757909e
-    - name: MoveSet_6_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -540,7 +546,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 74e9d2e8396ce1d42b9a217018de81f4
-    - name: MoveSet_6_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -549,7 +555,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: a78e5159d771cfa408da884bbfd454b1
-    - name: MoveSet_6_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -558,7 +564,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 9188e9f2426edac4eb3bc5817a6f1ebb
-    - name: MoveSet_6_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -567,7 +573,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 66035d341bb1cd4478c89ead68cb35a3
-    - name: MoveSet_6_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -576,7 +582,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: c532d84a9883f9245a2f84604ae9938f
-    - name: MoveSet_6_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -585,7 +591,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: ff3e8ab2bb7b1574490d4ae3eb32d77a
-    - name: MoveSet_6_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -613,3 +619,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 128, y: 144}
+  previousTextureSize: {x: 512, y: 1024}

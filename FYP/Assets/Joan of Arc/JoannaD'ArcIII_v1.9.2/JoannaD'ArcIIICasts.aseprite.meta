@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -3284,13 +3285,18 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1304379295
+    uuid:
+      value0: 2701353765
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: -1593613531
     name: JoannaD'ArcIIICasts
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: JoannaD'ArcIIICasts_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -3299,7 +3305,7 @@ ScriptedImporter:
         width: 75
         height: 76
       spriteId: 169947cb4e3e5e04383622030d6bd526
-    - name: JoannaD'ArcIIICasts_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -3308,7 +3314,7 @@ ScriptedImporter:
         width: 75
         height: 76
       spriteId: a40985aa186daaa42a8a008c9eb6e47f
-    - name: JoannaD'ArcIIICasts_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -3317,7 +3323,7 @@ ScriptedImporter:
         width: 75
         height: 88
       spriteId: 931e4c289e30b574d81af481fc2f696a
-    - name: JoannaD'ArcIIICasts_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -3326,7 +3332,7 @@ ScriptedImporter:
         width: 75
         height: 88
       spriteId: 4e4d21a637c369c48b3accb6f6587c68
-    - name: JoannaD'ArcIIICasts_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -3335,7 +3341,7 @@ ScriptedImporter:
         width: 75
         height: 88
       spriteId: 868437e4b065c574592eb0078bfff80e
-    - name: JoannaD'ArcIIICasts_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -3344,7 +3350,7 @@ ScriptedImporter:
         width: 75
         height: 89
       spriteId: 4ef5e4794561fcd43bfc0b67a8071261
-    - name: JoannaD'ArcIIICasts_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -3353,7 +3359,7 @@ ScriptedImporter:
         width: 75
         height: 89
       spriteId: dd2e5d60e781bcb47ad09ad0d754d172
-    - name: JoannaD'ArcIIICasts_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -3362,7 +3368,7 @@ ScriptedImporter:
         width: 75
         height: 88
       spriteId: 77d46616c2de4b042b0a802cef922cd1
-    - name: JoannaD'ArcIIICasts_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -3371,7 +3377,7 @@ ScriptedImporter:
         width: 75
         height: 87
       spriteId: 10d8f1bdd26803c4ebbb4e5f097f3d77
-    - name: JoannaD'ArcIIICasts_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -3380,7 +3386,7 @@ ScriptedImporter:
         width: 75
         height: 91
       spriteId: 6f732d179b2519441b8efa1611340028
-    - name: JoannaD'ArcIIICasts_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -3389,7 +3395,7 @@ ScriptedImporter:
         width: 75
         height: 94
       spriteId: 48113d1446956604f94c2e68ac186804
-    - name: JoannaD'ArcIIICasts_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -3398,7 +3404,7 @@ ScriptedImporter:
         width: 78
         height: 100
       spriteId: e8f22719e5c84234ca3aa45835b1d212
-    - name: JoannaD'ArcIIICasts_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -3407,7 +3413,7 @@ ScriptedImporter:
         width: 76
         height: 99
       spriteId: 786c0dd220abf6744817c3d832babaf1
-    - name: JoannaD'ArcIIICasts_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -3416,7 +3422,7 @@ ScriptedImporter:
         width: 75
         height: 96
       spriteId: d245d2bf2fe791a4585c442884f580ad
-    - name: JoannaD'ArcIIICasts_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -3425,7 +3431,7 @@ ScriptedImporter:
         width: 75
         height: 96
       spriteId: bdef9f706374eb1439571de8284888ba
-    - name: JoannaD'ArcIIICasts_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -3434,7 +3440,7 @@ ScriptedImporter:
         width: 75
         height: 94
       spriteId: 8ce0ce75c8f7220428e7a1d1ff74a121
-    - name: JoannaD'ArcIIICasts_Frame_16
+    - name: Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -3443,7 +3449,7 @@ ScriptedImporter:
         width: 75
         height: 92
       spriteId: 3bcbb13bec24a4e43a85bacf171a3566
-    - name: JoannaD'ArcIIICasts_Frame_17
+    - name: Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -3452,7 +3458,7 @@ ScriptedImporter:
         width: 75
         height: 82
       spriteId: 90f8a19cc252b3040a22ff797b5e3fec
-    - name: JoannaD'ArcIIICasts_Frame_18
+    - name: Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
@@ -3461,7 +3467,7 @@ ScriptedImporter:
         width: 75
         height: 76
       spriteId: 13b18ef3c855a4a4dacb0e4a80fcf2a5
-    - name: JoannaD'ArcIIICasts_Frame_19
+    - name: Frame_19
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
@@ -3470,7 +3476,7 @@ ScriptedImporter:
         width: 75
         height: 80
       spriteId: 9bb24518a1f58da4ab7143e9ed76e81e
-    - name: JoannaD'ArcIIICasts_Frame_20
+    - name: Frame_20
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
@@ -3479,7 +3485,7 @@ ScriptedImporter:
         width: 75
         height: 80
       spriteId: 6856c80dd2c3b574f8a5311a02e88da1
-    - name: JoannaD'ArcIIICasts_Frame_21
+    - name: Frame_21
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
@@ -3488,7 +3494,7 @@ ScriptedImporter:
         width: 75
         height: 76
       spriteId: ba33c393b4ba9f24b91b06d1c907214c
-    - name: JoannaD'ArcIIICasts_Frame_22
+    - name: Frame_22
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
@@ -3497,7 +3503,7 @@ ScriptedImporter:
         width: 75
         height: 76
       spriteId: 5d7c18811e202de49a56d74d42723322
-    - name: JoannaD'ArcIIICasts_Frame_23
+    - name: Frame_23
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
@@ -3506,7 +3512,7 @@ ScriptedImporter:
         width: 75
         height: 88
       spriteId: 5de018fb041202140839abfefaa6b967
-    - name: JoannaD'ArcIIICasts_Frame_24
+    - name: Frame_24
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
@@ -3515,7 +3521,7 @@ ScriptedImporter:
         width: 75
         height: 88
       spriteId: 1c4ea3960bbeb9d489069526a6e90198
-    - name: JoannaD'ArcIIICasts_Frame_25
+    - name: Frame_25
       frameIndex: 25
       additiveSortOrder: 0
       cellRect:
@@ -3524,7 +3530,7 @@ ScriptedImporter:
         width: 75
         height: 88
       spriteId: d228c38c5f5297d4488f8806f0ef34b1
-    - name: JoannaD'ArcIIICasts_Frame_26
+    - name: Frame_26
       frameIndex: 26
       additiveSortOrder: 0
       cellRect:
@@ -3533,7 +3539,7 @@ ScriptedImporter:
         width: 75
         height: 89
       spriteId: 76dc9f3a61afbff44b4ca882824be0bc
-    - name: JoannaD'ArcIIICasts_Frame_27
+    - name: Frame_27
       frameIndex: 27
       additiveSortOrder: 0
       cellRect:
@@ -3542,7 +3548,7 @@ ScriptedImporter:
         width: 75
         height: 89
       spriteId: 3244964b6ba16e44abf9fef7771da182
-    - name: JoannaD'ArcIIICasts_Frame_28
+    - name: Frame_28
       frameIndex: 28
       additiveSortOrder: 0
       cellRect:
@@ -3551,7 +3557,7 @@ ScriptedImporter:
         width: 89
         height: 88
       spriteId: 3147f5f2a10346d4b87bfc2363758eb3
-    - name: JoannaD'ArcIIICasts_Frame_29
+    - name: Frame_29
       frameIndex: 29
       additiveSortOrder: 0
       cellRect:
@@ -3560,7 +3566,7 @@ ScriptedImporter:
         width: 90
         height: 87
       spriteId: f1acfcad5e691744eb17b5236032c956
-    - name: JoannaD'ArcIIICasts_Frame_30
+    - name: Frame_30
       frameIndex: 30
       additiveSortOrder: 0
       cellRect:
@@ -3569,7 +3575,7 @@ ScriptedImporter:
         width: 84
         height: 91
       spriteId: 94f0f55059a2a454babcf49db40a108f
-    - name: JoannaD'ArcIIICasts_Frame_31
+    - name: Frame_31
       frameIndex: 31
       additiveSortOrder: 0
       cellRect:
@@ -3578,7 +3584,7 @@ ScriptedImporter:
         width: 80
         height: 93
       spriteId: 36b08a7424fef9a4993f5ccbfc614a9e
-    - name: JoannaD'ArcIIICasts_Frame_32
+    - name: Frame_32
       frameIndex: 32
       additiveSortOrder: 0
       cellRect:
@@ -3587,7 +3593,7 @@ ScriptedImporter:
         width: 81
         height: 100
       spriteId: 997743aa6c9b487409ae6f205c3f6a16
-    - name: JoannaD'ArcIIICasts_Frame_33
+    - name: Frame_33
       frameIndex: 33
       additiveSortOrder: 0
       cellRect:
@@ -3596,7 +3602,7 @@ ScriptedImporter:
         width: 79
         height: 99
       spriteId: 25fe05a40e0ad20479b06259c480afea
-    - name: JoannaD'ArcIIICasts_Frame_34
+    - name: Frame_34
       frameIndex: 34
       additiveSortOrder: 0
       cellRect:
@@ -3605,7 +3611,7 @@ ScriptedImporter:
         width: 77
         height: 96
       spriteId: 16ec396aa236e114fa7fb9f0dd6322dd
-    - name: JoannaD'ArcIIICasts_Frame_35
+    - name: Frame_35
       frameIndex: 35
       additiveSortOrder: 0
       cellRect:
@@ -3614,7 +3620,7 @@ ScriptedImporter:
         width: 77
         height: 96
       spriteId: bebdad044b1b90244a5657e4c001d74d
-    - name: JoannaD'ArcIIICasts_Frame_36
+    - name: Frame_36
       frameIndex: 36
       additiveSortOrder: 0
       cellRect:
@@ -3623,7 +3629,7 @@ ScriptedImporter:
         width: 75
         height: 94
       spriteId: 73560c72fd4f6394e88e817a69c4c68d
-    - name: JoannaD'ArcIIICasts_Frame_37
+    - name: Frame_37
       frameIndex: 37
       additiveSortOrder: 0
       cellRect:
@@ -3632,7 +3638,7 @@ ScriptedImporter:
         width: 75
         height: 92
       spriteId: fe817fd8d70fe344da952c94c51401e6
-    - name: JoannaD'ArcIIICasts_Frame_38
+    - name: Frame_38
       frameIndex: 38
       additiveSortOrder: 0
       cellRect:
@@ -3641,7 +3647,7 @@ ScriptedImporter:
         width: 75
         height: 82
       spriteId: 83fb1d455c5e90947b98e73225f2c131
-    - name: JoannaD'ArcIIICasts_Frame_39
+    - name: Frame_39
       frameIndex: 39
       additiveSortOrder: 0
       cellRect:
@@ -3650,7 +3656,7 @@ ScriptedImporter:
         width: 75
         height: 76
       spriteId: d3774a25e2f31b14f8ab6ff86b858875
-    - name: JoannaD'ArcIIICasts_Frame_40
+    - name: Frame_40
       frameIndex: 40
       additiveSortOrder: 0
       cellRect:
@@ -3659,7 +3665,7 @@ ScriptedImporter:
         width: 195
         height: 76
       spriteId: e15e3b98132655a4f85462a5c24c4a31
-    - name: JoannaD'ArcIIICasts_Frame_41
+    - name: Frame_41
       frameIndex: 41
       additiveSortOrder: 0
       cellRect:
@@ -3668,7 +3674,7 @@ ScriptedImporter:
         width: 195
         height: 76
       spriteId: 190731d1be9251946a1fe9557ebfe2c0
-    - name: JoannaD'ArcIIICasts_Frame_42
+    - name: Frame_42
       frameIndex: 42
       additiveSortOrder: 0
       cellRect:
@@ -3677,7 +3683,7 @@ ScriptedImporter:
         width: 195
         height: 76
       spriteId: 72738abbf89a54a4686df34a291f9a6c
-    - name: JoannaD'ArcIIICasts_Frame_43
+    - name: Frame_43
       frameIndex: 43
       additiveSortOrder: 0
       cellRect:
@@ -3686,7 +3692,7 @@ ScriptedImporter:
         width: 195
         height: 76
       spriteId: 7e387c5baa630044ab69e59e77df2eae
-    - name: JoannaD'ArcIIICasts_Frame_44
+    - name: Frame_44
       frameIndex: 44
       additiveSortOrder: 0
       cellRect:
@@ -3695,7 +3701,7 @@ ScriptedImporter:
         width: 195
         height: 76
       spriteId: e9bbf9eab47400e42bf63e81d3f472d5
-    - name: JoannaD'ArcIIICasts_Frame_45
+    - name: Frame_45
       frameIndex: 45
       additiveSortOrder: 0
       cellRect:
@@ -3704,7 +3710,7 @@ ScriptedImporter:
         width: 195
         height: 76
       spriteId: 930456f38bd7eff42bb1079b315a60c6
-    - name: JoannaD'ArcIIICasts_Frame_46
+    - name: Frame_46
       frameIndex: 46
       additiveSortOrder: 0
       cellRect:
@@ -3713,7 +3719,7 @@ ScriptedImporter:
         width: 195
         height: 76
       spriteId: 2d3d6181fc4f95b47bf7b81baf6d1690
-    - name: JoannaD'ArcIIICasts_Frame_47
+    - name: Frame_47
       frameIndex: 47
       additiveSortOrder: 0
       cellRect:
@@ -3722,7 +3728,7 @@ ScriptedImporter:
         width: 195
         height: 76
       spriteId: d4c6ff4742b200944abcd23c1192b706
-    - name: JoannaD'ArcIIICasts_Frame_48
+    - name: Frame_48
       frameIndex: 48
       additiveSortOrder: 0
       cellRect:
@@ -3731,7 +3737,7 @@ ScriptedImporter:
         width: 195
         height: 77
       spriteId: ae1cc4d337df530499d085e06acd51b9
-    - name: JoannaD'ArcIIICasts_Frame_49
+    - name: Frame_49
       frameIndex: 49
       additiveSortOrder: 0
       cellRect:
@@ -3740,7 +3746,7 @@ ScriptedImporter:
         width: 195
         height: 79
       spriteId: fa68d7314b931a6479f0c8e5e8a080c0
-    - name: JoannaD'ArcIIICasts_Frame_50
+    - name: Frame_50
       frameIndex: 50
       additiveSortOrder: 0
       cellRect:
@@ -3749,7 +3755,7 @@ ScriptedImporter:
         width: 195
         height: 77
       spriteId: 49bd4b57347e61d4a98d989aa9513250
-    - name: JoannaD'ArcIIICasts_Frame_51
+    - name: Frame_51
       frameIndex: 51
       additiveSortOrder: 0
       cellRect:
@@ -3758,7 +3764,7 @@ ScriptedImporter:
         width: 195
         height: 88
       spriteId: 1338b41fb04d81f479e871241c272a23
-    - name: JoannaD'ArcIIICasts_Frame_52
+    - name: Frame_52
       frameIndex: 52
       additiveSortOrder: 0
       cellRect:
@@ -3767,7 +3773,7 @@ ScriptedImporter:
         width: 195
         height: 88
       spriteId: 56043a3788d769c4b8e479f596f6edfa
-    - name: JoannaD'ArcIIICasts_Frame_53
+    - name: Frame_53
       frameIndex: 53
       additiveSortOrder: 0
       cellRect:
@@ -3776,7 +3782,7 @@ ScriptedImporter:
         width: 195
         height: 90
       spriteId: 7db2ec7291818734497e48ffbcba50b7
-    - name: JoannaD'ArcIIICasts_Frame_54
+    - name: Frame_54
       frameIndex: 54
       additiveSortOrder: 0
       cellRect:
@@ -3785,7 +3791,7 @@ ScriptedImporter:
         width: 195
         height: 89
       spriteId: de662a52b1a2879449629814ced86a5c
-    - name: JoannaD'ArcIIICasts_Frame_55
+    - name: Frame_55
       frameIndex: 55
       additiveSortOrder: 0
       cellRect:
@@ -3794,7 +3800,7 @@ ScriptedImporter:
         width: 195
         height: 88
       spriteId: 876b798a72973004da7174eeddcf3004
-    - name: JoannaD'ArcIIICasts_Frame_56
+    - name: Frame_56
       frameIndex: 56
       additiveSortOrder: 0
       cellRect:
@@ -3803,7 +3809,7 @@ ScriptedImporter:
         width: 195
         height: 88
       spriteId: 822460d90d8acb64989c7f422d0f7462
-    - name: JoannaD'ArcIIICasts_Frame_57
+    - name: Frame_57
       frameIndex: 57
       additiveSortOrder: 0
       cellRect:
@@ -3812,7 +3818,7 @@ ScriptedImporter:
         width: 195
         height: 90
       spriteId: 2d590f3b644b320438ca183893d241bb
-    - name: JoannaD'ArcIIICasts_Frame_58
+    - name: Frame_58
       frameIndex: 58
       additiveSortOrder: 0
       cellRect:
@@ -3821,7 +3827,7 @@ ScriptedImporter:
         width: 195
         height: 89
       spriteId: 8e68f3768a772454b9b92d9087db40bf
-    - name: JoannaD'ArcIIICasts_Frame_59
+    - name: Frame_59
       frameIndex: 59
       additiveSortOrder: 0
       cellRect:
@@ -3830,7 +3836,7 @@ ScriptedImporter:
         width: 195
         height: 92
       spriteId: 34012763c5f8f244c8994bcf45dbb39b
-    - name: JoannaD'ArcIIICasts_Frame_60
+    - name: Frame_60
       frameIndex: 60
       additiveSortOrder: 0
       cellRect:
@@ -3839,7 +3845,7 @@ ScriptedImporter:
         width: 198
         height: 89
       spriteId: f336e44c753f18f4f8668d7fd071e898
-    - name: JoannaD'ArcIIICasts_Frame_61
+    - name: Frame_61
       frameIndex: 61
       additiveSortOrder: 0
       cellRect:
@@ -3848,7 +3854,7 @@ ScriptedImporter:
         width: 210
         height: 86
       spriteId: 4c7c609ef088e8c41ba88031c75f2121
-    - name: JoannaD'ArcIIICasts_Frame_62
+    - name: Frame_62
       frameIndex: 62
       additiveSortOrder: 0
       cellRect:
@@ -3857,7 +3863,7 @@ ScriptedImporter:
         width: 195
         height: 84
       spriteId: f2b26652398a5e34f85175acb5a64cfc
-    - name: JoannaD'ArcIIICasts_Frame_63
+    - name: Frame_63
       frameIndex: 63
       additiveSortOrder: 0
       cellRect:
@@ -3866,7 +3872,7 @@ ScriptedImporter:
         width: 197
         height: 84
       spriteId: 6f73a006e7de3e2439123095b01d981a
-    - name: JoannaD'ArcIIICasts_Frame_64
+    - name: Frame_64
       frameIndex: 64
       additiveSortOrder: 0
       cellRect:
@@ -3875,7 +3881,7 @@ ScriptedImporter:
         width: 243
         height: 82
       spriteId: e1bdbe53a47770f44b418fd90f904bea
-    - name: JoannaD'ArcIIICasts_Frame_65
+    - name: Frame_65
       frameIndex: 65
       additiveSortOrder: 0
       cellRect:
@@ -3884,7 +3890,7 @@ ScriptedImporter:
         width: 261
         height: 76
       spriteId: 23e107e5ff459f64faae997da9cac74e
-    - name: JoannaD'ArcIIICasts_Frame_66
+    - name: Frame_66
       frameIndex: 66
       additiveSortOrder: 0
       cellRect:
@@ -3893,7 +3899,7 @@ ScriptedImporter:
         width: 264
         height: 76
       spriteId: b0cf4ca1cec3d3f4da4d6b223aed7dd0
-    - name: JoannaD'ArcIIICasts_Frame_67
+    - name: Frame_67
       frameIndex: 67
       additiveSortOrder: 0
       cellRect:
@@ -3902,7 +3908,7 @@ ScriptedImporter:
         width: 265
         height: 76
       spriteId: addf479bab70d1949bc3d45971901ace
-    - name: JoannaD'ArcIIICasts_Frame_68
+    - name: Frame_68
       frameIndex: 68
       additiveSortOrder: 0
       cellRect:
@@ -3911,7 +3917,7 @@ ScriptedImporter:
         width: 264
         height: 76
       spriteId: 165acabc58536194d9e4be52103e1189
-    - name: JoannaD'ArcIIICasts_Frame_69
+    - name: Frame_69
       frameIndex: 69
       additiveSortOrder: 0
       cellRect:
@@ -3920,7 +3926,7 @@ ScriptedImporter:
         width: 75
         height: 76
       spriteId: 6c45a076f7bc19943992d5f40a6d0fab
-    - name: JoannaD'ArcIIICasts_Frame_70
+    - name: Frame_70
       frameIndex: 70
       additiveSortOrder: 0
       cellRect:
@@ -3929,7 +3935,7 @@ ScriptedImporter:
         width: 75
         height: 76
       spriteId: a00ed33da95aa8e4fad02e350cca0b6b
-    - name: JoannaD'ArcIIICasts_Frame_71
+    - name: Frame_71
       frameIndex: 71
       additiveSortOrder: 0
       cellRect:
@@ -3938,7 +3944,7 @@ ScriptedImporter:
         width: 75
         height: 76
       spriteId: e4adb3ac2b30e36409508a39857114b4
-    - name: JoannaD'ArcIIICasts_Frame_72
+    - name: Frame_72
       frameIndex: 72
       additiveSortOrder: 0
       cellRect:
@@ -3947,7 +3953,7 @@ ScriptedImporter:
         width: 75
         height: 76
       spriteId: aa426a3405d02484e9be40ee505b2fde
-    - name: JoannaD'ArcIIICasts_Frame_73
+    - name: Frame_73
       frameIndex: 73
       additiveSortOrder: 0
       cellRect:
@@ -3956,7 +3962,7 @@ ScriptedImporter:
         width: 81
         height: 90
       spriteId: e343292748b6d1f4abb7c29b6a514ba6
-    - name: JoannaD'ArcIIICasts_Frame_74
+    - name: Frame_74
       frameIndex: 74
       additiveSortOrder: 0
       cellRect:
@@ -3965,7 +3971,7 @@ ScriptedImporter:
         width: 75
         height: 88
       spriteId: 5deb6825177381f418717c113928ad43
-    - name: JoannaD'ArcIIICasts_Frame_75
+    - name: Frame_75
       frameIndex: 75
       additiveSortOrder: 0
       cellRect:
@@ -3974,7 +3980,7 @@ ScriptedImporter:
         width: 75
         height: 85
       spriteId: 2a7b90e19a5567347b653cf1297754cb
-    - name: JoannaD'ArcIIICasts_Frame_76
+    - name: Frame_76
       frameIndex: 76
       additiveSortOrder: 0
       cellRect:
@@ -3983,7 +3989,7 @@ ScriptedImporter:
         width: 75
         height: 87
       spriteId: cde314975dc825f48af60a055d765ce7
-    - name: JoannaD'ArcIIICasts_Frame_77
+    - name: Frame_77
       frameIndex: 77
       additiveSortOrder: 0
       cellRect:
@@ -3992,7 +3998,7 @@ ScriptedImporter:
         width: 75
         height: 87
       spriteId: a6e5415cf85fee143898e04f6e884f6c
-    - name: JoannaD'ArcIIICasts_Frame_78
+    - name: Frame_78
       frameIndex: 78
       additiveSortOrder: 0
       cellRect:
@@ -4001,7 +4007,7 @@ ScriptedImporter:
         width: 75
         height: 87
       spriteId: 95deef4891f6cf94985cd64d91829883
-    - name: JoannaD'ArcIIICasts_Frame_79
+    - name: Frame_79
       frameIndex: 79
       additiveSortOrder: 0
       cellRect:
@@ -4010,7 +4016,7 @@ ScriptedImporter:
         width: 75
         height: 88
       spriteId: 7ee763830c55a864d80c6cffe1aa026e
-    - name: JoannaD'ArcIIICasts_Frame_80
+    - name: Frame_80
       frameIndex: 80
       additiveSortOrder: 0
       cellRect:
@@ -4019,7 +4025,7 @@ ScriptedImporter:
         width: 75
         height: 88
       spriteId: bdac7f74742b99e42aa843d952cca7b5
-    - name: JoannaD'ArcIIICasts_Frame_81
+    - name: Frame_81
       frameIndex: 81
       additiveSortOrder: 0
       cellRect:
@@ -4028,7 +4034,7 @@ ScriptedImporter:
         width: 75
         height: 87
       spriteId: 31d89d8de48a295409573ce76ba04de7
-    - name: JoannaD'ArcIIICasts_Frame_82
+    - name: Frame_82
       frameIndex: 82
       additiveSortOrder: 0
       cellRect:
@@ -4037,7 +4043,7 @@ ScriptedImporter:
         width: 75
         height: 87
       spriteId: b429ac9255f1eb848b37978d27d4f2f8
-    - name: JoannaD'ArcIIICasts_Frame_83
+    - name: Frame_83
       frameIndex: 83
       additiveSortOrder: 0
       cellRect:
@@ -4046,7 +4052,7 @@ ScriptedImporter:
         width: 75
         height: 88
       spriteId: b9db9acabf9113d44b8caab19bf02b7e
-    - name: JoannaD'ArcIIICasts_Frame_84
+    - name: Frame_84
       frameIndex: 84
       additiveSortOrder: 0
       cellRect:
@@ -4055,7 +4061,7 @@ ScriptedImporter:
         width: 75
         height: 88
       spriteId: 47e54548299f0214ca466051df79732b
-    - name: JoannaD'ArcIIICasts_Frame_85
+    - name: Frame_85
       frameIndex: 85
       additiveSortOrder: 0
       cellRect:
@@ -4064,7 +4070,7 @@ ScriptedImporter:
         width: 75
         height: 86
       spriteId: 6247233efcad6da47b0d6f2e49072ff2
-    - name: JoannaD'ArcIIICasts_Frame_86
+    - name: Frame_86
       frameIndex: 86
       additiveSortOrder: 0
       cellRect:
@@ -4073,7 +4079,7 @@ ScriptedImporter:
         width: 75
         height: 86
       spriteId: 8c1b32cb5ca8bbc4c92aea51e067de3d
-    - name: JoannaD'ArcIIICasts_Frame_87
+    - name: Frame_87
       frameIndex: 87
       additiveSortOrder: 0
       cellRect:
@@ -4082,7 +4088,7 @@ ScriptedImporter:
         width: 75
         height: 92
       spriteId: 3bf2431190523544ab073d79ab275016
-    - name: JoannaD'ArcIIICasts_Frame_88
+    - name: Frame_88
       frameIndex: 88
       additiveSortOrder: 0
       cellRect:
@@ -4091,7 +4097,7 @@ ScriptedImporter:
         width: 77
         height: 99
       spriteId: 234af943b390f4f4b9449a1b7ef50591
-    - name: JoannaD'ArcIIICasts_Frame_89
+    - name: Frame_89
       frameIndex: 89
       additiveSortOrder: 0
       cellRect:
@@ -4100,7 +4106,7 @@ ScriptedImporter:
         width: 75
         height: 98
       spriteId: 2ba85e6c8a609e343984d1149fd51287
-    - name: JoannaD'ArcIIICasts_Frame_90
+    - name: Frame_90
       frameIndex: 90
       additiveSortOrder: 0
       cellRect:
@@ -4109,7 +4115,7 @@ ScriptedImporter:
         width: 75
         height: 92
       spriteId: 6e5ea05c6ed449344908d2ac9f2175dc
-    - name: JoannaD'ArcIIICasts_Frame_91
+    - name: Frame_91
       frameIndex: 91
       additiveSortOrder: 0
       cellRect:
@@ -4118,7 +4124,7 @@ ScriptedImporter:
         width: 75
         height: 89
       spriteId: e25f72b262b69a84bbc8ce86382a3ab1
-    - name: JoannaD'ArcIIICasts_Frame_92
+    - name: Frame_92
       frameIndex: 92
       additiveSortOrder: 0
       cellRect:
@@ -4127,7 +4133,7 @@ ScriptedImporter:
         width: 75
         height: 87
       spriteId: 211b2e4942d77f74281f8e6b914057f1
-    - name: JoannaD'ArcIIICasts_Frame_93
+    - name: Frame_93
       frameIndex: 93
       additiveSortOrder: 0
       cellRect:
@@ -4136,7 +4142,7 @@ ScriptedImporter:
         width: 75
         height: 84
       spriteId: a0dcb87587ee2a448bf98567728af775
-    - name: JoannaD'ArcIIICasts_Frame_94
+    - name: Frame_94
       frameIndex: 94
       additiveSortOrder: 0
       cellRect:
@@ -4145,7 +4151,7 @@ ScriptedImporter:
         width: 75
         height: 82
       spriteId: 1eaae2e53e13423489a6eace2b72588f
-    - name: JoannaD'ArcIIICasts_Frame_95
+    - name: Frame_95
       frameIndex: 95
       additiveSortOrder: 0
       cellRect:
@@ -4154,7 +4160,7 @@ ScriptedImporter:
         width: 75
         height: 76
       spriteId: 0938198c7644d8c488f2201e81d7a96d
-    - name: JoannaD'ArcIIICasts_Frame_96
+    - name: Frame_96
       frameIndex: 96
       additiveSortOrder: 0
       cellRect:
@@ -4163,7 +4169,7 @@ ScriptedImporter:
         width: 83
         height: 76
       spriteId: e5cb9f1ec865ff440a90841a78743c3f
-    - name: JoannaD'ArcIIICasts_Frame_97
+    - name: Frame_97
       frameIndex: 97
       additiveSortOrder: 0
       cellRect:
@@ -4172,7 +4178,7 @@ ScriptedImporter:
         width: 75
         height: 76
       spriteId: a65c5e03a1bc8eb4697cd7f9e4b5a08e
-    - name: JoannaD'ArcIIICasts_Frame_98
+    - name: Frame_98
       frameIndex: 98
       additiveSortOrder: 0
       cellRect:
@@ -4181,7 +4187,7 @@ ScriptedImporter:
         width: 75
         height: 76
       spriteId: 244d57e89ae60bf47834516b5ab7f161
-    - name: JoannaD'ArcIIICasts_Frame_99
+    - name: Frame_99
       frameIndex: 99
       additiveSortOrder: 0
       cellRect:
@@ -4190,7 +4196,7 @@ ScriptedImporter:
         width: 75
         height: 76
       spriteId: 9872a7ccc3d7879459b5861f49033e6e
-    - name: JoannaD'ArcIIICasts_Frame_100
+    - name: Frame_100
       frameIndex: 100
       additiveSortOrder: 0
       cellRect:
@@ -4199,7 +4205,7 @@ ScriptedImporter:
         width: 75
         height: 76
       spriteId: 0630ee530ce66c545b4c49065a6a7ef0
-    - name: JoannaD'ArcIIICasts_Frame_101
+    - name: Frame_101
       frameIndex: 101
       additiveSortOrder: 0
       cellRect:
@@ -4208,7 +4214,7 @@ ScriptedImporter:
         width: 85
         height: 86
       spriteId: eab36990a20fe8341825dc7634d573d5
-    - name: JoannaD'ArcIIICasts_Frame_102
+    - name: Frame_102
       frameIndex: 102
       additiveSortOrder: 0
       cellRect:
@@ -4217,7 +4223,7 @@ ScriptedImporter:
         width: 83
         height: 87
       spriteId: f7d168be4c05e7448a652ce7993fa014
-    - name: JoannaD'ArcIIICasts_Frame_103
+    - name: Frame_103
       frameIndex: 103
       additiveSortOrder: 0
       cellRect:
@@ -4226,7 +4232,7 @@ ScriptedImporter:
         width: 80
         height: 85
       spriteId: c61899b95d470454999459cdaacadb77
-    - name: JoannaD'ArcIIICasts_Frame_104
+    - name: Frame_104
       frameIndex: 104
       additiveSortOrder: 0
       cellRect:
@@ -4235,7 +4241,7 @@ ScriptedImporter:
         width: 84
         height: 85
       spriteId: 79f2587f90feb8d4493f2f2a34f18f12
-    - name: JoannaD'ArcIIICasts_Frame_105
+    - name: Frame_105
       frameIndex: 105
       additiveSortOrder: 0
       cellRect:
@@ -4244,7 +4250,7 @@ ScriptedImporter:
         width: 84
         height: 85
       spriteId: 589e64788a36dcc4e9158e3af778bb00
-    - name: JoannaD'ArcIIICasts_Frame_106
+    - name: Frame_106
       frameIndex: 106
       additiveSortOrder: 0
       cellRect:
@@ -4253,7 +4259,7 @@ ScriptedImporter:
         width: 83
         height: 82
       spriteId: c86f7039d5723b44db51dbbc65f7d946
-    - name: JoannaD'ArcIIICasts_Frame_107
+    - name: Frame_107
       frameIndex: 107
       additiveSortOrder: 0
       cellRect:
@@ -4262,7 +4268,7 @@ ScriptedImporter:
         width: 83
         height: 82
       spriteId: c3ba0777a7001094797f8ce95ebb6387
-    - name: JoannaD'ArcIIICasts_Frame_108
+    - name: Frame_108
       frameIndex: 108
       additiveSortOrder: 0
       cellRect:
@@ -4271,7 +4277,7 @@ ScriptedImporter:
         width: 81
         height: 87
       spriteId: 7e31790ffe4b12547a09a01b8d02f36a
-    - name: JoannaD'ArcIIICasts_Frame_109
+    - name: Frame_109
       frameIndex: 109
       additiveSortOrder: 0
       cellRect:
@@ -4280,7 +4286,7 @@ ScriptedImporter:
         width: 75
         height: 76
       spriteId: 686ac46a0e8984c4bbbdec145f521fcf
-    - name: JoannaD'ArcIIICasts_Frame_110
+    - name: Frame_110
       frameIndex: 110
       additiveSortOrder: 0
       cellRect:
@@ -4289,7 +4295,7 @@ ScriptedImporter:
         width: 92
         height: 81
       spriteId: 4dfd5b8e48037ca4c84902abf0fc7fde
-    - name: JoannaD'ArcIIICasts_Frame_111
+    - name: Frame_111
       frameIndex: 111
       additiveSortOrder: 0
       cellRect:
@@ -4298,7 +4304,7 @@ ScriptedImporter:
         width: 95
         height: 82
       spriteId: 761973238a5a00540904cd29dd33cf53
-    - name: JoannaD'ArcIIICasts_Frame_112
+    - name: Frame_112
       frameIndex: 112
       additiveSortOrder: 0
       cellRect:
@@ -4307,7 +4313,7 @@ ScriptedImporter:
         width: 98
         height: 78
       spriteId: de27ba43062e14f44bd88dc5c32700d9
-    - name: JoannaD'ArcIIICasts_Frame_113
+    - name: Frame_113
       frameIndex: 113
       additiveSortOrder: 0
       cellRect:
@@ -4316,7 +4322,7 @@ ScriptedImporter:
         width: 155
         height: 77
       spriteId: 8c0a9c8a2360ae645bb32af7ea12e8d3
-    - name: JoannaD'ArcIIICasts_Frame_114
+    - name: Frame_114
       frameIndex: 114
       additiveSortOrder: 0
       cellRect:
@@ -4325,7 +4331,7 @@ ScriptedImporter:
         width: 149
         height: 87
       spriteId: 72a520cc9db00a14e8ad3efc3526aa9a
-    - name: JoannaD'ArcIIICasts_Frame_115
+    - name: Frame_115
       frameIndex: 115
       additiveSortOrder: 0
       cellRect:
@@ -4334,7 +4340,7 @@ ScriptedImporter:
         width: 162
         height: 90
       spriteId: cafbd6ee82464824abc593ca69076e5e
-    - name: JoannaD'ArcIIICasts_Frame_116
+    - name: Frame_116
       frameIndex: 116
       additiveSortOrder: 0
       cellRect:
@@ -4343,7 +4349,7 @@ ScriptedImporter:
         width: 162
         height: 81
       spriteId: ed142c23afc5ddf40bd3516598957e37
-    - name: JoannaD'ArcIIICasts_Frame_117
+    - name: Frame_117
       frameIndex: 117
       additiveSortOrder: 0
       cellRect:
@@ -4352,7 +4358,7 @@ ScriptedImporter:
         width: 145
         height: 76
       spriteId: 1c4ec68069587a04986c754f2e31065b
-    - name: JoannaD'ArcIIICasts_Frame_118
+    - name: Frame_118
       frameIndex: 118
       additiveSortOrder: 0
       cellRect:
@@ -4361,7 +4367,7 @@ ScriptedImporter:
         width: 138
         height: 76
       spriteId: a5f0ad999e760a446a081697eed9c711
-    - name: JoannaD'ArcIIICasts_Frame_119
+    - name: Frame_119
       frameIndex: 119
       additiveSortOrder: 0
       cellRect:
@@ -4370,7 +4376,7 @@ ScriptedImporter:
         width: 85
         height: 76
       spriteId: 0f91c1443ea54c2469f31e6099ba1786
-    - name: JoannaD'ArcIIICasts_Frame_120
+    - name: Frame_120
       frameIndex: 120
       additiveSortOrder: 0
       cellRect:
@@ -4379,7 +4385,7 @@ ScriptedImporter:
         width: 84
         height: 76
       spriteId: 6a04642e881cfd54297d776ae44d676b
-    - name: JoannaD'ArcIIICasts_Frame_121
+    - name: Frame_121
       frameIndex: 121
       additiveSortOrder: 0
       cellRect:
@@ -4388,7 +4394,7 @@ ScriptedImporter:
         width: 76
         height: 76
       spriteId: b9f37266e7841444583ee8da37949c2a
-    - name: JoannaD'ArcIIICasts_Frame_122
+    - name: Frame_122
       frameIndex: 122
       additiveSortOrder: 0
       cellRect:
@@ -4397,7 +4403,7 @@ ScriptedImporter:
         width: 75
         height: 77
       spriteId: 4f7363c5166bada46a8ef8ec73f2cf35
-    - name: JoannaD'ArcIIICasts_Frame_123
+    - name: Frame_123
       frameIndex: 123
       additiveSortOrder: 0
       cellRect:
@@ -4406,7 +4412,7 @@ ScriptedImporter:
         width: 75
         height: 76
       spriteId: 32e39a6a67611954194d1749817d2452
-    - name: JoannaD'ArcIIICasts_Frame_124
+    - name: Frame_124
       frameIndex: 124
       additiveSortOrder: 0
       cellRect:
@@ -4415,7 +4421,7 @@ ScriptedImporter:
         width: 75
         height: 77
       spriteId: a78f9300773630545b66303a82333243
-    - name: JoannaD'ArcIIICasts_Frame_125
+    - name: Frame_125
       frameIndex: 125
       additiveSortOrder: 0
       cellRect:
@@ -4424,7 +4430,7 @@ ScriptedImporter:
         width: 75
         height: 77
       spriteId: 60dc4ac2c9976fe4ba621fc6e04f8ebe
-    - name: JoannaD'ArcIIICasts_Frame_126
+    - name: Frame_126
       frameIndex: 126
       additiveSortOrder: 0
       cellRect:
@@ -4433,7 +4439,7 @@ ScriptedImporter:
         width: 120
         height: 92
       spriteId: c1ec2fa0d6e2c6d47a5524dc396777ed
-    - name: JoannaD'ArcIIICasts_Frame_127
+    - name: Frame_127
       frameIndex: 127
       additiveSortOrder: 0
       cellRect:
@@ -4442,7 +4448,7 @@ ScriptedImporter:
         width: 109
         height: 90
       spriteId: c3d1bcdf8b3f10d41a4ddbf79bf5e39a
-    - name: JoannaD'ArcIIICasts_Frame_128
+    - name: Frame_128
       frameIndex: 128
       additiveSortOrder: 0
       cellRect:
@@ -4451,7 +4457,7 @@ ScriptedImporter:
         width: 108
         height: 89
       spriteId: eec1ceb8f5dce4f41bf1505d94c3fb51
-    - name: JoannaD'ArcIIICasts_Frame_129
+    - name: Frame_129
       frameIndex: 129
       additiveSortOrder: 0
       cellRect:
@@ -4460,7 +4466,7 @@ ScriptedImporter:
         width: 107
         height: 90
       spriteId: 31b5f6a17613eb94ba5f35c14b4acfcb
-    - name: JoannaD'ArcIIICasts_Frame_130
+    - name: Frame_130
       frameIndex: 130
       additiveSortOrder: 0
       cellRect:
@@ -4469,7 +4475,7 @@ ScriptedImporter:
         width: 96
         height: 90
       spriteId: 8e637cde4843a0e41a1c60df00148504
-    - name: JoannaD'ArcIIICasts_Frame_131
+    - name: Frame_131
       frameIndex: 131
       additiveSortOrder: 0
       cellRect:
@@ -4478,7 +4484,7 @@ ScriptedImporter:
         width: 93
         height: 89
       spriteId: ac0f57b9d44616441abf8f5fcc1e96db
-    - name: JoannaD'ArcIIICasts_Frame_132
+    - name: Frame_132
       frameIndex: 132
       additiveSortOrder: 0
       cellRect:
@@ -4487,7 +4493,7 @@ ScriptedImporter:
         width: 94
         height: 88
       spriteId: d24b59a104ec7364a9696484d3d05860
-    - name: JoannaD'ArcIIICasts_Frame_133
+    - name: Frame_133
       frameIndex: 133
       additiveSortOrder: 0
       cellRect:
@@ -4496,7 +4502,7 @@ ScriptedImporter:
         width: 95
         height: 87
       spriteId: 107465eab19698548a980642553e881d
-    - name: JoannaD'ArcIIICasts_Frame_134
+    - name: Frame_134
       frameIndex: 134
       additiveSortOrder: 0
       cellRect:
@@ -4505,7 +4511,7 @@ ScriptedImporter:
         width: 104
         height: 88
       spriteId: df757b6ec9d488d47b1d18a6cfe5e353
-    - name: JoannaD'ArcIIICasts_Frame_135
+    - name: Frame_135
       frameIndex: 135
       additiveSortOrder: 0
       cellRect:
@@ -4514,7 +4520,7 @@ ScriptedImporter:
         width: 107
         height: 89
       spriteId: d70be6eceb9811d4f8400cddebd7dfcf
-    - name: JoannaD'ArcIIICasts_Frame_136
+    - name: Frame_136
       frameIndex: 136
       additiveSortOrder: 0
       cellRect:
@@ -4523,7 +4529,7 @@ ScriptedImporter:
         width: 107
         height: 90
       spriteId: 3734953bfa68b0f409b6b2c70a6f3fcc
-    - name: JoannaD'ArcIIICasts_Frame_137
+    - name: Frame_137
       frameIndex: 137
       additiveSortOrder: 0
       cellRect:
@@ -4532,7 +4538,7 @@ ScriptedImporter:
         width: 96
         height: 88
       spriteId: 7814f94bda452464992bde24d29a281c
-    - name: JoannaD'ArcIIICasts_Frame_138
+    - name: Frame_138
       frameIndex: 138
       additiveSortOrder: 0
       cellRect:
@@ -4541,7 +4547,7 @@ ScriptedImporter:
         width: 86
         height: 86
       spriteId: e418c63d15212584f95727c8c76625ec
-    - name: JoannaD'ArcIIICasts_Frame_139
+    - name: Frame_139
       frameIndex: 139
       additiveSortOrder: 0
       cellRect:
@@ -4550,7 +4556,7 @@ ScriptedImporter:
         width: 79
         height: 86
       spriteId: a5edbd945f58df34989d603b9faece99
-    - name: JoannaD'ArcIIICasts_Frame_140
+    - name: Frame_140
       frameIndex: 140
       additiveSortOrder: 0
       cellRect:
@@ -4559,7 +4565,7 @@ ScriptedImporter:
         width: 75
         height: 85
       spriteId: 50ea1349236e072429c1b73c4af6e492
-    - name: JoannaD'ArcIIICasts_Frame_141
+    - name: Frame_141
       frameIndex: 141
       additiveSortOrder: 0
       cellRect:
@@ -4568,7 +4574,7 @@ ScriptedImporter:
         width: 75
         height: 85
       spriteId: 43d9058162e508449954a1cf0be19084
-    - name: JoannaD'ArcIIICasts_Frame_142
+    - name: Frame_142
       frameIndex: 142
       additiveSortOrder: 0
       cellRect:
@@ -4577,7 +4583,7 @@ ScriptedImporter:
         width: 75
         height: 85
       spriteId: f4174c4b2ec368a40a0a2b5e8344828f
-    - name: JoannaD'ArcIIICasts_Frame_143
+    - name: Frame_143
       frameIndex: 143
       additiveSortOrder: 0
       cellRect:
@@ -4586,7 +4592,7 @@ ScriptedImporter:
         width: 75
         height: 85
       spriteId: 932470c97982cee4aa70c0a42ada84c4
-    - name: JoannaD'ArcIIICasts_Frame_144
+    - name: Frame_144
       frameIndex: 144
       additiveSortOrder: 0
       cellRect:
@@ -4595,7 +4601,7 @@ ScriptedImporter:
         width: 75
         height: 85
       spriteId: b87ed9c0d3d0249419b99d2991dbb7c7
-    - name: JoannaD'ArcIIICasts_Frame_145
+    - name: Frame_145
       frameIndex: 145
       additiveSortOrder: 0
       cellRect:
@@ -4604,7 +4610,7 @@ ScriptedImporter:
         width: 75
         height: 85
       spriteId: e10f68c993acd78449e55d829f71d516
-    - name: JoannaD'ArcIIICasts_Frame_146
+    - name: Frame_146
       frameIndex: 146
       additiveSortOrder: 0
       cellRect:
@@ -4613,7 +4619,7 @@ ScriptedImporter:
         width: 75
         height: 86
       spriteId: 55485b85c7a9ad1488a0b1b641f23bd7
-    - name: JoannaD'ArcIIICasts_Frame_147
+    - name: Frame_147
       frameIndex: 147
       additiveSortOrder: 0
       cellRect:
@@ -4622,7 +4628,7 @@ ScriptedImporter:
         width: 75
         height: 85
       spriteId: b47d0ff996d45f64fbc3b5e24152b02e
-    - name: JoannaD'ArcIIICasts_Frame_148
+    - name: Frame_148
       frameIndex: 148
       additiveSortOrder: 0
       cellRect:
@@ -4631,7 +4637,7 @@ ScriptedImporter:
         width: 75
         height: 85
       spriteId: cf878c5a5f4a5ee4b9c0582198b81aa9
-    - name: JoannaD'ArcIIICasts_Frame_149
+    - name: Frame_149
       frameIndex: 149
       additiveSortOrder: 0
       cellRect:
@@ -4640,7 +4646,7 @@ ScriptedImporter:
         width: 90
         height: 87
       spriteId: cc192064fb2fd6540bafc8fb06720661
-    - name: JoannaD'ArcIIICasts_Frame_150
+    - name: Frame_150
       frameIndex: 150
       additiveSortOrder: 0
       cellRect:
@@ -4649,7 +4655,7 @@ ScriptedImporter:
         width: 111
         height: 88
       spriteId: e92220763b169c344b835bce2f87a318
-    - name: JoannaD'ArcIIICasts_Frame_151
+    - name: Frame_151
       frameIndex: 151
       additiveSortOrder: 0
       cellRect:
@@ -4658,7 +4664,7 @@ ScriptedImporter:
         width: 132
         height: 89
       spriteId: bf260f05e0e53214083e8ca9932b0abd
-    - name: JoannaD'ArcIIICasts_Frame_152
+    - name: Frame_152
       frameIndex: 152
       additiveSortOrder: 0
       cellRect:
@@ -4667,7 +4673,7 @@ ScriptedImporter:
         width: 132
         height: 90
       spriteId: 81f5f3f27a22ea64596e31f882eaee6a
-    - name: JoannaD'ArcIIICasts_Frame_153
+    - name: Frame_153
       frameIndex: 153
       additiveSortOrder: 0
       cellRect:
@@ -4676,7 +4682,7 @@ ScriptedImporter:
         width: 134
         height: 91
       spriteId: 4bd5d7447b574dd458101b39d5830d64
-    - name: JoannaD'ArcIIICasts_Frame_154
+    - name: Frame_154
       frameIndex: 154
       additiveSortOrder: 0
       cellRect:
@@ -4685,7 +4691,7 @@ ScriptedImporter:
         width: 135
         height: 92
       spriteId: cb7ec82244ff1e4498b4b5208c3caa66
-    - name: JoannaD'ArcIIICasts_Frame_155
+    - name: Frame_155
       frameIndex: 155
       additiveSortOrder: 0
       cellRect:
@@ -4694,7 +4700,7 @@ ScriptedImporter:
         width: 129
         height: 92
       spriteId: 53b2debb6d362544eba0b82620acac40
-    - name: JoannaD'ArcIIICasts_Frame_156
+    - name: Frame_156
       frameIndex: 156
       additiveSortOrder: 0
       cellRect:
@@ -4703,7 +4709,7 @@ ScriptedImporter:
         width: 113
         height: 91
       spriteId: 75b1014ada2f0144cb209be345066a04
-    - name: JoannaD'ArcIIICasts_Frame_157
+    - name: Frame_157
       frameIndex: 157
       additiveSortOrder: 0
       cellRect:
@@ -4731,3 +4737,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 300, y: 144}
+  previousTextureSize: {x: 1024, y: 2048}

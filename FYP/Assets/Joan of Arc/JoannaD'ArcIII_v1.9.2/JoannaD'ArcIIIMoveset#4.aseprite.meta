@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -464,13 +465,18 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 192851415
+    uuid:
+      value0: 3862710771
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: -432256525
     name: JoannaD'ArcIIIMoveset#4
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: JoannaD'ArcIIIMoveset#4_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -479,7 +485,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 398cb2a8923f02943800cdde950a0ee3
-    - name: JoannaD'ArcIIIMoveset#4_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -488,7 +494,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 72eb74720dc59734f88597b380e407b8
-    - name: JoannaD'ArcIIIMoveset#4_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -497,7 +503,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: dcf2c852b4eb85145a0162395df3a49b
-    - name: JoannaD'ArcIIIMoveset#4_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -506,7 +512,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 280acec9a61a176479bf38c9263d2b9e
-    - name: JoannaD'ArcIIIMoveset#4_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -515,7 +521,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 99b5f2ea1e97c8f4c9bf052e307f2a42
-    - name: JoannaD'ArcIIIMoveset#4_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -524,7 +530,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 160489999848a7e41883732513c280b2
-    - name: JoannaD'ArcIIIMoveset#4_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -533,7 +539,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: ac0c66fded0a18648aa9127a4292ec76
-    - name: JoannaD'ArcIIIMoveset#4_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -542,7 +548,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 675d7dd86a9719047920ecdd88d2e34c
-    - name: JoannaD'ArcIIIMoveset#4_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -551,7 +557,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: a836e33bfb82c3e4e879d4aa2bc227db
-    - name: JoannaD'ArcIIIMoveset#4_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -560,7 +566,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 6160f35ab2ff6ff48b37812aa06bd517
-    - name: JoannaD'ArcIIIMoveset#4_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -569,7 +575,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: e0a75a9ef8837d84298e821d058b082f
-    - name: JoannaD'ArcIIIMoveset#4_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -578,7 +584,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 69b92919fdcc6164ca9bc0837e3ce41e
-    - name: JoannaD'ArcIIIMoveset#4_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -587,7 +593,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: e8d7e663bd741f64e8b39b9f68b6416b
-    - name: JoannaD'ArcIIIMoveset#4_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -596,7 +602,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: af5c7c4e52b305944b2e2436604784f6
-    - name: JoannaD'ArcIIIMoveset#4_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -605,7 +611,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: a4fbeda957129104ebfd0cc26acf5456
-    - name: JoannaD'ArcIIIMoveset#4_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -614,7 +620,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 11c913d99fb7d9c40a26cdf391d47ab3
-    - name: JoannaD'ArcIIIMoveset#4_Frame_16
+    - name: Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -642,3 +648,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 128, y: 144}
+  previousTextureSize: {x: 512, y: 1024}

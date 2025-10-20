@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -204,13 +205,18 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1637270939
+    uuid:
+      value0: 25761223
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 25761223
     name: RecoverCounterPose
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: RecoverCounterPose_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -219,7 +225,7 @@ ScriptedImporter:
         width: 40
         height: 30
       spriteId: ab012f2148b823e4884248d5c3fefbe9
-    - name: RecoverCounterPose_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -228,7 +234,7 @@ ScriptedImporter:
         width: 31
         height: 39
       spriteId: 072da9426f7221e4c918b2292db63cc3
-    - name: RecoverCounterPose_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -237,7 +243,7 @@ ScriptedImporter:
         width: 27
         height: 41
       spriteId: b3b1198430a9dda478eb13210a2c53fc
-    - name: RecoverCounterPose_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -265,3 +271,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 80, y: 80}
+  previousTextureSize: {x: 128, y: 128}

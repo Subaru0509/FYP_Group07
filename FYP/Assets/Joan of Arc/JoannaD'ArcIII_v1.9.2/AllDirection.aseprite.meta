@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -284,13 +285,18 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -656024786
+    uuid:
+      value0: 3968758118
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: -326209178
     name: AllDirection
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: AllDirection_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +305,7 @@ ScriptedImporter:
         width: 192
         height: 192
       spriteId: 4422c0ff380bbc74a9b1b32710eb9631
-    - name: AllDirection_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +314,7 @@ ScriptedImporter:
         width: 192
         height: 192
       spriteId: d9cbac2c823f4f04c837476db26c9087
-    - name: AllDirection_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +323,7 @@ ScriptedImporter:
         width: 192
         height: 192
       spriteId: 0e1f77fe344bb0147857870e971f6e82
-    - name: AllDirection_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +332,7 @@ ScriptedImporter:
         width: 192
         height: 192
       spriteId: ca8e08cadcaed7b468d5738e59b618ef
-    - name: AllDirection_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +341,7 @@ ScriptedImporter:
         width: 192
         height: 192
       spriteId: b4aebc7cfd424534c950efa220455bca
-    - name: AllDirection_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +350,7 @@ ScriptedImporter:
         width: 192
         height: 192
       spriteId: a9dd4927de996204cac0c437c057f704
-    - name: AllDirection_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +359,7 @@ ScriptedImporter:
         width: 192
         height: 192
       spriteId: d2b3f5bf551189c4b92624ef19d813f1
-    - name: AllDirection_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -381,3 +387,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 192, y: 192}
+  previousTextureSize: {x: 512, y: 1024}
