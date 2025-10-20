@@ -11,9 +11,14 @@ public class EnemyState : EntityState
         rb = enemy.rb;
     }
 
-    public override void Enter()
+    public override void Update()
     {
-        base.Enter();
+        base.Update();
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            stateMachine.ChangeState(enemy.attackState);
+        }
 
         anim.SetFloat("moveAnimSpeedMultipller", enemy.moveAnimSpeedMultipller);
     }
