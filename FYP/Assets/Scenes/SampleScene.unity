@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 35870841}
   - component: {fileID: 35870843}
   - component: {fileID: 35870844}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,7 +184,7 @@ Transform:
   m_GameObject: {fileID: 35870840}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.91, y: 2.05, z: 0}
+  m_LocalPosition: {x: -7.13, y: 2.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9143,7 +9143,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.089256, y: 1.073187, z: 4.226142}
+  m_LocalPosition: {x: -0.30925608, y: 1.843187, z: 4.226142}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9365,13 +9365,13 @@ GameObject:
   - component: {fileID: 653583364}
   - component: {fileID: 653583367}
   - component: {fileID: 653583366}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemy_Knight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &653583364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9392,9 +9392,16 @@ MonoBehaviour:
   groundCheck: {fileID: 1913639011}
   primaryWallCheck: {fileID: 653583365}
   secondaryWallCheck: {fileID: 0}
+  battleMoveSpeed: 3
+  attackDistance: 2
   moveSpeed: 1.4
   idleTime: 2
   moveAnimSpeedMultipller: 1
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 128
+  playerCheck: {fileID: 653583365}
+  playerCheckDistance: 10
 --- !u!4 &653583365
 Transform:
   m_ObjectHideFlags: 0
@@ -9404,7 +9411,7 @@ Transform:
   m_GameObject: {fileID: 653583363}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.53, y: 2.11, z: -0.1431163}
+  m_LocalPosition: {x: -21.09, y: 2.44, z: -0.1431163}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9875,7 +9882,7 @@ Transform:
   m_GameObject: {fileID: 1660579008}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.089256, y: 1.073187, z: 4.226142}
+  m_LocalPosition: {x: -0.30925608, y: 1.843187, z: 4.226142}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

@@ -10,6 +10,7 @@ public class Enemy_Knight : Enemy
         idleState = new Enemy_IdleState(this, stateMachine, "idle");
         moveState = new Enemy_MoveState(this, stateMachine, "move");
         attackState = new Enemy_AttackState(this, stateMachine, "attack");
+        battleState = new Enemy_BattleState(this, stateMachine, "battle");
     }
 
     protected override void Start()
