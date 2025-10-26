@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f445a80c9b758c4438a668cc36bc1be6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 31
+  damage: 20
   targetCheck: {fileID: 1881420125}
   targetCheckRadius: 1
   whatIsTarget:
@@ -9462,7 +9462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f445a80c9b758c4438a668cc36bc1be6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   targetCheck: {fileID: 1079424809}
   targetCheckRadius: 1
   whatIsTarget:
