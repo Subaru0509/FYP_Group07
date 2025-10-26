@@ -14,6 +14,7 @@ public class Enemy_Knight : Enemy
         deadState = new Enemy_DeadStste(this, stateMachine, "dead");
     }
 
+
     protected override void Start()
     {
         base.Start();

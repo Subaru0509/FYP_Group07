@@ -11,7 +11,16 @@ public class Enemy_DeadStste : EnemyState
     public override void Enter()
     {
         base.Enter();
+        enemy.anim.SetBool(animBoolName, true);
 
-        Debug.Log("Enemy Dead State Entered");
+        stateMachine.SwitchCanChangeState();
+
+        //enemy.StartCoroutine(DisappearAfterSeconds(5f));
     }
+
+    //private IEnumerator DisappearAfterSeconds(float seconds)
+    //{
+    //    yield return new WaitForSeconds(seconds);
+    //    GameObject.Destroy(enemy.gameObject);
+    //}
 }
