@@ -6,6 +6,7 @@ public class Enemy : Entity
     public Enemy_MoveState moveState;
     public Enemy_AttackState attackState;
     public Enemy_BattleState battleState;
+    public Enemy_DeadStste deadState;
 
     [Header("Battle details")]
     public float battleMoveSpeed = 3;
@@ -27,6 +28,12 @@ public class Enemy : Entity
 
     public Transform player { get; private set; }
 
+    public override void EntityDeath()
+    {
+        base.EntityDeath();
+
+        stateMachine.ChangeState(deadState);
+    }
     public void TryEnterBattleState(Transform player)
     {
         if(stateMachine.currentState == battleState || stateMachine.currentState == attackState)

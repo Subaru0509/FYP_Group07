@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Entity : MonoBehaviour
@@ -24,6 +25,9 @@ public class Entity : MonoBehaviour
     public bool groundDetected { get; private set; }
     public bool wallDectected { get; private set; }
 
+    private Coroutine knockbackCo;
+    private bool isKnocked;
+
 
 
     protected virtual void Awake()
@@ -48,6 +52,26 @@ public class Entity : MonoBehaviour
         stateMachine.UpdateActiveState();
     }
 
+    public void ReciveKnockback(Vector2 knockback, float duration)
+    {
+        if(knockbackCo != null)
+            StopCoroutine(knockbackCo);
+
+        knockbackCo = StartCoroutine(KnockbackCo(knockback, duration));
+    }
+
+    private IEnumerator KnockbackCo(Vector2 knockback, float duration)
+    {
+
+        isKnocked = true;
+        rb.velocity = knockback;
+
+        yield return new WaitForSeconds(duration);
+
+        rb.velocity = Vector2.zero;
+        isKnocked = false;
+    }
+
     
 
     public void CurrentStateAnimationTrigger()
@@ -55,8 +79,16 @@ public class Entity : MonoBehaviour
         stateMachine.currentState.AnimationTrigger();
     }
 
+    public virtual void EntityDeath()
+    {
+
+    }
+
     public void SetVelocity(float xVelocity, float yVelocity)
     {
+        if (isKnocked)
+            return;
+
         rb.velocity = new Vector2(xVelocity, yVelocity);
         HandleFlip(xVelocity);
     }
@@ -68,7 +100,7 @@ public class Entity : MonoBehaviour
         else if (xVelocity < 0 && isFacingRight == true)
             Flip();
     }
-
+    
     public void Flip()
     {
         isFacingRight = !isFacingRight;
@@ -76,6 +108,7 @@ public class Entity : MonoBehaviour
         facingDir = facingDir * -1;
 
     }
+    
 
     private void HandleCollisionDetection()
     {
@@ -91,7 +124,7 @@ public class Entity : MonoBehaviour
             wallDectected = Physics2D.Raycast(primaryWallCheck.position, Vector2.right * facingDir, wallCheckDistance, whatIsGround);
         }
     }
-
+    
     protected virtual void OnDrawGizmos()
     {
         Gizmos.DrawLine(groundCheck.position, groundCheck.position + new Vector3(0, -groundCheckDistance));
