@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class Entity_Health : MonoBehaviour
@@ -11,6 +10,8 @@ public class Entity_Health : MonoBehaviour
     [SerializeField] protected float maxHP = 100f;
     [SerializeField] protected float currentHP = 0f;
     [SerializeField] protected bool isDead;
+
+    public event Action<float, float> OnHealthChanged;
 
     [Header("On Damage Knockback")]
     [SerializeField] private float knockbackDuration = .2f;
@@ -29,6 +30,8 @@ public class Entity_Health : MonoBehaviour
 
         if (currentHP <= 0f || currentHP > maxHP)
             currentHP = maxHP;
+
+        OnHealthChanged?.Invoke(currentHP, maxHP);
     }
 
     public virtual void TakeDamage(float damage, Transform damageDealer)
@@ -48,6 +51,8 @@ public class Entity_Health : MonoBehaviour
     {
         currentHP -= damage;
         currentHP = Mathf.Max(currentHP, 0f);
+
+        OnHealthChanged?.Invoke(currentHP, maxHP);
 
         if (currentHP <= 0f)
             Die();

@@ -1,16 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy_Health : Entity_Health
 {
-    private Enemy enemy => GetComponent<Enemy>();
+    [SerializeField] private HealthBar healthBar;
 
-    public override void TakeDamage(float damage, Transform damageDealer)
+    protected override void Awake()
     {
-        if(damageDealer.CompareTag("Player"))
-            enemy.TryEnterBattleState(damageDealer);
-
-        base.TakeDamage(damage, damageDealer);
+        base.Awake();
+        if (healthBar != null)
+        {
+            OnHealthChanged += healthBar.SetHealth;
+            healthBar.SetHealth(CurrentHP, MaxHP);
+        }
     }
 }
