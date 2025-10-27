@@ -61,6 +61,10 @@ public class EnemyController : MonoBehaviour
                     {
                         status = Status.run;
                     }
+                    else if (Mathf.Abs(myTransform.position.x - playerTransform.position.x) > 1f && Mathf.Abs(myTransform.position.x - playerTransform.position.x) < 3f)
+                    {
+                        status = Status.attack;
+                    }
 
 
                 }
