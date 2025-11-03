@@ -8,7 +8,6 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
-  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -122,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Frame_0
+  - name: CounterAtkRecover_Frame_0
     originalName: 
     pivot: {x: 0.7441861, y: -0.033333335}
     alignment: 9
@@ -133,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 43
       height: 30
-    spriteID: 49bb0c4758f32154ea2e5df599799003
+    spriteID: 72a1d7d398a69044d9675f78c8c07703
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,7 +141,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Frame_1
+  - name: CounterAtkRecover_Frame_1
     originalName: 
     pivot: {x: 0.8484849, y: -0.025641028}
     alignment: 9
@@ -153,7 +152,7 @@ ScriptedImporter:
       y: 42
       width: 33
       height: 39
-    spriteID: f7d07b2796fa83347a4182d16779d493
+    spriteID: ab01dfba3339bd74a8a99fe2898facaa
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -162,7 +161,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 42}
-  - name: Frame_2
+  - name: CounterAtkRecover_Frame_2
     originalName: 
     pivot: {x: 0.9032258, y: -0.024390245}
     alignment: 9
@@ -173,7 +172,7 @@ ScriptedImporter:
       y: 42
       width: 31
       height: 41
-    spriteID: d877f51222c987848859a3b53f713aae
+    spriteID: 580661f7b5e637b498bd1addbac28853
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -182,7 +181,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 45, y: 42}
-  - name: Frame_3
+  - name: CounterAtkRecover_Frame_3
     originalName: 
     pivot: {x: 0.9655172, y: -0.023809524}
     alignment: 9
@@ -193,7 +192,7 @@ ScriptedImporter:
       y: 42
       width: 29
       height: 42
-    spriteID: cc3af48fbba585142b47d877baf713c7
+    spriteID: b4195188d856ecb4a984fd0ab389dace
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -205,18 +204,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    uuid:
-      value0: 1666817704
-      value1: 0
-      value2: 0
-      value3: 0
-    guid: 0
+    guid: 301664904
     name: CounterAtkRecover
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: CounterAtkRecover_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -224,8 +218,8 @@ ScriptedImporter:
         y: 1
         width: 43
         height: 30
-      spriteId: 49bb0c4758f32154ea2e5df599799003
-    - name: Frame_1
+      spriteId: 72a1d7d398a69044d9675f78c8c07703
+    - name: CounterAtkRecover_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -233,8 +227,8 @@ ScriptedImporter:
         y: 1
         width: 33
         height: 39
-      spriteId: f7d07b2796fa83347a4182d16779d493
-    - name: Frame_2
+      spriteId: ab01dfba3339bd74a8a99fe2898facaa
+    - name: CounterAtkRecover_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -242,8 +236,8 @@ ScriptedImporter:
         y: 1
         width: 31
         height: 41
-      spriteId: d877f51222c987848859a3b53f713aae
-    - name: Frame_3
+      spriteId: 580661f7b5e637b498bd1addbac28853
+    - name: CounterAtkRecover_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -251,7 +245,7 @@ ScriptedImporter:
         y: 1
         width: 29
         height: 42
-      spriteId: cc3af48fbba585142b47d877baf713c7
+      spriteId: b4195188d856ecb4a984fd0ab389dace
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -271,4 +265,3 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 80, y: 80}
-  previousTextureSize: {x: 128, y: 128}

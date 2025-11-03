@@ -8,7 +8,6 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
-  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -122,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Frame_0
+  - name: JoannaD'ArcIIITurn2_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -133,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 128
       height: 144
-    spriteID: 3e2bff259ab24cf42a77ad8132313f7c
+    spriteID: 254d68a726ef58e4895e039e2d125c04
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,7 +141,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Frame_1
+  - name: JoannaD'ArcIIITurn2_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -153,7 +152,7 @@ ScriptedImporter:
       y: 156
       width: 128
       height: 144
-    spriteID: 7792c91c0b7522844aa62cb39fadc73e
+    spriteID: e85c177fe9fc24441a7e98369501fb2a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -162,7 +161,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 156}
-  - name: Frame_2
+  - name: JoannaD'ArcIIITurn2_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -173,7 +172,7 @@ ScriptedImporter:
       y: 308
       width: 128
       height: 144
-    spriteID: 79a833d12bbe46e449236288777e8949
+    spriteID: f6c5d52f04ab6cd4a8468ad711434249
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -182,7 +181,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 308}
-  - name: Frame_3
+  - name: JoannaD'ArcIIITurn2_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -193,7 +192,7 @@ ScriptedImporter:
       y: 460
       width: 128
       height: 144
-    spriteID: 122ee0909f93dc4429cc1682fc616888
+    spriteID: 6c19c5dccb113c647a386b905c31bb50
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -202,7 +201,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 460}
-  - name: Frame_4
+  - name: JoannaD'ArcIIITurn2_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -213,7 +212,7 @@ ScriptedImporter:
       y: 612
       width: 128
       height: 144
-    spriteID: b36a2a956df8f0440a305f1fd249804e
+    spriteID: e5249ec41ee355f45b52b9401584d8f2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -222,7 +221,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 612}
-  - name: Frame_5
+  - name: JoannaD'ArcIIITurn2_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -233,7 +232,7 @@ ScriptedImporter:
       y: 764
       width: 128
       height: 144
-    spriteID: 7fd5ffeb05cc3194085ce217737f4b29
+    spriteID: 813f646e98393714c94df2f125f0bef9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -242,7 +241,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 764}
-  - name: Frame_6
+  - name: JoannaD'ArcIIITurn2_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -253,7 +252,7 @@ ScriptedImporter:
       y: 4
       width: 128
       height: 144
-    spriteID: 1cec89784a87b0f46bedace2768e692d
+    spriteID: c759f4273ba38874bac53a3314343233
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -262,7 +261,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 140, y: 4}
-  - name: Frame_7
+  - name: JoannaD'ArcIIITurn2_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -273,7 +272,7 @@ ScriptedImporter:
       y: 156
       width: 128
       height: 144
-    spriteID: 3766b2efcc4147a418c3cb8533b2f048
+    spriteID: 9f3dfa2a05aa57b4a83da12825909584
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -282,7 +281,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 140, y: 156}
-  - name: Frame_8
+  - name: JoannaD'ArcIIITurn2_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -293,7 +292,7 @@ ScriptedImporter:
       y: 308
       width: 128
       height: 144
-    spriteID: 8628bd9bc5dc34a488138e0fc9ee7d54
+    spriteID: 8cd07e9e42511eb4d95a07b9a6e75818
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -302,7 +301,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 140, y: 308}
-  - name: Frame_9
+  - name: JoannaD'ArcIIITurn2_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -313,7 +312,7 @@ ScriptedImporter:
       y: 460
       width: 128
       height: 144
-    spriteID: 9ceaa0635b74d1340a0261bb097005ec
+    spriteID: 93e63b948d0598a4885720d00a0c04ca
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -322,7 +321,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 140, y: 460}
-  - name: Frame_10
+  - name: JoannaD'ArcIIITurn2_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -333,7 +332,7 @@ ScriptedImporter:
       y: 612
       width: 128
       height: 144
-    spriteID: a3dd4eacabc569247a63b38750b459ce
+    spriteID: de327cdad17873e42a0761d5c4eac6c2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -342,7 +341,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 140, y: 612}
-  - name: Frame_11
+  - name: JoannaD'ArcIIITurn2_Frame_11
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -353,7 +352,7 @@ ScriptedImporter:
       y: 764
       width: 128
       height: 144
-    spriteID: ab62b058e8832ea47bb72702f78b47e1
+    spriteID: cf03cfb61b57b0c47aa5051479115dd2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -362,7 +361,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 140, y: 764}
-  - name: Frame_12
+  - name: JoannaD'ArcIIITurn2_Frame_12
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -373,7 +372,7 @@ ScriptedImporter:
       y: 4
       width: 128
       height: 144
-    spriteID: 68ffab8e008a7c141b107546d28bcb90
+    spriteID: 8d806ad283a611e4c912cf92fe2fcdec
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -382,7 +381,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 276, y: 4}
-  - name: Frame_13
+  - name: JoannaD'ArcIIITurn2_Frame_13
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -393,7 +392,7 @@ ScriptedImporter:
       y: 156
       width: 128
       height: 144
-    spriteID: 898363f3dbba3c640a1d51106552033e
+    spriteID: 580463cef25028b4194a152d055d838e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -402,7 +401,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 276, y: 156}
-  - name: Frame_14
+  - name: JoannaD'ArcIIITurn2_Frame_14
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -413,7 +412,7 @@ ScriptedImporter:
       y: 308
       width: 128
       height: 144
-    spriteID: d1a8adbd4d97bba4daf1c9429232c0a4
+    spriteID: 7837f5908567c9e4d803c16deec9b6f5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -422,7 +421,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 276, y: 308}
-  - name: Frame_15
+  - name: JoannaD'ArcIIITurn2_Frame_15
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -433,7 +432,7 @@ ScriptedImporter:
       y: 460
       width: 128
       height: 144
-    spriteID: 5c92d9657b552344cb95554d165f535c
+    spriteID: ec3861cfefb7174408c62c452d3f89a6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -442,7 +441,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 276, y: 460}
-  - name: Frame_16
+  - name: JoannaD'ArcIIITurn2_Frame_16
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -453,7 +452,7 @@ ScriptedImporter:
       y: 612
       width: 128
       height: 144
-    spriteID: 0ea213416ba14a749b3186df920290aa
+    spriteID: bf918e2ed9cf9bf40a7de13721ce0fae
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -462,7 +461,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 276, y: 612}
-  - name: Frame_17
+  - name: JoannaD'ArcIIITurn2_Frame_17
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -473,7 +472,7 @@ ScriptedImporter:
       y: 764
       width: 128
       height: 144
-    spriteID: e410a93616f42c745978725174c24b45
+    spriteID: 0f6db8f2bd7c3464e8fdd6d328e10e2c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -482,7 +481,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 276, y: 764}
-  - name: Frame_18
+  - name: JoannaD'ArcIIITurn2_Frame_18
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -493,7 +492,7 @@ ScriptedImporter:
       y: 4
       width: 128
       height: 144
-    spriteID: b0dd3c372e057614f88f324b964d2eca
+    spriteID: 4edf3e7055effe74fab886df28460df9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -502,7 +501,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 412, y: 4}
-  - name: Frame_19
+  - name: JoannaD'ArcIIITurn2_Frame_19
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -513,7 +512,7 @@ ScriptedImporter:
       y: 156
       width: 128
       height: 144
-    spriteID: f615e000d9a095449baefd4209253a35
+    spriteID: 88696b1e4eda9fb4795c9c73ae1a5499
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -522,7 +521,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 412, y: 156}
-  - name: Frame_20
+  - name: JoannaD'ArcIIITurn2_Frame_20
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -533,7 +532,7 @@ ScriptedImporter:
       y: 308
       width: 128
       height: 144
-    spriteID: 25b93d7897968d146b308526da1cc558
+    spriteID: 033aaac0e1afd034496142c72ac850fe
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -542,7 +541,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 412, y: 308}
-  - name: Frame_21
+  - name: JoannaD'ArcIIITurn2_Frame_21
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -553,7 +552,7 @@ ScriptedImporter:
       y: 460
       width: 128
       height: 144
-    spriteID: 4f7bc3e982a8f3844afb4038bcc95313
+    spriteID: 0dedef26d1da77e48b0ac4ca443580fc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -562,7 +561,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 412, y: 460}
-  - name: Frame_22
+  - name: JoannaD'ArcIIITurn2_Frame_22
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -573,7 +572,7 @@ ScriptedImporter:
       y: 612
       width: 128
       height: 144
-    spriteID: 10a5d6eb1766077419a8227826fc8a5a
+    spriteID: 555a720dac9a8b6488e4ad7c52c050cd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -582,7 +581,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 412, y: 612}
-  - name: Frame_23
+  - name: JoannaD'ArcIIITurn2_Frame_23
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -593,7 +592,7 @@ ScriptedImporter:
       y: 764
       width: 128
       height: 144
-    spriteID: 66ebf7b1853a2b342b3d64a21979488c
+    spriteID: 0ea06fef8cfdc394b8f87a3334ed5bd0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -602,7 +601,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 412, y: 764}
-  - name: Frame_24
+  - name: JoannaD'ArcIIITurn2_Frame_24
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -613,7 +612,7 @@ ScriptedImporter:
       y: 4
       width: 128
       height: 144
-    spriteID: 8104310c3d21d4c4d8fed77e8293b736
+    spriteID: 73be9b96cd2ea82469682ddd7bf58add
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -622,7 +621,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 548, y: 4}
-  - name: Frame_25
+  - name: JoannaD'ArcIIITurn2_Frame_25
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -633,7 +632,7 @@ ScriptedImporter:
       y: 156
       width: 128
       height: 144
-    spriteID: 8d7b60fc0dfffd444b3f3d69e950dcf8
+    spriteID: 681a5810bb0eb0045a8a3fcc22217f5e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -642,7 +641,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 548, y: 156}
-  - name: Frame_26
+  - name: JoannaD'ArcIIITurn2_Frame_26
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -653,7 +652,7 @@ ScriptedImporter:
       y: 308
       width: 128
       height: 144
-    spriteID: c46dce759aa93bf499e00fc5beb22f45
+    spriteID: 755d4b2f2f5c354449fcbb29c3575ec3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -662,7 +661,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 548, y: 308}
-  - name: Frame_27
+  - name: JoannaD'ArcIIITurn2_Frame_27
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -673,7 +672,7 @@ ScriptedImporter:
       y: 460
       width: 128
       height: 144
-    spriteID: 64f2454f65cbd9b4eb4ca030fb0199f9
+    spriteID: 5d139075f8b6c504393ea19633707e53
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -685,18 +684,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    uuid:
-      value0: 3427128306
-      value1: 0
-      value2: 0
-      value3: 0
-    guid: 0
+    guid: -934695350
     name: JoannaD'ArcIIITurn2
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: JoannaD'ArcIIITurn2_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -704,8 +698,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: 3e2bff259ab24cf42a77ad8132313f7c
-    - name: Frame_1
+      spriteId: 254d68a726ef58e4895e039e2d125c04
+    - name: JoannaD'ArcIIITurn2_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -713,8 +707,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: 7792c91c0b7522844aa62cb39fadc73e
-    - name: Frame_2
+      spriteId: e85c177fe9fc24441a7e98369501fb2a
+    - name: JoannaD'ArcIIITurn2_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -722,8 +716,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: 79a833d12bbe46e449236288777e8949
-    - name: Frame_3
+      spriteId: f6c5d52f04ab6cd4a8468ad711434249
+    - name: JoannaD'ArcIIITurn2_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -731,8 +725,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: 122ee0909f93dc4429cc1682fc616888
-    - name: Frame_4
+      spriteId: 6c19c5dccb113c647a386b905c31bb50
+    - name: JoannaD'ArcIIITurn2_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -740,8 +734,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: b36a2a956df8f0440a305f1fd249804e
-    - name: Frame_5
+      spriteId: e5249ec41ee355f45b52b9401584d8f2
+    - name: JoannaD'ArcIIITurn2_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -749,8 +743,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: 7fd5ffeb05cc3194085ce217737f4b29
-    - name: Frame_6
+      spriteId: 813f646e98393714c94df2f125f0bef9
+    - name: JoannaD'ArcIIITurn2_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -758,8 +752,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: 1cec89784a87b0f46bedace2768e692d
-    - name: Frame_7
+      spriteId: c759f4273ba38874bac53a3314343233
+    - name: JoannaD'ArcIIITurn2_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -767,8 +761,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: 3766b2efcc4147a418c3cb8533b2f048
-    - name: Frame_8
+      spriteId: 9f3dfa2a05aa57b4a83da12825909584
+    - name: JoannaD'ArcIIITurn2_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -776,8 +770,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: 8628bd9bc5dc34a488138e0fc9ee7d54
-    - name: Frame_9
+      spriteId: 8cd07e9e42511eb4d95a07b9a6e75818
+    - name: JoannaD'ArcIIITurn2_Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -785,8 +779,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: 9ceaa0635b74d1340a0261bb097005ec
-    - name: Frame_10
+      spriteId: 93e63b948d0598a4885720d00a0c04ca
+    - name: JoannaD'ArcIIITurn2_Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -794,8 +788,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: a3dd4eacabc569247a63b38750b459ce
-    - name: Frame_11
+      spriteId: de327cdad17873e42a0761d5c4eac6c2
+    - name: JoannaD'ArcIIITurn2_Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -803,8 +797,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: ab62b058e8832ea47bb72702f78b47e1
-    - name: Frame_12
+      spriteId: cf03cfb61b57b0c47aa5051479115dd2
+    - name: JoannaD'ArcIIITurn2_Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -812,8 +806,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: 68ffab8e008a7c141b107546d28bcb90
-    - name: Frame_13
+      spriteId: 8d806ad283a611e4c912cf92fe2fcdec
+    - name: JoannaD'ArcIIITurn2_Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -821,8 +815,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: 898363f3dbba3c640a1d51106552033e
-    - name: Frame_14
+      spriteId: 580463cef25028b4194a152d055d838e
+    - name: JoannaD'ArcIIITurn2_Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -830,8 +824,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: d1a8adbd4d97bba4daf1c9429232c0a4
-    - name: Frame_15
+      spriteId: 7837f5908567c9e4d803c16deec9b6f5
+    - name: JoannaD'ArcIIITurn2_Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -839,8 +833,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: 5c92d9657b552344cb95554d165f535c
-    - name: Frame_16
+      spriteId: ec3861cfefb7174408c62c452d3f89a6
+    - name: JoannaD'ArcIIITurn2_Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -848,8 +842,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: 0ea213416ba14a749b3186df920290aa
-    - name: Frame_17
+      spriteId: bf918e2ed9cf9bf40a7de13721ce0fae
+    - name: JoannaD'ArcIIITurn2_Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -857,8 +851,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: e410a93616f42c745978725174c24b45
-    - name: Frame_18
+      spriteId: 0f6db8f2bd7c3464e8fdd6d328e10e2c
+    - name: JoannaD'ArcIIITurn2_Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
@@ -866,8 +860,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: b0dd3c372e057614f88f324b964d2eca
-    - name: Frame_19
+      spriteId: 4edf3e7055effe74fab886df28460df9
+    - name: JoannaD'ArcIIITurn2_Frame_19
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
@@ -875,8 +869,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: f615e000d9a095449baefd4209253a35
-    - name: Frame_20
+      spriteId: 88696b1e4eda9fb4795c9c73ae1a5499
+    - name: JoannaD'ArcIIITurn2_Frame_20
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
@@ -884,8 +878,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: 25b93d7897968d146b308526da1cc558
-    - name: Frame_21
+      spriteId: 033aaac0e1afd034496142c72ac850fe
+    - name: JoannaD'ArcIIITurn2_Frame_21
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
@@ -893,8 +887,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: 4f7bc3e982a8f3844afb4038bcc95313
-    - name: Frame_22
+      spriteId: 0dedef26d1da77e48b0ac4ca443580fc
+    - name: JoannaD'ArcIIITurn2_Frame_22
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
@@ -902,8 +896,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: 10a5d6eb1766077419a8227826fc8a5a
-    - name: Frame_23
+      spriteId: 555a720dac9a8b6488e4ad7c52c050cd
+    - name: JoannaD'ArcIIITurn2_Frame_23
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
@@ -911,8 +905,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: 66ebf7b1853a2b342b3d64a21979488c
-    - name: Frame_24
+      spriteId: 0ea06fef8cfdc394b8f87a3334ed5bd0
+    - name: JoannaD'ArcIIITurn2_Frame_24
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
@@ -920,8 +914,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: 8104310c3d21d4c4d8fed77e8293b736
-    - name: Frame_25
+      spriteId: 73be9b96cd2ea82469682ddd7bf58add
+    - name: JoannaD'ArcIIITurn2_Frame_25
       frameIndex: 25
       additiveSortOrder: 0
       cellRect:
@@ -929,8 +923,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: 8d7b60fc0dfffd444b3f3d69e950dcf8
-    - name: Frame_26
+      spriteId: 681a5810bb0eb0045a8a3fcc22217f5e
+    - name: JoannaD'ArcIIITurn2_Frame_26
       frameIndex: 26
       additiveSortOrder: 0
       cellRect:
@@ -938,8 +932,8 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: c46dce759aa93bf499e00fc5beb22f45
-    - name: Frame_27
+      spriteId: 755d4b2f2f5c354449fcbb29c3575ec3
+    - name: JoannaD'ArcIIITurn2_Frame_27
       frameIndex: 27
       additiveSortOrder: 0
       cellRect:
@@ -947,7 +941,7 @@ ScriptedImporter:
         y: 0
         width: 128
         height: 144
-      spriteId: 64f2454f65cbd9b4eb4ca030fb0199f9
+      spriteId: 5d139075f8b6c504393ea19633707e53
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -967,4 +961,3 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 128, y: 144}
-  previousTextureSize: {x: 1024, y: 1024}
