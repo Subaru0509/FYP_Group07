@@ -7,7 +7,7 @@ public class EnemyController : MonoBehaviour
 
     int hp = 0;
     public int max_hp = 0;
-    public enum Status{ idle,run,ready,attack,}
+    public enum Status{ walk,run,ready,attack,}
     public Status status;
     public enum Face { Right,Left };
     public Face face;
@@ -22,7 +22,7 @@ public class EnemyController : MonoBehaviour
     {
         max_hp = 20;
         hp = max_hp;
-        status = Status.idle;
+        status = Status.walk;
         spr = this.transform.GetComponent<SpriteRenderer>();
         if (spr.flipX)
         {
@@ -54,7 +54,7 @@ public class EnemyController : MonoBehaviour
         //update status action;
         switch (status)
         {
-            case Status.idle:
+            case Status.walk:
                 if (playerTransform)
                 {
                     if (Mathf.Abs(myTransform.position.x - playerTransform.position.x) > 3f && Mathf.Abs(myTransform.position.x - playerTransform.position.x) < 6f)
@@ -103,7 +103,7 @@ public class EnemyController : MonoBehaviour
                 {
                     if (Mathf.Abs(myTransform.position.x - playerTransform.position.x) >=6f)
                     {
-                        status = Status.idle;
+                        status = Status.walk;
                     }
                 } 
                
