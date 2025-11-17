@@ -320,12 +320,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 61490973}
-  - component: {fileID: 61490972}
   - component: {fileID: 61490971}
   - component: {fileID: 61490970}
   - component: {fileID: 61490969}
   - component: {fileID: 61490968}
   - component: {fileID: 61490967}
+  - component: {fileID: 61490974}
   m_Layer: 8
   m_Name: Enemy_Archer
   m_TagString: Untagged
@@ -417,7 +417,7 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.2, y: -0.6}
+  m_Offset: {x: 0.09, y: -1.411111}
   m_Size: {x: 1.5, y: 1.5}
   m_Direction: 0
 --- !u!50 &61490971
@@ -447,39 +447,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &61490972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61490966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8d5c3294ee0b3247ab311a4d83e2800, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  groundCheckDistance: 0.4
-  wallCheckDistance: 0.66
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 64
-  groundCheck: {fileID: 922277283}
-  primaryWallCheck: {fileID: 61490973}
-  secondaryWallCheck: {fileID: 0}
-  battleMoveSpeed: 3
-  attackDistance: 2
-  battleTimeDuration: 5
-  minRetreatDistance: 1
-  retreaVelocity: {x: 5, y: 3}
-  moveSpeed: 1.4
-  idleTime: 2
-  moveAnimSpeedMultipller: 1
-  whatIsPlayer:
-    serializedVersion: 2
-    m_Bits: 128
-  playerCheck: {fileID: 61490973}
-  playerCheckDistance: 10
 --- !u!4 &61490973
 Transform:
   m_ObjectHideFlags: 0
@@ -498,6 +465,39 @@ Transform:
   - {fileID: 265704757}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &61490974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61490966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db9b67bcc1ec9a489731a0a20a60fa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundCheckDistance: 0
+  wallCheckDistance: 0
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 0
+  groundCheck: {fileID: 0}
+  primaryWallCheck: {fileID: 0}
+  secondaryWallCheck: {fileID: 0}
+  battleMoveSpeed: 3
+  attackDistance: 2
+  battleTimeDuration: 5
+  minRetreatDistance: 1
+  retreaVelocity: {x: 5, y: 3}
+  moveSpeed: 1.4
+  idleTime: 2
+  moveAnimSpeedMultipller: 1
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 0
+  playerCheck: {fileID: 0}
+  playerCheckDistance: 10
 --- !u!1 &67628867
 GameObject:
   m_ObjectHideFlags: 0
