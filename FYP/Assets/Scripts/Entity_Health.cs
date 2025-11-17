@@ -1,5 +1,7 @@
 using System;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Entity_Health : MonoBehaviour
 {
@@ -23,6 +25,11 @@ public class Entity_Health : MonoBehaviour
     [SerializeField] private float heavyKnockbackDuration = .5f;
     [SerializeField] private Vector2 onHeavyDamageKnockback = new Vector2(7, 7);
 
+    [Header("UI Binding (Optional)")]
+    [SerializeField] private Image healthFillImage;
+
+    private Coroutine healthBarCoroutine;
+
     protected virtual void Awake()
     {
         entity = GetComponent<Entity>();
@@ -31,6 +38,7 @@ public class Entity_Health : MonoBehaviour
         if (currentHP <= 0f || currentHP > maxHP)
             currentHP = maxHP;
 
+        OnHealthChanged += UpdateHealthBar;
         OnHealthChanged?.Invoke(currentHP, maxHP);
     }
 
@@ -79,6 +87,36 @@ public class Entity_Health : MonoBehaviour
     }
 
     private bool IsHeavyDamage(float damage) => (maxHP > 0f) && (damage / maxHP >= heavyDamageThreshold);
+
+    private void UpdateHealthBar(float current, float max)
+    {
+        if (healthFillImage != null)
+        {
+            float targetFill = current / max;
+
+            if (healthBarCoroutine != null)
+                StopCoroutine(healthBarCoroutine);
+
+            healthBarCoroutine = StartCoroutine(SmoothFill(targetFill));
+        }
+    }
+
+    private IEnumerator SmoothFill(float targetFill)
+    {
+        float duration = 0.3f; 
+        float elapsed = 0f;
+        float startFill = healthFillImage.fillAmount;
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float t = elapsed / duration;
+            healthFillImage.fillAmount = Mathf.Lerp(startFill, targetFill, t);
+            yield return null;
+        }
+
+        healthFillImage.fillAmount = targetFill; 
+    }
 
     public float CurrentHP => currentHP;
     public float MaxHP => maxHP;
