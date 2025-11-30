@@ -7,6 +7,7 @@ public class Enemy : Entity
     public Enemy_AttackState attackState;
     public Enemy_BattleState battleState;
     public Enemy_DeadStste deadState;
+    public Enemy_StunnedState stunnedState;
 
     [Header("Battle details")]
     public float battleMoveSpeed = 3;
@@ -14,6 +15,11 @@ public class Enemy : Entity
     public float battleTimeDuration = 5;
     public float minRetreatDistance = 1;
     public Vector2 retreaVelocity;
+
+    [Header("Stunned details")]
+    public float stunnedDuration = 1;
+    public Vector2 stunnedVelocity = new Vector2(7, 7);
+    [SerializeField] protected bool canBeStunned; 
 
     [Header("Movement details")]
     public float moveSpeed = 1.4f;
@@ -28,11 +34,18 @@ public class Enemy : Entity
 
     public Transform player { get; private set; }
 
+    public void EnableCounterWindow(bool enable) => canBeStunned = enable;
+
     public override void EntityDeath()
     {
         base.EntityDeath();
 
         stateMachine.ChangeState(deadState);
+    }
+
+    private void HandlePlayerDeath()
+    {
+        stateMachine.ChangeState(idleState);
     }
     public void TryEnterBattleState(Transform player)
     {
@@ -75,5 +88,15 @@ public class Enemy : Entity
         Gizmos.DrawLine(playerCheck.position, new Vector3(playerCheck.position.x + (facingDir * attackDistance), playerCheck.position.y));
         Gizmos.color = Color.green;
         Gizmos.DrawLine(playerCheck.position, new Vector3(playerCheck.position.x + (facingDir * minRetreatDistance), playerCheck.position.y));
+    }
+
+    private void OnEnable()
+    {
+        Player.OnPlayerDeath += HandlePlayerDeath;
+    }
+
+    private void OnDisable()
+    {
+        Player.OnPlayerDeath -= HandlePlayerDeath;
     }
 }
