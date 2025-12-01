@@ -21,9 +21,12 @@ public class EnemyArcher_AttackState : Enemy_AttackState
         Enemy_Archer archer = enemy as Enemy_Archer;
         if (archer == null) return;
 
-        if (archer.arrowPrefab != null && archer.firePoint != null)
+        if (archer.arrowPrefab != null)
         {
-            GameObject arrow = GameObject.Instantiate(archer.arrowPrefab, archer.firePoint.position, Quaternion.identity);
+            Vector3 firePos = archer.GetFirePoint();
+
+            GameObject arrow = GameObject.Instantiate(archer.arrowPrefab, firePos, Quaternion.identity);
+
             Arrow arrowScript = arrow.GetComponent<Arrow>();
             if (arrowScript != null)
                 arrowScript.SetDirection(enemy.facingDir);

@@ -4,7 +4,8 @@ public class Enemy_Archer : Enemy
 {
     [Header("Archer Settings")]
     public GameObject arrowPrefab;   // Drag the arrow prefab in the Inspector
-    public Transform firePoint;      // Drag the launch point (usually the front position of the bow) in the Inspector
+    public float fireOffsetX = 0.5f;
+    public float fireOffsetY = 0.3f;
 
     protected override void Awake()
     {
@@ -22,4 +23,9 @@ public class Enemy_Archer : Enemy
         base.Start();
         stateMachine.Initialize(idleState);
     }
+    public Vector3 GetFirePoint()
+    {
+        return transform.position + new Vector3(facingDir * fireOffsetX, fireOffsetY, 0f);
+    }
+
 }
