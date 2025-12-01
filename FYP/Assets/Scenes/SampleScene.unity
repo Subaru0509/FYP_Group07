@@ -8987,7 +8987,7 @@ GameObject:
   - component: {fileID: 410126904}
   m_Layer: 8
   m_Name: Arrow
-  m_TagString: Untagged
+  m_TagString: Arrow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9057,7 +9057,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -9124,15 +9124,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -7008412969330441016, guid: af828c1f28ba450b992d13b9ee378542, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 4, y: 4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &474255860
@@ -9282,7 +9282,7 @@ MonoBehaviour:
     m_Bits: 128
   playerCheck: {fileID: 497690374}
   playerCheckDistance: 10
-  arrowPrefab: {fileID: 0}
+  arrowPrefab: {fileID: 410126902}
   fireOffsetX: 0.5
   fireOffsetY: 0.3
 --- !u!114 &497690378
