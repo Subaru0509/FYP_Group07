@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 35870841}
   - component: {fileID: 35870843}
   - component: {fileID: 35870844}
-  - component: {fileID: 35870845}
+  - component: {fileID: 35870848}
   - component: {fileID: 35870846}
   - component: {fileID: 35870847}
   m_Layer: 7
@@ -259,24 +259,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.02}
   m_Size: {x: 0.9, y: 2}
   m_Direction: 0
---- !u!114 &35870845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 35870840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f445a80c9b758c4438a668cc36bc1be6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 25
-  targetCheck: {fileID: 1881420125}
-  targetCheckRadius: 1
-  whatIsTarget:
-    serializedVersion: 2
-    m_Bits: 256
 --- !u!114 &35870846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -311,6 +293,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onDamageMaterial: {fileID: 2100000, guid: 11f9cfcf70e54a8499e93674d001ee8d, type: 2}
   onDamageVFXDuration: 0.15
+--- !u!114 &35870848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35870840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6beeb4a541feeef4ab14680778edff55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+  targetCheck: {fileID: 1881420125}
+  targetCheckRadius: 1
+  whatIsTarget:
+    serializedVersion: 2
+    m_Bits: 256
+  counterDuration: 0.2
 --- !u!1 &67628867
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,6 +3,7 @@ using UnityEngine.UIElements;
 
 public class Enemy_Knight : Enemy , ICounterable
 {
+    public bool CanBeCountered { get => canBeStunned;}
 
     protected override void Awake()
     {
@@ -23,15 +24,9 @@ public class Enemy_Knight : Enemy , ICounterable
         stateMachine.Initialize(idleState);
     }
 
-    protected override void Update()
-    {
-        base.Update();
-        if (Input.GetKeyDown(KeyCode.F))
-            HandleCounter();
-    }
     public void HandleCounter()
     {
-        if (canBeStunned == false)
+        if (CanBeCountered == false)
             return;
 
         stateMachine.ChangeState(stunnedState);
