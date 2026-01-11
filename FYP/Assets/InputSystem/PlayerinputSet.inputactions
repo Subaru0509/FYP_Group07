@@ -43,9 +43,9 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "CounterAttack",
+                    "name": "Block",
                     "type": "Button",
-                    "id": "691b7a67-fb90-490e-9567-467c73fb5dac",
+                    "id": "3fbff3bc-7689-4d66-9920-cae2f078fea4",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -143,12 +143,12 @@
                 },
                 {
                     "name": "",
-                    "id": "7ac45457-3cd1-4c15-b687-12c5b9d04971",
+                    "id": "9d5f7e8a-287e-4553-9daa-a9be0ca4cb50",
                     "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "CounterAttack",
+                    "action": "Block",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

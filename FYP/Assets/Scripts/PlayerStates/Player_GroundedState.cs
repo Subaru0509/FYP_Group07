@@ -16,15 +16,14 @@ public class Player_GroundedState : PlayerState
             if(rb.velocity.y < 0 && player.groundDetected == false)
                 stateMachine.ChangeState(player.fallState);
 
-            if (input.Player.Jump.WasPressedThisFrame())
+            if (input.Player.Jump.WasPerformedThisFrame())
                 stateMachine.ChangeState(player.jumpState);
 
-            if (input.Player.Attack.WasPressedThisFrame())
+            if (input.Player.Attack.WasPerformedThisFrame())
                 stateMachine.ChangeState(player.basicAttackState);
 
-            if(input.Player.CounterAttack.WasPressedThisFrame())
-                stateMachine.ChangeState(player.counterAttackState);
-
+            if(input.Player.Block.WasPerformedThisFrame())
+                stateMachine.ChangeState(player.blockState);
 
         }
     }

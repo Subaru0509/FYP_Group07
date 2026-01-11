@@ -122,7 +122,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Frame_0
+  - name: RecoverCounterPose_Frame_0
     originalName: 
     pivot: {x: 0.725, y: -0.033333335}
     alignment: 9
@@ -133,7 +133,7 @@ ScriptedImporter:
       y: 4
       width: 40
       height: 30
-    spriteID: 2798241a70496e540a1ed09ecd1e4db0
+    spriteID: 9c7db93f7b1ad0e4ea4dea3be26d708f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,7 +142,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 80, y: 4}
-  - name: Frame_1
+  - name: RecoverCounterPose_Frame_1
     originalName: 
     pivot: {x: 0.8387096, y: -0.025641028}
     alignment: 9
@@ -153,7 +153,7 @@ ScriptedImporter:
       y: 4
       width: 31
       height: 39
-    spriteID: cd7889b15dbab214db117ed4fae6a635
+    spriteID: 0a1eede6c0dd13c47be21e78b5ee5898
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -162,7 +162,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 41, y: 4}
-  - name: Frame_2
+  - name: RecoverCounterPose_Frame_2
     originalName: 
     pivot: {x: 0.8888889, y: -0.024390245}
     alignment: 9
@@ -173,7 +173,7 @@ ScriptedImporter:
       y: 54
       width: 27
       height: 41
-    spriteID: d9c79e680430ec744ad940e5f9f70bc9
+    spriteID: 9e420c1e3e226d04ebc6dc00385c4539
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -182,7 +182,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 54}
-  - name: Frame_3
+  - name: RecoverCounterPose_Frame_3
     originalName: 
     pivot: {x: 0.9655172, y: -0.023809524}
     alignment: 9
@@ -193,7 +193,7 @@ ScriptedImporter:
       y: 4
       width: 29
       height: 42
-    spriteID: ae1db248f1241194c85d15096a9ff531
+    spriteID: 24216d7582b51474fa0a1255232c532c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       value1: 0
       value2: 0
       value3: 0
-    guid: 0
+    guid: 25761223
     name: RecoverCounterPose
     layerFlags: 0
     layerType: 0
@@ -224,7 +224,7 @@ ScriptedImporter:
         y: 1
         width: 40
         height: 30
-      spriteId: 2798241a70496e540a1ed09ecd1e4db0
+      spriteId: 9c7db93f7b1ad0e4ea4dea3be26d708f
     - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
@@ -233,7 +233,7 @@ ScriptedImporter:
         y: 1
         width: 31
         height: 39
-      spriteId: cd7889b15dbab214db117ed4fae6a635
+      spriteId: 0a1eede6c0dd13c47be21e78b5ee5898
     - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
@@ -242,7 +242,7 @@ ScriptedImporter:
         y: 1
         width: 27
         height: 41
-      spriteId: d9c79e680430ec744ad940e5f9f70bc9
+      spriteId: 9e420c1e3e226d04ebc6dc00385c4539
     - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
@@ -251,7 +251,7 @@ ScriptedImporter:
         y: 1
         width: 29
         height: 42
-      spriteId: ae1db248f1241194c85d15096a9ff531
+      spriteId: 24216d7582b51474fa0a1255232c532c
     linkedCells: []
     parentIndex: -1
   platformSettings:

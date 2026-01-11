@@ -129,9 +129,9 @@ public partial class @PlayerinputSet: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""CounterAttack"",
+                    ""name"": ""Block"",
                     ""type"": ""Button"",
-                    ""id"": ""691b7a67-fb90-490e-9567-467c73fb5dac"",
+                    ""id"": ""3fbff3bc-7689-4d66-9920-cae2f078fea4"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
@@ -229,12 +229,12 @@ public partial class @PlayerinputSet: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""7ac45457-3cd1-4c15-b687-12c5b9d04971"",
+                    ""id"": ""9d5f7e8a-287e-4553-9daa-a9be0ca4cb50"",
                     ""path"": ""<Mouse>/rightButton"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""CounterAttack"",
+                    ""action"": ""Block"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -266,7 +266,7 @@ public partial class @PlayerinputSet: IInputActionCollection2, IDisposable
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
         m_Player_Dash = m_Player.FindAction("Dash", throwIfNotFound: true);
         m_Player_Attack = m_Player.FindAction("Attack", throwIfNotFound: true);
-        m_Player_CounterAttack = m_Player.FindAction("CounterAttack", throwIfNotFound: true);
+        m_Player_Block = m_Player.FindAction("Block", throwIfNotFound: true);
     }
 
     ~@PlayerinputSet()
@@ -351,7 +351,7 @@ public partial class @PlayerinputSet: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Jump;
     private readonly InputAction m_Player_Dash;
     private readonly InputAction m_Player_Attack;
-    private readonly InputAction m_Player_CounterAttack;
+    private readonly InputAction m_Player_Block;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -380,9 +380,9 @@ public partial class @PlayerinputSet: IInputActionCollection2, IDisposable
         /// </summary>
         public InputAction @Attack => m_Wrapper.m_Player_Attack;
         /// <summary>
-        /// Provides access to the underlying input action "Player/CounterAttack".
+        /// Provides access to the underlying input action "Player/Block".
         /// </summary>
-        public InputAction @CounterAttack => m_Wrapper.m_Player_CounterAttack;
+        public InputAction @Block => m_Wrapper.m_Player_Block;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -421,9 +421,9 @@ public partial class @PlayerinputSet: IInputActionCollection2, IDisposable
             @Attack.started += instance.OnAttack;
             @Attack.performed += instance.OnAttack;
             @Attack.canceled += instance.OnAttack;
-            @CounterAttack.started += instance.OnCounterAttack;
-            @CounterAttack.performed += instance.OnCounterAttack;
-            @CounterAttack.canceled += instance.OnCounterAttack;
+            @Block.started += instance.OnBlock;
+            @Block.performed += instance.OnBlock;
+            @Block.canceled += instance.OnBlock;
         }
 
         /// <summary>
@@ -447,9 +447,9 @@ public partial class @PlayerinputSet: IInputActionCollection2, IDisposable
             @Attack.started -= instance.OnAttack;
             @Attack.performed -= instance.OnAttack;
             @Attack.canceled -= instance.OnAttack;
-            @CounterAttack.started -= instance.OnCounterAttack;
-            @CounterAttack.performed -= instance.OnCounterAttack;
-            @CounterAttack.canceled -= instance.OnCounterAttack;
+            @Block.started -= instance.OnBlock;
+            @Block.performed -= instance.OnBlock;
+            @Block.canceled -= instance.OnBlock;
         }
 
         /// <summary>
@@ -532,11 +532,11 @@ public partial class @PlayerinputSet: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnAttack(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "CounterAttack" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Block" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnCounterAttack(InputAction.CallbackContext context);
+        void OnBlock(InputAction.CallbackContext context);
     }
 }
