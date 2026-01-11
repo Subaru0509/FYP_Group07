@@ -12,6 +12,9 @@ public class Entity_Health : MonoBehaviour, IDamagable
     [SerializeField] protected float currentHP = 0f;
     [SerializeField] protected bool isDead;
 
+    [Header("UI")]
+    [SerializeField] private HealthBar healthBar;
+
     [Header("On Damage Knockback")]
     [SerializeField] private float knockbackDuration = .2f;
     [SerializeField] private Vector2 onDamageKnockback = new Vector2(1.5f, 2f);
@@ -29,6 +32,9 @@ public class Entity_Health : MonoBehaviour, IDamagable
 
         if (currentHP <= 0f || currentHP > maxHP)
             currentHP = maxHP;
+
+        if (healthBar != null)
+            healthBar.SetMaxHealth(maxHP);
     }
 
     public virtual void TakeDamage(float damage, Transform damageDealer)
@@ -48,6 +54,9 @@ public class Entity_Health : MonoBehaviour, IDamagable
     {
         currentHP -= damage;
         currentHP = Mathf.Max(currentHP, 0f);
+
+        if (healthBar != null)
+            healthBar.SetHealth(currentHP, maxHP);
 
         if (currentHP <= 0f)
             Die();
