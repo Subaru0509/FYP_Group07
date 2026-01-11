@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 35870848}
   - component: {fileID: 35870846}
   - component: {fileID: 35870847}
+  - component: {fileID: 35870849}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -306,13 +307,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6beeb4a541feeef4ab14680778edff55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 25
   targetCheck: {fileID: 1881420125}
   targetCheckRadius: 1
   whatIsTarget:
     serializedVersion: 2
     m_Bits: 256
   counterRecovery: 0.2
+--- !u!114 &35870849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35870840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a255f61a798baad44a6e4e10cdce7c63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxStamina: 100
+  dashStaminaCost: 25
+  staminaRegenRate: 15
+  regenDelay: 1
+  staminaBar: {fileID: 392281144}
 --- !u!1 &67628867
 GameObject:
   m_ObjectHideFlags: 0
@@ -9237,6 +9255,7 @@ GameObject:
   - component: {fileID: 392281143}
   - component: {fileID: 392281142}
   - component: {fileID: 392281141}
+  - component: {fileID: 392281144}
   m_Layer: 5
   m_Name: Bar (Power)
   m_TagString: Untagged
@@ -9328,6 +9347,20 @@ MonoBehaviour:
   onChange:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &392281144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392281139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e2110b100b1a64a8013f69fad5c777, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fillImage: {fileID: 1994472185}
+  smoothSpeed: 5
 --- !u!1 &395322479
 GameObject:
   m_ObjectHideFlags: 0
@@ -10009,7 +10042,7 @@ MonoBehaviour:
   battleTimeDuration: 5
   minRetreatDistance: 1
   retreaVelocity: {x: 5, y: 3}
-  stunnedDuration: 0.6
+  stunnedDuration: 1
   stunnedVelocity: {x: 3, y: 3}
   canBeStunned: 0
   moveSpeed: 1.4
@@ -10135,10 +10168,10 @@ MonoBehaviour:
   currentHP: 0
   isDead: 0
   healthBar: {fileID: 0}
-  knockbackDuration: 0.2
+  knockbackDuration: 1.3
   onDamageKnockback: {x: 1.5, y: 2}
   heavyDamageThreshold: 0.3
-  heavyKnockbackDuration: 0.5
+  heavyKnockbackDuration: 2
   onHeavyDamageKnockback: {x: 7, y: 7}
 --- !u!114 &653583370
 MonoBehaviour:
@@ -10375,6 +10408,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2619490695064194281, guid: c15a25a2cdea42c458cb679173f943e3, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2619490695064194287, guid: c15a25a2cdea42c458cb679173f943e3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -10430,6 +10467,10 @@ PrefabInstance:
     - target: {fileID: 2619490695355642841, guid: c15a25a2cdea42c458cb679173f943e3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2619490695355642847, guid: c15a25a2cdea42c458cb679173f943e3, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2619490695355642853, guid: c15a25a2cdea42c458cb679173f943e3, type: 3}
       propertyPath: m_AnchorMax.y

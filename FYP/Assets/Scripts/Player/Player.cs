@@ -40,10 +40,13 @@ public class Player : Entity
     public float dashSpeed = 20;
     public Vector2 moveInput { get; private set; }
 
+    public PlayerStamina stamina { get; private set; }
+
     protected override void Awake()
     {
         base.Awake();
         input = new PlayerinputSet();
+        stamina = GetComponent<PlayerStamina>();
         idleState = new Player_IdleState(this, stateMachine, "idle");
         moveState = new Player_MoveState(this, stateMachine, "move");
         jumpState = new Player_JumpState(this, stateMachine, "jumpFall");

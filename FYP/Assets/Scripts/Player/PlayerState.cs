@@ -20,7 +20,13 @@ public abstract class PlayerState : EntityState
         base.Update();
 
         if (input.Player.Dash.WasPressedThisFrame() && CanDash())
+        {
+            // 消耗精力进行冲刺
+            if (player.stamina != null)
+                player.stamina.UseStaminaForDash();
+            
             stateMachine.ChangeState(player.dashState);
+        }
     }
 
     public override void UpdateAnimationParameters()
@@ -37,8 +43,11 @@ public abstract class PlayerState : EntityState
             return false;
 
         if (stateMachine.currentState == player.dashState)
-            return true;
+            return false;
 
+        // 检查是否有足够的精力进行冲刺
+        if (player.stamina != null && !player.stamina.HasEnoughStaminaToDash())
+            return false;
 
         return true;
     }
