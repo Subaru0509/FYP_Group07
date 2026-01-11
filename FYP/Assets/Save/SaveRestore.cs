@@ -1,26 +1,20 @@
 using UnityEngine;
+using System.Collections;
 
 public class SaveRestore : MonoBehaviour
 {
-    private Player player;
-
-    private void Awake()
+    private IEnumerator Start()
     {
-        player = GetComponent<Player>();
-    }
+        yield return new WaitUntil(() => UIManager.Instance != null);
 
-    private void Start()
-    {
         SaveData data = SaveManager.Load();
-        if (data == null) return;
+        if (data == null) yield break;
 
-        player.transform.position = data.playerPosition;
+        transform.position = data.playerPosition;
 
-        var health = player.GetComponent<Entity_Health>();
+        var health = GetComponent<Entity_Health>();
         if (health != null)
-        {
             health.SetHealth(data.playerHP);
-        }
 
         UIManager.Instance.SetPotionCount(data.potionCount);
     }

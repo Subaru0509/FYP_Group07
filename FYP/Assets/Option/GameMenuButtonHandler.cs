@@ -7,9 +7,7 @@ public class GameMenuButtonHandler : MonoBehaviour
     public void ResumeGame()
     {
         if (UIWindowManager.Instance != null)
-        {
             UIWindowManager.Instance.ResumeGame();
-        }
     }
 
     public void LogoutToMenu()
@@ -21,7 +19,6 @@ public class GameMenuButtonHandler : MonoBehaviour
 
         SceneLoader.LoadScene("Menu");
     }
-
 
     public void OpenOptions()
     {

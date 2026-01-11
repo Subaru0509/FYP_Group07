@@ -1,9 +1,11 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class ResolutionSelector : MonoBehaviour
 {
     public TMP_Dropdown resolutionDropdown;
+    public Toggle fullscreenToggle;
 
     private Resolution[] availableResolutions = new Resolution[]
     {
@@ -15,7 +17,8 @@ public class ResolutionSelector : MonoBehaviour
     void Start()
     {
         resolutionDropdown.onValueChanged.AddListener(OnResolutionChanged);
-        Debug.Log("Resolution dropdown initialized");
+        fullscreenToggle.onValueChanged.AddListener(OnFullscreenChanged);
+        Debug.Log("Resolution + Fullscreen initialized");
     }
 
     void OnResolutionChanged(int index)
@@ -23,8 +26,20 @@ public class ResolutionSelector : MonoBehaviour
         if (index >= 0 && index < availableResolutions.Length)
         {
             Resolution res = availableResolutions[index];
-            Debug.Log("Resolution changed to: " + res.width + "x" + res.height);
-            Screen.SetResolution(res.width, res.height, FullScreenMode.Windowed);
+            bool isFullscreen = fullscreenToggle.isOn;
+            Screen.SetResolution(res.width, res.height, isFullscreen);
+            Debug.Log("Resolution set to: " + res.width + "x" + res.height + " Fullscreen: " + isFullscreen);
+        }
+    }
+
+    void OnFullscreenChanged(bool isFullscreen)
+    {
+        int index = resolutionDropdown.value;
+        if (index >= 0 && index < availableResolutions.Length)
+        {
+            Resolution res = availableResolutions[index];
+            Screen.SetResolution(res.width, res.height, isFullscreen);
+            Debug.Log("Fullscreen toggled: " + isFullscreen);
         }
     }
 }
