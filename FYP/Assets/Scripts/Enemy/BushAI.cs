@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class BushAI : MonoBehaviour
 {
-    public float moveSpeed = 2f;          // 行走速度
-    public float attackRange = 1.5f;      // 攻击范围
-    public float detectRange = 5f;        // 侦测范围
-    public int maxHealth = 100;           // 最大血量
+    public float moveSpeed = 2f;         
+    public float attackRange = 1.5f;      
+    public float detectRange = 5f;        
+    public int maxHealth = 100;           
     private int currentHealth;
 
     private Transform player;
@@ -25,7 +25,7 @@ public class BushAI : MonoBehaviour
 
         float distance = Vector2.Distance(transform.position, player.position);
 
-        // 距离检测
+        // Distance detection
         if (distance <= attackRange)
         {
             Attack();
@@ -50,7 +50,7 @@ public class BushAI : MonoBehaviour
     void Attack()
     {
         animator.Play("Attack");
-        // 在动画事件里触发伤害判定
+        // Trigger damage judgment in animation events
     }
 
     void Idle()
