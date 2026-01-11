@@ -15,8 +15,13 @@ public class Chest : MonoBehaviour, IDamagable
     [SerializeField] private GameObject potionPrefab;
     [SerializeField] private Transform spawnPoint;
 
+    private bool isOpened = false;
+
     public void TakeDamage(float damage, Transform damageDealer)
     {
+        if (isOpened) return; 
+
+        isOpened = true;
         fx.PlayOnDamageVfx();
         anim.SetBool("chestOpen", true);
         rb.velocity = knockback;
