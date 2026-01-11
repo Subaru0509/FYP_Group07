@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BushMove
+  m_Name: BushIdle
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -20,13 +20,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -2978808618200810919, guid: 5bc16091f47e4e8498fff672edb4c440, type: 3}
+      value: {fileID: 4723107735738678597, guid: 5bc16091f47e4e8498fff672edb4c440, type: 3}
     - time: 0.13333334
-      value: {fileID: 7683567802946276634, guid: 5bc16091f47e4e8498fff672edb4c440, type: 3}
+      value: {fileID: -7385789195546760866, guid: 5bc16091f47e4e8498fff672edb4c440, type: 3}
     - time: 0.28333333
-      value: {fileID: 4149154237482698375, guid: 5bc16091f47e4e8498fff672edb4c440, type: 3}
+      value: {fileID: 3234629978573100161, guid: 5bc16091f47e4e8498fff672edb4c440, type: 3}
     - time: 0.41666666
-      value: {fileID: -7736129105856362428, guid: 5bc16091f47e4e8498fff672edb4c440, type: 3}
+      value: {fileID: 6373048116405451881, guid: 5bc16091f47e4e8498fff672edb4c440, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -46,10 +46,10 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -2978808618200810919, guid: 5bc16091f47e4e8498fff672edb4c440, type: 3}
-    - {fileID: 7683567802946276634, guid: 5bc16091f47e4e8498fff672edb4c440, type: 3}
-    - {fileID: 4149154237482698375, guid: 5bc16091f47e4e8498fff672edb4c440, type: 3}
-    - {fileID: -7736129105856362428, guid: 5bc16091f47e4e8498fff672edb4c440, type: 3}
+    - {fileID: 4723107735738678597, guid: 5bc16091f47e4e8498fff672edb4c440, type: 3}
+    - {fileID: -7385789195546760866, guid: 5bc16091f47e4e8498fff672edb4c440, type: 3}
+    - {fileID: 3234629978573100161, guid: 5bc16091f47e4e8498fff672edb4c440, type: 3}
+    - {fileID: 6373048116405451881, guid: 5bc16091f47e4e8498fff672edb4c440, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
