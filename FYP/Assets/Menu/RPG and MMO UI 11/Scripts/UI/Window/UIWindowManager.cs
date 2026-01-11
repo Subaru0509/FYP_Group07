@@ -14,33 +14,33 @@ namespace DuloGames.UI
         public string escapeInputName { get { return this.m_EscapeInputName; } }
         public bool escapedUsed { get { return this.m_EscapeUsed; } }
 
+        public GameObject gameMenuWindow;
+
         protected virtual void Awake()
         {
-            if (m_Instance == null) m_Instance = this;
-            else Destroy(this.gameObject);
+            if (m_Instance == null)
+            {
+                m_Instance = this;
+            }
+            else
+            {
+                Destroy(this.gameObject);
+            }
         }
 
         protected virtual void OnDestroy()
         {
-            if (m_Instance.Equals(this)) m_Instance = null;
+            if (m_Instance != null && m_Instance.Equals(this))
+                m_Instance = null;
         }
 
         protected virtual void Update()
         {
-            if (this.m_EscapeUsed) this.m_EscapeUsed = false;
+            if (this.m_EscapeUsed)
+                this.m_EscapeUsed = false;
 
             if (Input.GetButtonDown(this.m_EscapeInputName))
             {
-                UIModalBox[] modalBoxes = FindObjectsOfType<UIModalBox>();
-                if (modalBoxes.Length > 0)
-                {
-                    foreach (UIModalBox box in modalBoxes)
-                    {
-                        if (box.isActive && box.isActiveAndEnabled && box.gameObject.activeInHierarchy)
-                            return;
-                    }
-                }
-
                 List<UIWindow> windows = UIWindow.GetWindows();
 
                 foreach (UIWindow window in windows)
@@ -55,14 +55,35 @@ namespace DuloGames.UI
                     }
                 }
 
-                if (this.m_EscapeUsed) return;
+                if (this.m_EscapeUsed)
+                {
+                    ResumeGame();
+                    return;
+                }
 
                 foreach (UIWindow window in windows)
                 {
                     if (!window.IsOpen && window.escapeKeyAction == UIWindow.EscapeKeyAction.Toggle)
                     {
                         window.Show();
+                        if (gameMenuWindow != null) gameMenuWindow.SetActive(true);
+                        Time.timeScale = 0f;
                     }
+                }
+            }
+        }
+
+        public void ResumeGame()
+        {
+            Time.timeScale = 1f;
+            if (gameMenuWindow != null) gameMenuWindow.SetActive(false);
+
+            List<UIWindow> windows = UIWindow.GetWindows();
+            foreach (UIWindow window in windows)
+            {
+                if (window.IsOpen)
+                {
+                    window.Hide();
                 }
             }
         }

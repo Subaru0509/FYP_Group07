@@ -1,12 +1,15 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using DuloGames.UI;
 
 public class GameMenuButtonHandler : MonoBehaviour
 {
     public void ResumeGame()
     {
-        Time.timeScale = 1f;
-        gameObject.SetActive(false);
+        if (UIWindowManager.Instance != null)
+        {
+            UIWindowManager.Instance.ResumeGame();
+        }
     }
 
     public void LogoutToMenu()
