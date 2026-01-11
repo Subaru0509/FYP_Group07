@@ -274,6 +274,7 @@ MonoBehaviour:
   maxHP: 100
   currentHP: 0
   isDead: 0
+  healthBar: {fileID: 1479097397}
   knockbackDuration: 0.2
   onDamageKnockback: {x: 1.5, y: 2}
   heavyDamageThreshold: 0.3
@@ -10133,6 +10134,7 @@ MonoBehaviour:
   maxHP: 100
   currentHP: 0
   isDead: 0
+  healthBar: {fileID: 0}
   knockbackDuration: 0.2
   onDamageKnockback: {x: 1.5, y: 2}
   heavyDamageThreshold: 0.3
@@ -12126,6 +12128,7 @@ GameObject:
   - component: {fileID: 1479097396}
   - component: {fileID: 1479097395}
   - component: {fileID: 1479097394}
+  - component: {fileID: 1479097397}
   m_Layer: 5
   m_Name: Bar (Health)
   m_TagString: Untagged
@@ -12215,6 +12218,20 @@ MonoBehaviour:
   onChange:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1479097397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479097391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f88c2b1c6c4fd428883bb21537e8b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fillImage: {fileID: 1922785090}
+  smoothSpeed: 5
 --- !u!1 &1500311378
 GameObject:
   m_ObjectHideFlags: 0
