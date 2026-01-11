@@ -18,6 +18,7 @@ public class Player : Entity
     public Player_JumpAttackState jumpAttackState { get; private set; }
     public Player_DeadState deadState { get; private set; }
     public Player_CounterAttackState counterAttackState { get; private set; }
+    public Player_HealState healState { get; private set; }
 
     public Vector2[] attackVelocity;
     public Vector2 jumpAttackVelocity;
@@ -61,6 +62,7 @@ public class Player : Entity
         jumpAttackState = new Player_JumpAttackState(this, stateMachine, "jumpAttack");
         deadState = new Player_DeadState(this, stateMachine, "dead");
         counterAttackState = new Player_CounterAttackState(this, stateMachine, "counterAttack");
+        healState = new Player_HealState(this, stateMachine, "heal");
     }
 
     protected override void Start()
@@ -105,9 +107,17 @@ public class Player : Entity
 
     private void UsePotion()
     {
+        // 检查是否可以使用药水（不在治疗状态、死亡状态等）
+        if (stateMachine.currentState == healState || 
+            stateMachine.currentState == deadState ||
+            stateMachine.currentState == dashState)
+            return;
+
         bool used = UIManager.Instance.UsePotion();
         if (used && health != null)
         {
+            // 切换到治疗状态播放动画
+            stateMachine.ChangeState(healState);
             health.IncreaseHealth(20);
         }
     }
