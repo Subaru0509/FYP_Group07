@@ -6,7 +6,7 @@ using UnityEngine;
 public class Player_Combat : Entity_Combat
 {
     [Header("Counter Attack Details")]
-    [SerializeField] private float counterDuration = .1f;
+    [SerializeField] private float counterRecovery = .1f;
     public bool CounterAttackPerformed()
     {
         bool hasPerformedCounter = false;
@@ -27,5 +27,5 @@ public class Player_Combat : Entity_Combat
         return hasPerformedCounter;
     }
     
-    public float GetCounterDuration() => counterDuration;
+    public float GetCounterRecoveryDuration() => counterRecovery;
 }
