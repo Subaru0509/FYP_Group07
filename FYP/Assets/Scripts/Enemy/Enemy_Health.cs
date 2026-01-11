@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy_Health : Entity_Health
@@ -8,7 +6,7 @@ public class Enemy_Health : Entity_Health
 
     public override void TakeDamage(float damage, Transform damageDealer)
     {
-        if(damageDealer != null && damageDealer.CompareTag("Player"))
+        if (damageDealer != null && damageDealer.CompareTag("Player"))
             enemy?.TryEnterBattleState(damageDealer);
 
         base.TakeDamage(damage, damageDealer);
