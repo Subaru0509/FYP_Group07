@@ -532,18 +532,6 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: block
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: blockTrigger
-    m_Type: 9
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
   - m_Name: counterTrigger
     m_Type: 9
     m_DefaultFloat: 0
@@ -1014,7 +1002,7 @@ AnimatorStateMachine:
     m_Position: {x: 280, y: 670, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3296511558728272489}
-    m_Position: {x: 690, y: 670, z: 0}
+    m_Position: {x: 640, y: 660, z: 0}
   m_ChildStateMachines:
   - serializedVersion: 1
     m_StateMachine: {fileID: 6367012483017982998}

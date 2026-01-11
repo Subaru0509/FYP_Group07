@@ -15,7 +15,7 @@ public class Player_Combat : Entity_Combat
         {
             ICounterable counterable = target.GetComponent<ICounterable>();
 
-            if (counterable != null)
+            if (counterable == null)
                 continue;
 
             if (counterable.CanBeCountered)
