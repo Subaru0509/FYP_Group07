@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using UnityEngine;
 
+
+
 public class Player : Entity
 {
     public static event Action OnPlayerDeath;
@@ -94,4 +96,6 @@ public class Player : Entity
     {
         input.Disable();
     }
+
+    
 }
