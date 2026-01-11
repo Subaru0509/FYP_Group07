@@ -11060,6 +11060,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8245096023859147944, guid: 02abf84a7b12b7b4d99dc601cdce6bc3, type: 3}
+      propertyPath: damage
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8245096023859147947, guid: 02abf84a7b12b7b4d99dc601cdce6bc3, type: 3}
+      propertyPath: maxHP
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 8245096023859147948, guid: 02abf84a7b12b7b4d99dc601cdce6bc3, type: 3}
       propertyPath: m_Name
       value: Enemy_Bush
