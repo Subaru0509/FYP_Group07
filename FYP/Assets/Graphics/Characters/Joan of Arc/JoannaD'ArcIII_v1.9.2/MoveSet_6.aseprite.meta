@@ -21,13 +21,11 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
-    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMipmapLimit: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -450,7 +448,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: MoveSet_6_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -459,7 +457,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 3725c3b37a0a7f74a80eacd7386268f5
-    - name: MoveSet_6_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -468,7 +466,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 7aca8e10917b0b348b76025d20e20d06
-    - name: MoveSet_6_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -477,7 +475,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 1cb822c12589cdc40a47812302ea244e
-    - name: MoveSet_6_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -486,7 +484,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: e0dafef11a9972c42ac4559467c6dbc1
-    - name: MoveSet_6_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -495,7 +493,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: f07c203cc04a12943af0b5e92d2f6a7e
-    - name: MoveSet_6_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -504,7 +502,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 429e5de6b290977468166f57d4d92ef6
-    - name: MoveSet_6_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -513,7 +511,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: f8b4dceed48a83d49b47fb2049daa870
-    - name: MoveSet_6_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -522,7 +520,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: a87ed0538fe0eca429506141b8fbba9e
-    - name: MoveSet_6_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -531,7 +529,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: bd2beb95a440fd741ae511a811714b20
-    - name: MoveSet_6_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -540,7 +538,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 0d6478303c74d5f469fe3b1534d6f742
-    - name: MoveSet_6_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -549,7 +547,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 7f2d6ee99f4e9184593e04f0d3981ee2
-    - name: MoveSet_6_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -558,7 +556,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 6083f45fc4824ed42922188fbea96ae9
-    - name: MoveSet_6_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -567,7 +565,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: b246da2e6188b7b4cae24deaae6b8b9c
-    - name: MoveSet_6_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -576,7 +574,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: 4e1e59a4239e0ef469b6d347de6f023b
-    - name: MoveSet_6_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -585,7 +583,7 @@ ScriptedImporter:
         width: 128
         height: 144
       spriteId: ca6c5c04e0951634b9a4bcd1b5fa5adc
-    - name: MoveSet_6_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -599,7 +597,6 @@ ScriptedImporter:
   platformSettings:
   - name: Default
     overridden: 0
-    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1

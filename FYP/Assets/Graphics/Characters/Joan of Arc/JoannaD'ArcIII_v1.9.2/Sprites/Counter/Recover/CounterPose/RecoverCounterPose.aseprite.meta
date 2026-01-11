@@ -21,13 +21,11 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
-    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMipmapLimit: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -210,7 +208,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: RecoverCounterPose_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -219,7 +217,7 @@ ScriptedImporter:
         width: 40
         height: 30
       spriteId: 1fbe893bd96761a42afcd69e47066483
-    - name: RecoverCounterPose_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -228,7 +226,7 @@ ScriptedImporter:
         width: 31
         height: 39
       spriteId: 799533dd639e916479bcdd0e275a917a
-    - name: RecoverCounterPose_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -237,7 +235,7 @@ ScriptedImporter:
         width: 27
         height: 41
       spriteId: 3d162f6e9ac198a45859bfd90cc7e1e9
-    - name: RecoverCounterPose_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -251,7 +249,6 @@ ScriptedImporter:
   platformSettings:
   - name: Default
     overridden: 0
-    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
