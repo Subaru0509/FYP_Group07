@@ -15,8 +15,13 @@ public class GameMenuButtonHandler : MonoBehaviour
     public void LogoutToMenu()
     {
         Time.timeScale = 1f;
+
+        Player player = FindObjectOfType<Player>();
+        SaveHelper.SaveGame(player);
+
         SceneLoader.LoadScene("Menu");
     }
+
 
     public void OpenOptions()
     {

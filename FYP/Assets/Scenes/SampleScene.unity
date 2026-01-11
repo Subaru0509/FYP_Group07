@@ -138,6 +138,7 @@ GameObject:
   - component: {fileID: 35870846}
   - component: {fileID: 35870847}
   - component: {fileID: 35870849}
+  - component: {fileID: 35870850}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -331,6 +332,18 @@ MonoBehaviour:
   staminaRegenRate: 15
   regenDelay: 1
   staminaBar: {fileID: 392281144}
+--- !u!114 &35870850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35870840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0d9b77af2985f941a2996a4a0364fe9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &67628867
 GameObject:
   m_ObjectHideFlags: 0
@@ -10431,6 +10444,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2619490695040197997, guid: c15a25a2cdea42c458cb679173f943e3, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2619490695064194259, guid: c15a25a2cdea42c458cb679173f943e3, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -10940,7 +10957,13 @@ PrefabInstance:
       value: 0.2901961
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2619490695024568414, guid: c15a25a2cdea42c458cb679173f943e3, type: 3}
+    - {fileID: 2619490695423354351, guid: c15a25a2cdea42c458cb679173f943e3, type: 3}
+    - {fileID: 2619490696184167292, guid: c15a25a2cdea42c458cb679173f943e3, type: 3}
+    - {fileID: 2619490696201933560, guid: c15a25a2cdea42c458cb679173f943e3, type: 3}
+    - {fileID: 2619490695040197972, guid: c15a25a2cdea42c458cb679173f943e3, type: 3}
+    - {fileID: 2619490696358020170, guid: c15a25a2cdea42c458cb679173f943e3, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2619490696152752113, guid: c15a25a2cdea42c458cb679173f943e3, type: 3}
       insertIndex: -1
