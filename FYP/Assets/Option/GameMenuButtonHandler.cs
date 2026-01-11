@@ -7,14 +7,16 @@ public class GameMenuButtonHandler : MonoBehaviour
     public void ResumeGame()
     {
         if (UIWindowManager.Instance != null)
-        {
             UIWindowManager.Instance.ResumeGame();
-        }
     }
 
     public void LogoutToMenu()
     {
         Time.timeScale = 1f;
+
+        Player player = FindObjectOfType<Player>();
+        SaveHelper.SaveGame(player);
+
         SceneLoader.LoadScene("Menu");
     }
 

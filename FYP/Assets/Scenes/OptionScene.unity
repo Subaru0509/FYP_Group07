@@ -3674,6 +3674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resolutionDropdown: {fileID: 1433491099}
+  fullscreenToggle: {fileID: 252613617}
 --- !u!114 &1594144825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3686,7 +3687,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860ea55cacd65d9419a0d42b65d58e2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bgmSource: {fileID: 0}
   musicSlider: {fileID: 1897272274}
   muteToggle: {fileID: 1466588315}
 --- !u!1 &1632939256

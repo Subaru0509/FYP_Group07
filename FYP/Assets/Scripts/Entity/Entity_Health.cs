@@ -73,6 +73,19 @@ public class Entity_Health : MonoBehaviour, IDamagable
             healthBar.SetHealth(currentHP, maxHP);
     }
 
+    public void SetHealth(float value)
+    {
+        if (isDead) return;
+
+        currentHP = Mathf.Clamp(value, 0f, maxHP);
+
+        if (healthBar != null)
+            healthBar.SetHealth(currentHP, maxHP);
+
+        if (currentHP <= 0f)
+            Die();
+    }
+
     private void Die()
     {
         if (isDead) return;
