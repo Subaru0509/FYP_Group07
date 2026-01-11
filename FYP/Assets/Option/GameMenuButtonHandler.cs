@@ -15,13 +15,13 @@ public class GameMenuButtonHandler : MonoBehaviour
     public void LogoutToMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Menu");
+        SceneLoader.LoadScene("Menu");
     }
 
     public void OpenOptions()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("OptionScene");
+        SceneLoader.LoadScene("OptionScene");
     }
 
     public void ExitGame()

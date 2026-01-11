@@ -1,21 +1,20 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MenuButtonHandler : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneLoader.LoadScene("SampleScene");
     }
 
     public void ContinueGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneLoader.LoadScene("SampleScene");
     }
 
     public void OpenOptions()
     {
-        SceneManager.LoadScene("OptionScene");
+        SceneLoader.LoadScene("OptionScene");
     }
 
     public void ExitGame()
