@@ -62,6 +62,17 @@ public class Entity_Health : MonoBehaviour, IDamagable
             Die();
     }
 
+    public void IncreaseHealth(float amount)
+    {
+        if (isDead) return;
+
+        currentHP += amount;
+        currentHP = Mathf.Min(currentHP, maxHP);
+
+        if (healthBar != null)
+            healthBar.SetHealth(currentHP, maxHP);
+    }
+
     private void Die()
     {
         if (isDead) return;

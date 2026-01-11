@@ -1,8 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
-
-
+using UnityEngine.InputSystem;
 
 public class Player : Entity
 {
@@ -20,14 +19,12 @@ public class Player : Entity
     public Player_DeadState deadState { get; private set; }
     public Player_CounterAttackState counterAttackState { get; private set; }
 
-    [Header("Attack details")]
     public Vector2[] attackVelocity;
     public Vector2 jumpAttackVelocity;
     public float attackVelocityDuration = .1f;
     public float comboResetTime = 1;
     private Coroutine queuedAttackCo;
 
-    [Header("Movement details")]
     public float moveSpeed;
     public float jumpForce = 5;
     public Vector2 wallJumpForce;
@@ -35,18 +32,24 @@ public class Player : Entity
     public float inAirMoveMultiplier = .7f;
     [Range(0, 1)]
     public float wallSlideSlowMultiplier = .7f;
-    [Space]
     public float dashDuration = .25f;
     public float dashSpeed = 20;
     public Vector2 moveInput { get; private set; }
 
     public PlayerStamina stamina { get; private set; }
+    private Entity_Health health;
+    private InputAction usePotionAction;
 
     protected override void Awake()
     {
         base.Awake();
         input = new PlayerinputSet();
         stamina = GetComponent<PlayerStamina>();
+        health = GetComponent<Entity_Health>();
+
+        usePotionAction = new InputAction(type: InputActionType.Button, binding: "<Keyboard>/r");
+        usePotionAction.performed += ctx => UsePotion();
+
         idleState = new Player_IdleState(this, stateMachine, "idle");
         moveState = new Player_MoveState(this, stateMachine, "move");
         jumpState = new Player_JumpState(this, stateMachine, "jumpFall");
@@ -91,12 +94,21 @@ public class Player : Entity
         input.Enable();
         input.Player.Movement.performed += contex => moveInput = contex.ReadValue<Vector2>();
         input.Player.Movement.canceled += contex => moveInput = Vector2.zero;
+        usePotionAction.Enable();
     }
 
     private void OnDisable()
     {
         input.Disable();
+        usePotionAction.Disable();
     }
 
-    
+    private void UsePotion()
+    {
+        bool used = UIManager.Instance.UsePotion();
+        if (used && health != null)
+        {
+            health.IncreaseHealth(20);
+        }
+    }
 }
