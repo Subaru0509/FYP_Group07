@@ -3626,6 +3626,7 @@ GameObject:
   - component: {fileID: 1594144823}
   - component: {fileID: 1594144822}
   - component: {fileID: 1594144824}
+  - component: {fileID: 1594144825}
   m_Layer: 0
   m_Name: SceneController
   m_TagString: Untagged
@@ -3673,6 +3674,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resolutionDropdown: {fileID: 1433491099}
+--- !u!114 &1594144825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594144821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 860ea55cacd65d9419a0d42b65d58e2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bgmSource: {fileID: 0}
+  musicSlider: {fileID: 1897272274}
+  muteToggle: {fileID: 1466588315}
 --- !u!1 &1632939256
 GameObject:
   m_ObjectHideFlags: 0
