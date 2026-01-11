@@ -388,6 +388,8 @@ GameObject:
   - component: {fileID: 108611075}
   - component: {fileID: 108611074}
   - component: {fileID: 108611073}
+  - component: {fileID: 108611080}
+  - component: {fileID: 108611079}
   m_Layer: 8
   m_Name: Enemy_Goblin
   m_TagString: Untagged
@@ -445,7 +447,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 25
   targetCheck: {fileID: 991603885}
-  targetCheckRadius: 1
+  targetCheckRadius: 1.39
   whatIsTarget:
     serializedVersion: 2
     m_Bits: 128
@@ -520,7 +522,7 @@ Transform:
   m_GameObject: {fileID: 108611072}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.62, y: 0.13, z: -0.1431163}
+  m_LocalPosition: {x: 1.38, y: -0.18, z: -0.1431163}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -530,6 +532,69 @@ Transform:
   - {fileID: 1198991050}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &108611079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108611072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f62f65684ade1241b99e4c0a212d9aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &108611080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108611072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa360456169305241a0d13c073804131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundCheckDistance: 0.99
+  wallCheckDistance: 1.02
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
+  groundCheck: {fileID: 402622182}
+  primaryWallCheck: {fileID: 108611078}
+  secondaryWallCheck: {fileID: 0}
+  battleMoveSpeed: 4
+  attackDistance: 2.5
+  battleTimeDuration: 8
+  minRetreatDistance: 1.5
+  retreatVelocity: {x: 5, y: 3}
+  attackCooldown: 1
+  attack1Chance: 50
+  attack2Chance: 35
+  attack3Chance: 15
+  attack1Damage: 1
+  attack2Damage: 2
+  attack3Damage: 3
+  currentAttackIndex: 0
+  currentAttackDamage: 1
+  stunnedDuration: 2
+  stunnedVelocity: {x: 5, y: 5}
+  canBeStunned: 0
+  tiredDuration: 3
+  attacksBeforeTired: 6
+  attackCounter: 0
+  moveSpeed: 2
+  idleTime: 1.5
+  moveAnimSpeedMultiplier: 1
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 128
+  playerCheck: {fileID: 502047830}
+  playerCheckDistance: 15
+  maxPhase: 2
+  currentPhase: 1
+  phase2HealthThreshold: 0.5
 --- !u!1 &184995425
 GameObject:
   m_ObjectHideFlags: 0
@@ -976,7 +1041,7 @@ Transform:
   m_GameObject: {fileID: 402622181}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.83, y: -1.22, z: 0}
+  m_LocalPosition: {x: 1.18, y: -1.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1257,7 +1322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1558a9db1928374990c8078b7d2197b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 100
+  maxHP: 1000
   currentHP: 0
   isDead: 0
   healthBar: {fileID: 2147109606}
@@ -1666,7 +1731,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &625321870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1828,7 +1893,7 @@ Transform:
   m_GameObject: {fileID: 625321869}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.91, y: 0.13, z: -0.1431163}
+  m_LocalPosition: {x: 6.18, y: 0.13, z: -0.1431163}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

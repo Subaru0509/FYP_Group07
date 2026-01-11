@@ -10,20 +10,21 @@ public class Boss_AttackState : BossState
 
     public override void Enter()
     {
-        base.Enter();
-
-        // 面向玩家
-        boss.HandleFlip(DirectionToPlayer());
-        boss.SetVelocity(0, 0);
-
-        // 根据概率选择攻击类型
+        // 根据概率选择攻击类型（必须在 base.Enter() 之前设置，否则 Blend Tree 无法正确选择动画）
         attackIndex = SelectAttackByProbability();
         boss.currentAttackIndex = attackIndex;
         
         // 设置对应的伤害值
         boss.currentAttackDamage = GetAttackDamage(attackIndex);
         
-        anim.SetInteger("comboIndex", attackIndex);
+        // 先设置 comboIndex，再调用 base.Enter() 触发动画
+        anim.SetFloat("comboIndex", attackIndex);
+        
+        base.Enter();
+
+        // 面向玩家
+        boss.HandleFlip(DirectionToPlayer());
+        boss.SetVelocity(0, 0);
 
         // 增加攻击计数
         boss.IncrementAttackCounter();

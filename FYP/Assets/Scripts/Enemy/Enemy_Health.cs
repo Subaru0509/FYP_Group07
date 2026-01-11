@@ -8,8 +8,8 @@ public class Enemy_Health : Entity_Health
 
     public override void TakeDamage(float damage, Transform damageDealer)
     {
-        if(damageDealer.CompareTag("Player"))
-            enemy.TryEnterBattleState(damageDealer);
+        if(damageDealer != null && damageDealer.CompareTag("Player"))
+            enemy?.TryEnterBattleState(damageDealer);
 
         base.TakeDamage(damage, damageDealer);
     }
