@@ -28,6 +28,9 @@ public class Boss_AttackState : BossState
 
         // 增加攻击计数
         boss.IncrementAttackCounter();
+
+        // 攻击开始时开启反击窗口（攻击准备阶段可以被格挡）
+        boss.EnableCounterWindow(true);
     }
 
     /// <summary>
@@ -85,5 +88,8 @@ public class Boss_AttackState : BossState
     public override void Exit()
     {
         base.Exit();
+        
+        // 攻击结束时关闭反击窗口
+        boss.EnableCounterWindow(false);
     }
 }
