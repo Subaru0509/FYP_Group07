@@ -644,7 +644,7 @@ MonoBehaviour:
   battleTimeDuration: 8
   minRetreatDistance: 1.5
   retreatVelocity: {x: 5, y: 3}
-  attackCooldown: 1
+  attackCooldown: 1.5
   attack1Chance: 50
   attack2Chance: 35
   attack3Chance: 15

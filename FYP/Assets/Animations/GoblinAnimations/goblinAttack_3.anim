@@ -22,54 +22,54 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 21300000, guid: 73c55be80d87e2441995fb2cc2cdad21, type: 3}
-    - time: 0.071428575
+    - time: 0.083333336
       value: {fileID: 21300000, guid: 36eab481204aec14591b82a148821e28, type: 3}
-    - time: 0.14285715
+    - time: 0.16666667
       value: {fileID: 21300000, guid: bd2675a743704cc479afcd56c01d2436, type: 3}
-    - time: 0.21428572
+    - time: 0.25
       value: {fileID: 21300000, guid: 05ec4f4f90b6a764ea3231cb888db3f5, type: 3}
-    - time: 0.2857143
+    - time: 0.33333334
       value: {fileID: 21300000, guid: f8627f09a97affb4a87881e5d1741472, type: 3}
-    - time: 0.35714287
+    - time: 0.41666666
       value: {fileID: 21300000, guid: 6c1dbb53e5fcd6747ae43fb1213dd2d3, type: 3}
-    - time: 0.42857143
-      value: {fileID: 21300000, guid: 8e87d97e35268ee4cae7358c3159f33b, type: 3}
     - time: 0.5
+      value: {fileID: 21300000, guid: 8e87d97e35268ee4cae7358c3159f33b, type: 3}
+    - time: 0.5833333
       value: {fileID: 21300000, guid: 0bbc77b8e02fe394fbf731b301847a8c, type: 3}
-    - time: 0.5714286
+    - time: 0.6666667
       value: {fileID: 21300000, guid: 46356fd8f0a8148498e1d5e31b108c23, type: 3}
-    - time: 0.64285713
+    - time: 0.75
       value: {fileID: 21300000, guid: 4c1c822bb6e41314eab642bfde4f723c, type: 3}
-    - time: 0.71428573
+    - time: 0.8333333
       value: {fileID: 21300000, guid: 3d56d182e7901084484d16f26dcfae3e, type: 3}
-    - time: 0.78571427
+    - time: 0.9166667
       value: {fileID: 21300000, guid: d9f0cb3e49e58cd4b8813194ec09b2a9, type: 3}
-    - time: 0.85714287
-      value: {fileID: 21300000, guid: 5dc273ba433429f44b1382a3fabf4c72, type: 3}
-    - time: 0.9285714
-      value: {fileID: 21300000, guid: a804ca141e5bcb243905ea35c2e3b1a9, type: 3}
     - time: 1
+      value: {fileID: 21300000, guid: 5dc273ba433429f44b1382a3fabf4c72, type: 3}
+    - time: 1.0833334
+      value: {fileID: 21300000, guid: a804ca141e5bcb243905ea35c2e3b1a9, type: 3}
+    - time: 1.1666666
       value: {fileID: 21300000, guid: fdcd4ee1972f8604ab7105a18ccc0370, type: 3}
-    - time: 1.0714285
+    - time: 1.25
       value: {fileID: 21300000, guid: 8980a919198215948b112dba3d6912b4, type: 3}
-    - time: 1.1428572
+    - time: 1.3333334
       value: {fileID: 21300000, guid: c6f004e0775973344b58d6d7a722ff1c, type: 3}
-    - time: 1.2142857
+    - time: 1.4166666
       value: {fileID: 21300000, guid: f330cff4cd6ccfa44a21dcff3de0ac2d, type: 3}
-    - time: 1.2857143
-      value: {fileID: 21300000, guid: 173c0785d0b5af14ea68c4c6fff202da, type: 3}
-    - time: 1.3571428
-      value: {fileID: 21300000, guid: b063d432716191942978c5be048c5331, type: 3}
-    - time: 1.4285715
-      value: {fileID: 21300000, guid: 520cce2b276c83542aacb04a4bb8afb8, type: 3}
     - time: 1.5
+      value: {fileID: 21300000, guid: 173c0785d0b5af14ea68c4c6fff202da, type: 3}
+    - time: 1.5833334
+      value: {fileID: 21300000, guid: b063d432716191942978c5be048c5331, type: 3}
+    - time: 1.6666666
+      value: {fileID: 21300000, guid: 520cce2b276c83542aacb04a4bb8afb8, type: 3}
+    - time: 1.75
       value: {fileID: 21300000, guid: 418637fad7fcddb469b9d35382266957, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 14
+  m_SampleRate: 12
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -113,7 +113,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.5714285
+    m_StopTime: 1.8333334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -133,28 +133,28 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.2857143
+  - time: 0.33333334
     functionName: EnableCounterWindow
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.42857143
+  - time: 0.5
     functionName: AttackTrigger
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.78571427
+  - time: 0.9166667
     functionName: DisableCounterWindow
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.5
+  - time: 1.75
     functionName: CurrentStateTrigger
     data: 
     objectReferenceParameter: {fileID: 0}
