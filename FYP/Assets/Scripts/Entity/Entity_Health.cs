@@ -86,6 +86,11 @@ public class Entity_Health : MonoBehaviour, IDamagable
             Die();
     }
 
+    public int GetHealth()
+    {
+        return (int)currentHP;
+    }
+
     private void Die()
     {
         if (isDead) return;
