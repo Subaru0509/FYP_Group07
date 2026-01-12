@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class Boss : Entity
 {
-    // Boss States
     public Boss_IdleState idleState { get; private set; }
     public Boss_MoveState moveState { get; private set; }
     public Boss_EntryState entryState { get; private set; }
@@ -19,15 +18,15 @@ public class Boss : Entity
     public Vector2 retreatVelocity = new Vector2(5, 3);
 
     [Header("Attack Details")]
-    public float attackCooldown = 1f;          // 攻击冷却
-    
+    public float attackCooldown = 1f;
+
     [Header("Attack Probability & Damage")]
-    [Range(0, 100)] public float attack1Chance = 50f;   // 攻击1概率 (普通攻击)
-    [Range(0, 100)] public float attack2Chance = 35f;   // 攻击2概率 (中等攻击)
-    [Range(0, 100)] public float attack3Chance = 15f;   // 攻击3概率 (重击)
-    public int attack1Damage = 1;              // 攻击1伤害
-    public int attack2Damage = 2;              // 攻击2伤害
-    public int attack3Damage = 3;              // 攻击3伤害
+    [Range(0, 100)] public float attack1Chance = 50f;
+    [Range(0, 100)] public float attack2Chance = 35f;
+    [Range(0, 100)] public float attack3Chance = 15f;
+    public int attack1Damage = 1;
+    public int attack2Damage = 2;
+    public int attack3Damage = 3;
     [HideInInspector] public int currentAttackIndex = 0;
     [HideInInspector] public int currentAttackDamage = 1;
 
@@ -37,8 +36,8 @@ public class Boss : Entity
     [SerializeField] protected bool canBeStunned;
 
     [Header("Tired Details")]
-    public float tiredDuration = 3f;           // 疲劳持续时间
-    public int attacksBeforeTired = 6;         // 多少次攻击后进入疲劳
+    public float tiredDuration = 3f;
+    public int attacksBeforeTired = 6;
     [HideInInspector] public int attackCounter = 0;
 
     [Header("Movement Details")]
@@ -55,7 +54,7 @@ public class Boss : Entity
     [Header("Phase System")]
     public int maxPhase = 2;
     [HideInInspector] public int currentPhase = 1;
-    public float phase2HealthThreshold = 0.5f; // 血量低于50%进入第二阶段
+    public float phase2HealthThreshold = 0.5f;
 
     public Transform player { get; private set; }
     public bool battleStarted { get; private set; } = false;
@@ -82,25 +81,19 @@ public class Boss : Entity
         stateMachine.Initialize(idleState);
     }
 
-    /// <summary>
-    /// 开始Boss战
-    /// </summary>
     public void StartBossBattle()
     {
         if (battleStarted) return;
-        
+
         battleStarted = true;
         player = FindObjectOfType<Player>()?.transform;
         stateMachine.ChangeState(entryState);
     }
 
-    /// <summary>
-    /// 直接进入战斗（跳过入场动画）
-    /// </summary>
     public void EnterBattleDirectly()
     {
         if (battleStarted) return;
-        
+
         battleStarted = true;
         player = FindObjectOfType<Player>()?.transform;
         stateMachine.ChangeState(moveState);
@@ -110,35 +103,26 @@ public class Boss : Entity
     {
         base.EntityDeath();
         stateMachine.ChangeState(deadState);
+
+        // 触发胜利 UI
+        FindObjectOfType<VictoryUIManager>()?.ShowVictory();
     }
 
-    /// <summary>
-    /// 检查是否应该进入疲劳状态
-    /// </summary>
     public bool ShouldEnterTiredState()
     {
         return attackCounter >= attacksBeforeTired;
     }
 
-    /// <summary>
-    /// 重置攻击计数器
-    /// </summary>
     public void ResetAttackCounter()
     {
         attackCounter = 0;
     }
 
-    /// <summary>
-    /// 增加攻击计数
-    /// </summary>
     public void IncrementAttackCounter()
     {
         attackCounter++;
     }
 
-    /// <summary>
-    /// 检测玩家
-    /// </summary>
     public RaycastHit2D PlayerDetected()
     {
         RaycastHit2D hit =
@@ -150,9 +134,6 @@ public class Boss : Entity
         return hit;
     }
 
-    /// <summary>
-    /// 获取玩家引用
-    /// </summary>
     public Transform GetPlayerReference()
     {
         if (player == null)
@@ -167,22 +148,16 @@ public class Boss : Entity
         return player;
     }
 
-    /// <summary>
-    /// 处理玩家死亡
-    /// </summary>
     private void HandlePlayerDeath()
     {
         battleStarted = false;
         stateMachine.ChangeState(idleState);
     }
 
-    /// <summary>
-    /// 处理被反击
-    /// </summary>
     public void HandleCounter()
     {
         if (!canBeStunned) return;
-        
+
         stateMachine.ChangeState(stunnedState);
     }
 
