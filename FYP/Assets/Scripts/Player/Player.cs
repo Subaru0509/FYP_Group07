@@ -69,6 +69,12 @@ public class Player : Entity
     {
         base.Start();
         stateMachine.Initialize(idleState);
+
+        if (UIManager.Instance != null)
+            UIManager.Instance.SyncPotionUI();
+
+        if (health == null)
+            health = GetComponent<Entity_Health>();
     }
 
     public override void EntityDeath()
@@ -93,30 +99,31 @@ public class Player : Entity
 
     private void OnEnable()
     {
-        input.Enable();
+        input?.Enable();
         input.Player.Movement.performed += contex => moveInput = contex.ReadValue<Vector2>();
         input.Player.Movement.canceled += contex => moveInput = Vector2.zero;
-        usePotionAction.Enable();
+        usePotionAction?.Enable();
     }
 
     private void OnDisable()
     {
-        input.Disable();
-        usePotionAction.Disable();
+        input?.Disable();
+        usePotionAction?.Disable();
     }
 
     private void UsePotion()
     {
-        // 检查是否可以使用药水（不在治疗状态、死亡状态等）
-        if (stateMachine.currentState == healState || 
+        if (stateMachine.currentState == healState ||
             stateMachine.currentState == deadState ||
             stateMachine.currentState == dashState)
             return;
 
+        if (UIManager.Instance == null || health == null)
+            return;
+
         bool used = UIManager.Instance.UsePotion();
-        if (used && health != null)
+        if (used)
         {
-            // 切换到治疗状态播放动画
             stateMachine.ChangeState(healState);
             health.IncreaseHealth(20);
         }

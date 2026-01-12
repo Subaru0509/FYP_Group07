@@ -23,6 +23,7 @@ public class UIManager : MonoBehaviour
         {
             Transform lastPotion = potionUIParent.GetChild(potionUIParent.childCount - 1);
             Destroy(lastPotion.gameObject);
+            GameManager.Instance.playerPotions--;
             return true;
         }
         return false;
@@ -40,5 +41,12 @@ public class UIManager : MonoBehaviour
 
         for (int i = 0; i < count; i++)
             AddPotionIcon();
+
+        GameManager.Instance.playerPotions = count;
+    }
+
+    public void SyncPotionUI()
+    {
+        SetPotionCount(GameManager.Instance.playerPotions);
     }
 }

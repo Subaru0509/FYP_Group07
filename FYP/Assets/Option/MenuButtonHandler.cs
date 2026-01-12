@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement;
 
 public class MenuButtonHandler : MonoBehaviour
 {
@@ -15,6 +15,7 @@ public class MenuButtonHandler : MonoBehaviour
 
     public void OpenOptions()
     {
+        SceneTracker.PreviousScene = SceneManager.GetActiveScene().name;
         SceneManager.LoadScene("OptionScene");
     }
 
