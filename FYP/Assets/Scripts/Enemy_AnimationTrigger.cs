@@ -15,13 +15,17 @@ public class Enemy_AnimationTrigger : Entity_AnimationTriggers
     }
     private void EnableCounterWindow()
     {
-        enemyVfx.EnableAttackAlert(true);
-        enemy.EnableCounterWindow(true);
+        if (enemyVfx != null)
+            enemyVfx.EnableAttackAlert(true);
+        if (enemy != null)
+            enemy.EnableCounterWindow(true);
     }
 
     private void DisableCounterWindow()
     {
-        enemyVfx.EnableAttackAlert(false);
-        enemy.EnableCounterWindow(false);
+        if (enemyVfx != null)
+            enemyVfx.EnableAttackAlert(false);
+        if (enemy != null)
+            enemy.EnableCounterWindow(false);
     }
 }
