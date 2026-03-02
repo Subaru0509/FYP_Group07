@@ -809,7 +809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e85c60ec0a896c949b3283d743e339e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetScene: Level2
+  targetScene: Boss test
 --- !u!1 &275499812
 GameObject:
   m_ObjectHideFlags: 0
