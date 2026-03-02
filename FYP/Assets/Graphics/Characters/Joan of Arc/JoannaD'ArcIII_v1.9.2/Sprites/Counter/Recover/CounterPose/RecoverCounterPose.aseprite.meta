@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 40
       height: 30
-    spriteID: 583b70e1c24f076489edff69315b712c
+    spriteID: d5f3877d0d405bb46a939ab96693862c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 4
       width: 31
       height: 39
-    spriteID: ead1a8281051f284281f462d2512e80b
+    spriteID: 4fdcff5d268094343a8550919860fd03
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 54
       width: 27
       height: 41
-    spriteID: 727f344b63378d744b3008bfa8d860a2
+    spriteID: 061147c7471eb824a93c59c87e6fd2ca
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 4
       width: 29
       height: 42
-    spriteID: 6ee3d7c890a4aff408206711e8b79fac
+    spriteID: cc7b44522461d8c4894d68e30d3cd96e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -218,7 +218,7 @@ ScriptedImporter:
         y: 1
         width: 40
         height: 30
-      spriteId: 583b70e1c24f076489edff69315b712c
+      spriteId: d5f3877d0d405bb46a939ab96693862c
     - name: RecoverCounterPose_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
@@ -227,7 +227,7 @@ ScriptedImporter:
         y: 1
         width: 31
         height: 39
-      spriteId: ead1a8281051f284281f462d2512e80b
+      spriteId: 4fdcff5d268094343a8550919860fd03
     - name: RecoverCounterPose_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
@@ -236,7 +236,7 @@ ScriptedImporter:
         y: 1
         width: 27
         height: 41
-      spriteId: 727f344b63378d744b3008bfa8d860a2
+      spriteId: 061147c7471eb824a93c59c87e6fd2ca
     - name: RecoverCounterPose_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
@@ -245,7 +245,7 @@ ScriptedImporter:
         y: 1
         width: 29
         height: 42
-      spriteId: 6ee3d7c890a4aff408206711e8b79fac
+      spriteId: cc7b44522461d8c4894d68e30d3cd96e
     linkedCells: []
     parentIndex: -1
   platformSettings:

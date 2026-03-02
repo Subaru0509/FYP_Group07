@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Boss : Entity
+public class Boss : Entity, ICounterable
 {
     // Boss States
     public Boss_IdleState idleState { get; private set; }
@@ -62,6 +62,7 @@ public class Boss : Entity
 
     public void EnableCounterWindow(bool enable) => canBeStunned = enable;
     public bool CanBeStunned => canBeStunned;
+    public bool CanBeCountered => canBeStunned;  // ICounterable interface implementation
 
     protected override void Awake()
     {

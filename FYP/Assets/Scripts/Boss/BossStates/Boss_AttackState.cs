@@ -3,6 +3,9 @@ using UnityEngine;
 public class Boss_AttackState : BossState
 {
     private int attackIndex;
+    private float counterWindowStartTime;  // 反击窗口开始时间（动画进度百分比）
+    private float counterWindowEndTime;    // 反击窗口结束时间（动画进度百分比）
+    private bool counterWindowOpened;
 
     public Boss_AttackState(Boss boss, StateMachine stateMachine, string animBoolName) : base(boss, stateMachine, animBoolName)
     {
@@ -28,6 +31,15 @@ public class Boss_AttackState : BossState
 
         // 增加攻击计数
         boss.IncrementAttackCounter();
+
+        // 设置反击窗口时间（根据不同攻击类型调整）
+        // 反击窗口在攻击动画的中间部分开启
+        counterWindowStartTime = 0.3f;  // 30%时开始可反击
+        counterWindowEndTime = 0.7f;    // 70%时结束可反击
+        counterWindowOpened = false;
+        
+        // 确保进入时反击窗口关闭
+        boss.EnableCounterWindow(false);
     }
 
     /// <summary>
@@ -67,9 +79,15 @@ public class Boss_AttackState : BossState
         // 攻击时保持静止
         boss.SetVelocity(0, 0);
 
+        // 根据动画进度控制反击窗口
+        UpdateCounterWindow();
+
         // 等待攻击动画结束
         if (triggerCalled)
         {
+            // 确保退出时关闭反击窗口
+            boss.EnableCounterWindow(false);
+            
             // 检查是否应该进入疲劳状态
             if (boss.ShouldEnterTiredState())
             {
@@ -82,8 +100,36 @@ public class Boss_AttackState : BossState
         }
     }
 
+    /// <summary>
+    /// 根据动画进度更新反击窗口状态
+    /// </summary>
+    private void UpdateCounterWindow()
+    {
+        // 获取当前动画状态信息
+        AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
+        float normalizedTime = stateInfo.normalizedTime % 1f; // 获取0-1之间的动画进度
+
+        // 在指定时间窗口内开启反击
+        if (normalizedTime >= counterWindowStartTime && normalizedTime <= counterWindowEndTime)
+        {
+            if (!counterWindowOpened)
+            {
+                boss.EnableCounterWindow(true);
+                counterWindowOpened = true;
+            }
+        }
+        else if (counterWindowOpened && normalizedTime > counterWindowEndTime)
+        {
+            boss.EnableCounterWindow(false);
+            counterWindowOpened = false;
+        }
+    }
+
     public override void Exit()
     {
         base.Exit();
+        // 确保退出状态时关闭反击窗口
+        boss.EnableCounterWindow(false);
+        counterWindowOpened = false;
     }
 }
