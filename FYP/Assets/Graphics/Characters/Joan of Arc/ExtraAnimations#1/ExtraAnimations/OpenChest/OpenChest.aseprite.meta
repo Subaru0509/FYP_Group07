@@ -21,13 +21,11 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
-    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMipmapLimit: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -410,7 +408,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: OpenChest_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -419,7 +417,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: 71e65db5d532ef345b88741b85c65d0f
-    - name: OpenChest_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -428,7 +426,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: 2ee55715f23361b4e968599986e859bb
-    - name: OpenChest_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -437,7 +435,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: a365a749e0209964995dcd89a8a9c9e3
-    - name: OpenChest_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -446,7 +444,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: f88ff0c08151d8f4ca40bed08857bb13
-    - name: OpenChest_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -455,7 +453,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: eed6e91985182bb42bd94bb690f0d38a
-    - name: OpenChest_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -464,7 +462,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: 61d3ff2388cd5104c9af437ea8708d63
-    - name: OpenChest_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -473,7 +471,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: 202444ddf5ac19d4fbebbac234f1611d
-    - name: OpenChest_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -482,7 +480,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: e29336b5017ed3143992baf703078f50
-    - name: OpenChest_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -491,7 +489,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: 3516785527ff9144d8c9e6d36fc497c6
-    - name: OpenChest_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -500,7 +498,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: 4158f8eecf1b8a84486f4f2b471497f7
-    - name: OpenChest_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -509,7 +507,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: 8967d927bc0736748910e1d79f1e4c7a
-    - name: OpenChest_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -518,7 +516,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: c60dc7d3b23288345adaa6b624c4f04e
-    - name: OpenChest_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -527,7 +525,7 @@ ScriptedImporter:
         width: 256
         height: 144
       spriteId: 0a5a7f58b28c28444a8339f67d3264f2
-    - name: OpenChest_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -541,7 +539,6 @@ ScriptedImporter:
   platformSettings:
   - name: Default
     overridden: 0
-    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1

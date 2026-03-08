@@ -21,13 +21,11 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
-    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMipmapLimit: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -290,7 +288,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: AllDirection_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +297,7 @@ ScriptedImporter:
         width: 192
         height: 192
       spriteId: 5ad82275194240a41937002dd2ddf606
-    - name: AllDirection_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +306,7 @@ ScriptedImporter:
         width: 192
         height: 192
       spriteId: dfde43b325c38df458aeed2ba13580d8
-    - name: AllDirection_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +315,7 @@ ScriptedImporter:
         width: 192
         height: 192
       spriteId: 29b1dc594a6d1224a8e3e63d695af948
-    - name: AllDirection_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +324,7 @@ ScriptedImporter:
         width: 192
         height: 192
       spriteId: d900401c4ca5a6c4dbbb38730f824b4c
-    - name: AllDirection_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +333,7 @@ ScriptedImporter:
         width: 192
         height: 192
       spriteId: 9f0121c8a4a3b244b91900c0f5338e5b
-    - name: AllDirection_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +342,7 @@ ScriptedImporter:
         width: 192
         height: 192
       spriteId: a2a96b22b8c0f5f4b80d7e7549e69809
-    - name: AllDirection_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +351,7 @@ ScriptedImporter:
         width: 192
         height: 192
       spriteId: e5eb56b72d85d584cb28556921cf0362
-    - name: AllDirection_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -367,7 +365,6 @@ ScriptedImporter:
   platformSettings:
   - name: Default
     overridden: 0
-    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
