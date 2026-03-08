@@ -258,6 +258,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1926495220161390447, guid: 24d00d71aee6bed45b2e606cb8ed8793, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1926495220772822059, guid: 24d00d71aee6bed45b2e606cb8ed8793, type: 3}
       propertyPath: m_Color.b
       value: 0.101960786
@@ -1595,6 +1599,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1926495220161390447, guid: 24d00d71aee6bed45b2e606cb8ed8793, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1926495220772822059, guid: 24d00d71aee6bed45b2e606cb8ed8793, type: 3}
       propertyPath: m_Color.b
       value: 0.101960786
@@ -1937,6 +1945,10 @@ PrefabInstance:
     - target: {fileID: 1926495220161390441, guid: 24d00d71aee6bed45b2e606cb8ed8793, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926495220161390447, guid: 24d00d71aee6bed45b2e606cb8ed8793, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1926495220772822059, guid: 24d00d71aee6bed45b2e606cb8ed8793, type: 3}
       propertyPath: m_Color.b
@@ -2598,6 +2610,10 @@ PrefabInstance:
     - target: {fileID: 1926495220161390441, guid: 24d00d71aee6bed45b2e606cb8ed8793, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926495220161390447, guid: 24d00d71aee6bed45b2e606cb8ed8793, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1926495220772822059, guid: 24d00d71aee6bed45b2e606cb8ed8793, type: 3}
       propertyPath: m_Color.b

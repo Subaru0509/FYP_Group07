@@ -6,10 +6,10 @@ public class Entity_Health : MonoBehaviour, IDamagable
 {
     private Entity_VFX entityVFX;
     private Entity entity;
+    private Entity_Stats stats;
 
     [Header("Health")]
-    [SerializeField] protected float maxHP = 100f;
-    [SerializeField] protected float currentHP = 0f;
+    [SerializeField] protected float currentHP;
     [SerializeField] protected bool isDead;
 
     [Header("UI")]
@@ -29,12 +29,13 @@ public class Entity_Health : MonoBehaviour, IDamagable
     {
         entity = GetComponent<Entity>();
         entityVFX = GetComponent<Entity_VFX>();
+        stats = GetComponent<Entity_Stats>();
 
-        if (currentHP <= 0f || currentHP > maxHP)
-            currentHP = maxHP;
+        if (currentHP <= 0f || currentHP > stats.GetMaxHealth())
+            currentHP = stats.GetMaxHealth();
 
         if (healthBar != null)
-            healthBar.SetMaxHealth(maxHP);
+            healthBar.SetMaxHealth(stats.GetMaxHealth());
     }
 
     public virtual void TakeDamage(float damage, Transform damageDealer)
@@ -56,7 +57,7 @@ public class Entity_Health : MonoBehaviour, IDamagable
         currentHP = Mathf.Max(currentHP, 0f);
 
         if (healthBar != null)
-            healthBar.SetHealth(currentHP, maxHP);
+            healthBar.SetHealth(currentHP, stats.GetMaxHealth());
 
         if (currentHP <= 0f)
             Die();
@@ -67,20 +68,20 @@ public class Entity_Health : MonoBehaviour, IDamagable
         if (isDead) return;
 
         currentHP += amount;
-        currentHP = Mathf.Min(currentHP, maxHP);
+        currentHP = Mathf.Min(currentHP, stats.GetMaxHealth());
 
         if (healthBar != null)
-            healthBar.SetHealth(currentHP, maxHP);
+            healthBar.SetHealth(currentHP, stats.GetMaxHealth());
     }
 
     public void SetHealth(float value)
     {
         if (isDead) return;
 
-        currentHP = Mathf.Clamp(value, 0f, maxHP);
+        currentHP = Mathf.Clamp(value, 0f, stats.GetMaxHealth());
 
         if (healthBar != null)
-            healthBar.SetHealth(currentHP, maxHP);
+            healthBar.SetHealth(currentHP, stats.GetMaxHealth());
 
         if (currentHP <= 0f)
             Die();
@@ -106,9 +107,9 @@ public class Entity_Health : MonoBehaviour, IDamagable
         return IsHeavyDamage(damage) ? heavyKnockbackDuration : knockbackDuration;
     }
 
-    private bool IsHeavyDamage(float damage) => (maxHP > 0f) && (damage / maxHP >= heavyDamageThreshold);
+    private bool IsHeavyDamage(float damage) => (stats.GetMaxHealth() > 0f) && (damage / stats.GetMaxHealth() >= heavyDamageThreshold);
 
     public float CurrentHP => currentHP;
-    public float MaxHP => maxHP;
+    public float MaxHP => stats.GetMaxHealth();
     public bool IsDead => isDead;
 }
