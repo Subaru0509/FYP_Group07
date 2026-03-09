@@ -7,6 +7,7 @@ SpriteAtlas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Icons
+  serializedVersion: 2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -31,7 +32,6 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
-      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -49,16 +49,6 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
-    packedSpriteRenderDataKeys:
-    - a518ce81621bd4946a0ddb435f77e41f: 21300000
-    - 650a51129bd7f4e4e908cec18a126f53: 21300000
-    - 9afa7ff2b60a9c247a04e3f5b55a8c7d: 21300000
-    - f6116e77b83830d40bfb0a16527fa228: 21300000
-    - 10f84c976431925449c6c450abe174fc: 21300000
-    - 581b1ec8c3583ab49bbaa18e1bd49239: 21300000
-    - 4e95f5e8e8033de40845708bf2ddd853: 21300000
-    - 3c163b2a4bcb6dd4b9c6c816814681f6: 21300000
-    - 65d28f1d715b84643bf9b7691cbd4b6b: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: a518ce81621bd4946a0ddb435f77e41f, type: 3}
@@ -83,3 +73,4 @@ SpriteAtlas:
   m_RenderDataMap: {}
   m_Tag: Icons
   m_IsVariant: 0
+  m_IsPlaceholder: 0
