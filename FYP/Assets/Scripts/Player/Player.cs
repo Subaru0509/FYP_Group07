@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class Player : Entity
 {
@@ -35,11 +36,13 @@ public class Player : Entity
     public float wallSlideSlowMultiplier = .7f;
     public float dashDuration = .25f;
     public float dashSpeed = 20;
+    [SerializeField] private float deathReloadDelay = 2f;
     public Vector2 moveInput { get; private set; }
 
     public PlayerStamina stamina { get; private set; }
     private Entity_Health health;
     private InputAction usePotionAction;
+    private Coroutine reloadSceneCo;
 
     protected override void Awake()
     {
@@ -82,6 +85,17 @@ public class Player : Entity
         base.EntityDeath();
         OnPlayerDeath?.Invoke();
         stateMachine.ChangeState(deadState);
+
+        if (reloadSceneCo == null)
+            reloadSceneCo = StartCoroutine(ReloadSceneAfterDelayCo());
+    }
+
+    private IEnumerator ReloadSceneAfterDelayCo()
+    {
+        yield return new WaitForSeconds(deathReloadDelay);
+
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.buildIndex);
     }
 
     public void EnterAttackStateWithDelay()
