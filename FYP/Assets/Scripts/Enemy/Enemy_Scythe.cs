@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class Enemy_Scythe : Enemy,ICounterable
+public class Enemy_Scythe : Enemy , ICounterable
 {
     public bool CanBeCountered { get => canBeStunned; }
 
