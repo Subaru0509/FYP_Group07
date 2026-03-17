@@ -6,6 +6,7 @@ public class Enemy : Entity
     public Enemy_MoveState moveState;
     public Enemy_AttackState attackState;
     public Enemy_BattleState battleState;
+    public Enemy_CardBattleState cardBattleState; // 卡牌战斗状态
     public Enemy_DeadStste deadState;
     public Enemy_StunnedState stunnedState;
 
@@ -98,5 +99,16 @@ public class Enemy : Entity
     private void OnDisable()
     {
         Player.OnPlayerDeath -= HandlePlayerDeath;
+    }
+
+    // 卡牌战斗状态切换方法（供BattleManager调用）
+    public void EnterCardBattleState()
+    {
+        stateMachine.ChangeState(cardBattleState);
+    }
+
+    public void ExitCardBattleState()
+    {
+        stateMachine.ChangeState(idleState);
     }
 }

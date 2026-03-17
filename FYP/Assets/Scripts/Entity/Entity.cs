@@ -28,6 +28,9 @@ public class Entity : MonoBehaviour
     private Coroutine knockbackCo;
     private bool isKnocked;
 
+    [Header("Card Battle")]
+    public int currentBlock = 0;
+
 
 
     protected virtual void Awake()
@@ -100,13 +103,25 @@ public class Entity : MonoBehaviour
         else if (xVelocity < 0 && isFacingRight == true)
             Flip();
     }
-    
+
     public void Flip()
     {
         isFacingRight = !isFacingRight;
         transform.Rotate(0, 180, 0);
         facingDir = facingDir * -1;
 
+    }
+
+    // ===== 卡牌战斗系统 - 格挡相关 =====
+    public void AddBlock(int amount)
+    {
+        currentBlock += amount;
+        Debug.Log($"{gameObject.name} 获得 {amount} 点格挡，当前格挡: {currentBlock}");
+    }
+
+    public void ClearBlock()
+    {
+        currentBlock = 0;
     }
     
 

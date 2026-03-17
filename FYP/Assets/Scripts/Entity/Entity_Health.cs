@@ -43,6 +43,22 @@ public class Entity_Health : MonoBehaviour, IDamagable
         if (isDead)
             return;
 
+        // 新增：格挡系统 - 先消耗格挡值
+        if (entity != null && entity.currentBlock > 0)
+        {
+            int blockedDamage = Mathf.Min(entity.currentBlock, (int)damage);
+            entity.currentBlock -= blockedDamage;
+            damage -= blockedDamage;
+            Debug.Log($"{entity.name} 的格挡吸收了 {blockedDamage} 点伤害，剩余格挡: {entity.currentBlock}");
+        }
+
+        // 如果伤害被完全格挡，不执行后续逻辑
+        if (damage <= 0)
+        {
+            Debug.Log($"{entity.name} 的攻击被完全格挡！");
+            return;
+        }
+
         float duration = CalculateDuration(damage);
         Vector2 knockback = CalculateKnockback(damage, damageDealer);
 

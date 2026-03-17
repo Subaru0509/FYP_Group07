@@ -20,6 +20,7 @@ public class Player : Entity
     public Player_DeadState deadState { get; private set; }
     public Player_CounterAttackState counterAttackState { get; private set; }
     public Player_HealState healState { get; private set; }
+    public Player_CardBattleState cardBattleState { get; private set; } // 卡牌战斗状态
 
     public Vector2[] attackVelocity;
     public Vector2 jumpAttackVelocity;
@@ -66,6 +67,7 @@ public class Player : Entity
         deadState = new Player_DeadState(this, stateMachine, "dead");
         counterAttackState = new Player_CounterAttackState(this, stateMachine, "counterAttack");
         healState = new Player_HealState(this, stateMachine, "heal");
+        cardBattleState = new Player_CardBattleState(this, stateMachine, "idle"); // 卡牌战斗状态
     }
 
     protected override void Start()
@@ -141,5 +143,16 @@ public class Player : Entity
             stateMachine.ChangeState(healState);
             health.IncreaseHealth(20);
         }
+    }
+
+    // 卡牌战斗状态切换方法（供BattleManager调用）
+    public void EnterCardBattleState()
+    {
+        stateMachine.ChangeState(cardBattleState);
+    }
+
+    public void ExitCardBattleState()
+    {
+        stateMachine.ChangeState(idleState);
     }
 }

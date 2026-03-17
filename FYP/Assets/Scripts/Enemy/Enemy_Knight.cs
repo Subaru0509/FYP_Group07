@@ -13,6 +13,7 @@ public class Enemy_Knight : Enemy , ICounterable
         moveState = new Enemy_MoveState(this, stateMachine, "move");
         attackState = new Enemy_AttackState(this, stateMachine, "attack");
         battleState = new Enemy_BattleState(this, stateMachine, "battle");
+        cardBattleState = new Enemy_CardBattleState(this, stateMachine, "idle"); // 卡牌战斗状态
         deadState = new Enemy_DeadStste(this, stateMachine, "dead");
         stunnedState = new Enemy_StunnedState(this, stateMachine, "stunned");
     }
