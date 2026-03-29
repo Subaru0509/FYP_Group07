@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Scene Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Scene
+  m_TableCollectionNameGuidString: 4c239b9235ab93249a47b9053fd13d08
+  m_Entries:
+  - m_Id: 97209073664
+    m_Key: Tutorial_Move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 595534331904
+    m_Key: Tutorial_Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1670383452160
+    m_Key: Tutorial_WallJump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3237086019584
+    m_Key: Tutorial_JumpOff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62593798291456
+    m_Key: Tutorial_Attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77035646795776
+    m_Key: Tutorial_ActiveSkillPanel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 315262341267456
+    m_Key: Tutorial_DashTwice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321957297700864
+    m_Key: Tutorial_Checkpoint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 326896019357696
+    m_Key: Tutorial_PickUpItem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 401006271447040
+    m_Key: Tutorial_AcquireEquipmentAndMaterial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 401829680431104
+    m_Key: Tutorial_KillSlime
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444520271233024
+    m_Key: Tutorial_HurtAndFlask
+    m_Metadata:
+      m_Items: []
+  - m_Id: 449591100882944
+    m_Key: Tutorial_EquipFlask
+    m_Metadata:
+      m_Items: []
+  - m_Id: 452402677071872
+    m_Key: Tutorial_FlaskMechanism
+    m_Metadata:
+      m_Items: []
+  - m_Id: 458081043267584
+    m_Key: Tutorial_LearnParry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 811325317758976
+    m_Key: Tutorial_JumpOffAndStartYourGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1386396935569408
+    m_Key: Tutorial_DontGoThisWay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1388529269391360
+    m_Key: Tutorial_DontJump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1391419929182208
+    m_Key: WhyDidntYouListenToMe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395272837808128
+    m_Key: Tutorial_TurnBack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1397363685769216
+    m_Key: Tutorial_CrazyTurnBack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398832950460416
+    m_Key: Tutorial_CrazyGoRight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1400633644859392
+    m_Key: Tutorial_TurnBackEnemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1431390690000896
+    m_Key: Tutorial_Castle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1434137355141120
+    m_Key: Tutorial_Path
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436518218252288
+    m_Key: Tutorial_Money
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1438454166372352
+    m_Key: Tutorial_Equipment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1448998998949888
+    m_Key: Tutorial_Enemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1485912263147520
+    m_Key: Tutorial_Boss
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1260174520682807317
+  references:
+    version: 2
+    RefIds:
+    - rid: 1260174520682807317
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1725276477846

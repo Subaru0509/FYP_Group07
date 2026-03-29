@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 557cf0b1e9bd51d4295e53082d3c6527, type: 3}
+  m_Name: Sword_ThunderStrike
+  m_EditorClassIdentifier: 
+  effectCooldown: 0
+  effectDescription: Generate thunder strike on enemy when hitting enemy
+  effectDescription_Chinese: "\u51FB\u4E2D\u654C\u4EBA\u65F6\u4F1A\u5411\u654C\u4EBA\u53EC\u5524\u96F7\u51FB"
+  thunderStrikePrefab: {fileID: 5754322213184844534, guid: c918aad9738ee0844991a57108974ae8, type: 3}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6ef4d6150ab304419a6d090cfda4aed, type: 3}
+  m_Name: Metroidvania Post Process
+  m_EditorClassIdentifier: 
+  SpawnEnemies: 1
+  Enemies:
+  - {fileID: 5649694187559789339, guid: e8c3ad1788b845b448a221b9b7ea8480, type: 3}
+  - {fileID: 3567428847226069216, guid: 71816e5dcb08de94abd71d011677127c, type: 3}
+  - {fileID: 627212524883830368, guid: 011f018b522fedb4c99c5a67e44713d7, type: 3}
+  - {fileID: 8704984302091611369, guid: 258d9f278fb60bf49b49b30468d7ada2, type: 3}
+  - {fileID: 8886080741024587990, guid: f8a9a7a7ab380af48aad742e558b4e00, type: 3}
+  - {fileID: 8730486627577929832, guid: 8fbbfcabd1c5ef5429d6c5052bd5cb99, type: 3}
+  CreateLevelMap: 1
+  WallTile: {fileID: 11400000, guid: d01e20e8e6c0d084690d815feb7c3f75, type: 2}
+  LevelMapWallTile: {fileID: 11400000, guid: 62c0be2d4883efa4da66538d3d7ea0a2, type: 2}
+  LevelMapWallBackgroundTile: {fileID: 11400000, guid: b8b1c9e0e8ad90047abb61a2e8686c5c, type: 2}
+  LevelMapBackgroundTile: {fileID: 11400000, guid: dbb71b6c47a54914baed03538b4fd9f8, type: 2}
+  LevelMapPlatformTile: {fileID: 11400000, guid: 76905d507b6cd214eb4608536378d990, type: 2}

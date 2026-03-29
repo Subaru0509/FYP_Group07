@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5ec1d7ea3ebdde49b5f61b9d5c705b5, type: 3}
+  m_Name: IncreaseFireDamageOnHit_Effect
+  m_EditorClassIdentifier: 
+  effectCooldown: 0
+  effectDescription: Increase 3 fire damage on each hit, every layer of buff lasts
+    2 seconds
+  effectDescription_Chinese: "\u6BCF\u6B21\u547D\u4E2D\u654C\u4EBA\u83B7\u5F97\u4E00\u5C42\u706B\u7130\u4F24\u5BB3\u52A0\u6210\uFF0C\u6BCF\u5C42\u52A0\u6210\u63D0\u9AD83\u70B9\u706B\u7130\u4F24\u5BB3\uFF0C\u6BCF\u5C42\u4F24\u5BB3\u52A0\u6210\u6301\u7EED2\u79D2"
+  buffStatType: 11
+  buffValue: 3
+  buffDuration: 2

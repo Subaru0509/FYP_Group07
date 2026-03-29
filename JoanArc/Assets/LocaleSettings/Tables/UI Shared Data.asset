@@ -1,0 +1,338 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI
+  m_TableCollectionNameGuidString: 059e766f6b7c7e84f96c9ddd1d1a6896
+  m_Entries:
+  - m_Id: 1274986414080
+    m_Key: MainMenu_NewGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16861720526848
+    m_Key: MainMenu_ContineGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17064901001216
+    m_Key: MainMenu_Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17293532512256
+    m_Key: MainMenu_ExitConfrim_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17805413761024
+    m_Key: MainMenu_ExitConfirm_No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17933746880512
+    m_Key: MainMenu_ExitConfirm_Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29772752928768
+    m_Key: OptionsHeader_Gameplay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996997197824
+    m_Key: OptionsHeader_Keybind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30137053396992
+    m_Key: OptionsHeader_Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30315768496128
+    m_Key: OptionsHeader_Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47617272496128
+    m_Key: Option_TextLanguage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289328326295552
+    m_Key: SoundOption_MasterVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290632880668672
+    m_Key: SoundOption_SoundEffectVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297146458619904
+    m_Key: SoundOption_BGMVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300229699878912
+    m_Key: GameplayOption_HPBar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 426573830078464
+    m_Key: KeybindOption_ConflictText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 426779652964352
+    m_Key: KeybindOption_ConflictConfirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 428563876331520
+    m_Key: Option_SaveAndExit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 429232704241664
+    m_Key: Character_tab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 429404725231616
+    m_Key: SkillTree_Tab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 429515719098368
+    m_Key: Craft_Tab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 429669960433664
+    m_Key: Options_Tab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 430783837552640
+    m_Key: Craft_Type
+    m_Metadata:
+      m_Items: []
+  - m_Id: 430902381166592
+    m_Key: Craft_CraftList
+    m_Metadata:
+      m_Items: []
+  - m_Id: 431039690096640
+    m_Key: Craft_Craft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432671270158336
+    m_Key: Character_InventoryHeader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432958726782976
+    m_Key: Character_EquipmentHeader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 433252239982592
+    m_Key: Character_MajorStatsHeader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 433498252689408
+    m_Key: Character_OffensiveStatsHeader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 433721804898304
+    m_Key: Character_DefensiveStatsHeader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 433970229329920
+    m_Key: Character_Stats_Strength
+    m_Metadata:
+      m_Items: []
+  - m_Id: 434151368736768
+    m_Key: Character_Stats_Agility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 434281383772160
+    m_Key: Character_Stats_Intelligence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 434428247326720
+    m_Key: Character_Stats_Vitality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 434634770661376
+    m_Key: Character_Stats_Damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 434825716350976
+    m_Key: Character_Stats_FireDamage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435030792650752
+    m_Key: Character_Stats_CritChance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435177538764800
+    m_Key: Character_Stats_IceDamage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435322963673088
+    m_Key: Character_Stats_CritPower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435419579465728
+    m_Key: Character_Stats_LightningDamage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435729223958528
+    m_Key: Character_Stats_MaxHP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435881997287424
+    m_Key: Character_Stats_Evasion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435983050653696
+    m_Key: Character_Stats_Armor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 436095982288896
+    m_Key: Character_Stats_MagicResistance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681456860708864
+    m_Key: SkillTree_SwordThrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 683819528929280
+    m_Key: SkillTree_SkillPrice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 750842124484608
+    m_Key: Keybind_Dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1028689976147968
+    m_Key: MainMenu_Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2931831881908224
+    m_Key: UI/Boss_DeathBringer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3154578918653952
+    m_Key: UI/NewGameConfirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3186329296617472
+    m_Key: UI/Attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3188049590403072
+    m_Key: UI/AirLaunchAttack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3195482312327168
+    m_Key: UI/DownStrike
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3198330894860288
+    m_Key: UI/Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3198828083462144
+    m_Key: UI/Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3199430796558336
+    m_Key: MouseLeft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3206061185875968
+    m_Key: UI/Learn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3206645628583936
+    m_Key: Equip/Unequip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3220586945626112
+    m_Key: Keybind_Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3220676212998144
+    m_Key: UI/Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3221132364529664
+    m_Key: UI/JumpOff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3643766768189440
+    m_Key: CraftButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4731871516475392
+    m_Key: TryAgain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4731980794871808
+    m_Key: ThankYouForPlaying
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4732062122426368
+    m_Key: ReturnToTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210408657217716224
+    m_Key: gametitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210411329786281984
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210414523199324160
+    m_Key: playerHp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210414865395810304
+    m_Key: JNpoint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210415118324924416
+    m_Key: flaskname
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210415301246910464
+    m_Key: dashname
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210415426434301952
+    m_Key: parrynanme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210415542830432256
+    m_Key: 'Throwname
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210415670626680832
+    m_Key: 'crystalname
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210415805846847488
+    m_Key: 'holename
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210416303752675328
+    m_Key: ohtermes
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1743626985908469784
+  references:
+    version: 2
+    RefIds:
+    - rid: 1743626985908469784
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1724505084129

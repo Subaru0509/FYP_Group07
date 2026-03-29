@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 921af68b9c189fb4c82feb062c38e617, type: 3}
+  m_Name: Ice_and_Fire_Effect
+  m_EditorClassIdentifier: 
+  effectCooldown: 0
+  effectDescription: Generate sword arcane which will fly ahead when releasing 3rd
+    primary attack
+  effectDescription_Chinese: "\u666E\u653B\u7B2C\u4E09\u4E0B\u4F1A\u5411\u524D\u91CA\u653E\u5251\u6C14"
+  iceAndFirePrefab: {fileID: 7368648869767965227, guid: 00874dd3e79d6834c9255057260b8b34, type: 3}
+  xFlyVelocity: 15

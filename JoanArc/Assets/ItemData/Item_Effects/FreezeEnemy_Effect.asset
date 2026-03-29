@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd34aceb04ca72841b5d8e131aa24771, type: 3}
+  m_Name: FreezeEnemy_Effect
+  m_EditorClassIdentifier: 
+  effectCooldown: 5
+  effectDescription: Freeze nearby enemy for 2 seconds when getting hit if HP is
+    below 50%
+  effectDescription_Chinese: "\u751F\u547D\u503C\u4F4E\u4E8E50%\u65F6\uFF0C\u53D7\u5230\u654C\u4EBA\u653B\u51FB\u51BB\u7ED3\u654C\u4EBA2\u79D2"
+  freezeDuration: 2

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259722201df052245834f12c28a2cce9, type: 3}
+  m_Name: 1Armor
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: Plate Armor
+  itemName_Chinese: "\u8F6F\u7532"
+  icon: {fileID: -1871269579, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
+  itemID: 1b0486250ab82f24a9a05294c7679ea1
+  dropChance: 20
+  equipmentType: 1
+  itemEffects: []
+  strength: 0
+  agility: 0
+  intelligence: 0
+  vitaliy: 0
+  maxHP: 10
+  armor: 5
+  evasion: 0
+  magicResistance: 0
+  damage: 0
+  critChance: 0
+  critPower: 0
+  fireDamage: 0
+  iceDamage: 0
+  lightningDamage: 0
+  requiredCraftMaterials:
+  - item: {fileID: 11400000, guid: 148229420c8846c4baf9576b4f920db5, type: 2}
+    stackSize: 1
+  - item: {fileID: 11400000, guid: 7bae4c3e19587c04f87e399753c1293b, type: 2}
+    stackSize: 1

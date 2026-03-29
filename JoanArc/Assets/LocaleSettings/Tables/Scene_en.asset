@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Scene_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 4c239b9235ab93249a47b9053fd13d08, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 97209073664
+    m_Localized: Press [A/D] to move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 595534331904
+    m_Localized: Press [Space] to jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1670383452160
+    m_Localized: 'Jump towards wall to wall slide, and then press [Space] to wall
+      jump
+
+
+      You can still control move direction after wall jump'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3237086019584
+    m_Localized: Press [S + Space] to jump off platform
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62593798291456
+    m_Localized: Press [BehaveName0] to attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77035646795776
+    m_Localized: Learnd active skills are shown on the bottom of HUD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 315262341267456
+    m_Localized: Rapidly release dash twice to get over this pit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321957297700864
+    m_Localized: 'Come close to activate checkpoint.
+
+      You will spawn at last
+      passed actived checkpoint if you died'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 326896019357696
+    m_Localized: 'This is my gift for you
+
+      Come close to pick up materials
+      and equipment'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 401006271447040
+    m_Localized: You can acquire euqipment and materials from killed enemy or hidden
+      treasure placeses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 401829680431104
+    m_Localized: 'Now here comes a slime, kill him
+
+      Err...Should I say him
+      or it? Never mind.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444520271233024
+    m_Localized: 'You are hurt, I did it
+
+      There''s no point in blaming me
+
+      Now
+      go and pick up that flask in front of you'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 449591100882944
+    m_Localized: "Go to character panel \nand equip the flask you just picked up"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 452402677071872
+    m_Localized: "You can infinitely use any flasks\nThe only thing to notice is
+      \nDifferent flasks have different cooldown time"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 458081043267584
+    m_Localized: 'I gave you some currency
+
+      Open skill tree and learn parry'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 811325317758976
+    m_Localized: 'Jump off
+
+      Your adventure starts  here'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1386396935569408
+    m_Localized: You won't wanna go here
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1388529269391360
+    m_Localized: Don't Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1391419929182208
+    m_Localized: 'Why didn''t you listen to me?
+
+      Fine, this time you''ll go
+      right'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395272837808128
+    m_Localized: 'Turn back
+
+      You should go right'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1397363685769216
+    m_Localized: 'TURN BACK TURN BACK TURN BACK TURN BACK TURN BACK TURN BACK TURN
+      BACK
+
+      TURN BACK TURN BACK TURN BACK TURN BACK TURN BACK TURN BACK TURN
+      BACK
+
+      TURN BACK TURN BACK TURN BACK TURN BACK TURN BACK TURN BACK TURN
+      BACK'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398832950460416
+    m_Localized: 'GO RIGHT GO RIGHT GO RIGHT GO RIGHT GO RIGHT GO RIGHT GO RIGHT
+      GO RIGHT
+
+      GO RIGHT GO RIGHT GO RIGHT GO RIGHT GO RIGHT GO RIGHT GO RIGHT
+      GO RIGHT
+
+      GO RIGHT GO RIGHT GO RIGHT GO RIGHT GO RIGHT GO RIGHT GO RIGHT
+      GO RIGHT'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1400633644859392
+    m_Localized: "Turn \nBack"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1431390690000896
+    m_Localized: Castle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1434137355141120
+    m_Localized: Path
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436518218252288
+    m_Localized: Money
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1438454166372352
+    m_Localized: Equipment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1448998998949888
+    m_Localized: Enemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1485912263147520
+    m_Localized: Boss
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

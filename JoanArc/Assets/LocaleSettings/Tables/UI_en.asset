@@ -1,0 +1,326 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 059e766f6b7c7e84f96c9ddd1d1a6896, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1274986414080
+    m_Localized: New Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16861720526848
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17064901001216
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17293532512256
+    m_Localized: Do you want to exit the game?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17805413761024
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17933746880512
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29772752928768
+    m_Localized: Gameplay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996997197824
+    m_Localized: Keybind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30137053396992
+    m_Localized: Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30315768496128
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47617272496128
+    m_Localized: Text Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289328326295552
+    m_Localized: Master volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290632880668672
+    m_Localized: Sound effect volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297146458619904
+    m_Localized: BGM volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300229699878912
+    m_Localized: Show HP bar above character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 426573830078464
+    m_Localized: Keybind Conflict!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 426779652964352
+    m_Localized: I am aware
+    m_Metadata:
+      m_Items: []
+  - m_Id: 428563876331520
+    m_Localized: Save & Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 429232704241664
+    m_Localized: Character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 429404725231616
+    m_Localized: Skill Tree
+    m_Metadata:
+      m_Items: []
+  - m_Id: 429515719098368
+    m_Localized: Craft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 429669960433664
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 430783837552640
+    m_Localized: Type
+    m_Metadata:
+      m_Items: []
+  - m_Id: 430902381166592
+    m_Localized: Craft List
+    m_Metadata:
+      m_Items: []
+  - m_Id: 431039690096640
+    m_Localized: Craft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432671270158336
+    m_Localized: Inventory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432958726782976
+    m_Localized: Equipment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 433252239982592
+    m_Localized: Major Stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 433498252689408
+    m_Localized: Offensive Stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 433721804898304
+    m_Localized: Defensive Stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 433970229329920
+    m_Localized: Strength
+    m_Metadata:
+      m_Items: []
+  - m_Id: 434151368736768
+    m_Localized: Agility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 434281383772160
+    m_Localized: Intelligence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 434428247326720
+    m_Localized: Vitality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 434634770661376
+    m_Localized: Damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 434825716350976
+    m_Localized: Fire Dmg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435030792650752
+    m_Localized: Crit Chance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435177538764800
+    m_Localized: Ice Dmg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435322963673088
+    m_Localized: Crit Power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435419579465728
+    m_Localized: Lightning Dmg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435729223958528
+    m_Localized: Max HP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435881997287424
+    m_Localized: Evasion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435983050653696
+    m_Localized: Armor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 436095982288896
+    m_Localized: Magic Resist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681456860708864
+    m_Localized: 'Press [Mouse-Right] to aim and then press [Mouse-Left] to throw
+      the sword
+
+      [On-Ground skill]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 683819528929280
+    m_Localized: Skill Price
+    m_Metadata:
+      m_Items: []
+  - m_Id: 750842124484608
+    m_Localized: LSHIFT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1028689976147968
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2931831881908224
+    m_Localized: Uncle popcorn the Hentai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3154578918653952
+    m_Localized: Existing save file detected, do you still wish to enter new game?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3186329296617472
+    m_Localized: Attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3188049590403072
+    m_Localized: Air Launch Attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3195482312327168
+    m_Localized: Down Strike
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3198330894860288
+    m_Localized: Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3198828083462144
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3199430796558336
+    m_Localized: LMB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3206061185875968
+    m_Localized: Learn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3206645628583936
+    m_Localized: Equip/Unequip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3220586945626112
+    m_Localized: S + Space
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3220676212998144
+    m_Localized: Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3221132364529664
+    m_Localized: Jump Off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3643766768189440
+    m_Localized: CRAFT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4731871516475392
+    m_Localized: Try Again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4731980794871808
+    m_Localized: Thank you for playing!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4732062122426368
+    m_Localized: Return to Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210408657217716224
+    m_Localized: Infinite Corridor of the Abyss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210414523199324160
+    m_Localized: HP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210414865395810304
+    m_Localized: Skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210415118324924416
+    m_Localized: Flask
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210415301246910464
+    m_Localized: dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210415426434301952
+    m_Localized: Parry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210415542830432256
+    m_Localized: Throw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210415670626680832
+    m_Localized: Crystal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210415805846847488
+    m_Localized: Meteorite fall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210416303752675328
+    m_Localized: "Esc\uFF1ASettings\nC\uFF1APlayer\nK\uFF1ASkills\nB\uFF1AMake\nCtrl\uFF1ASmallMap"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
